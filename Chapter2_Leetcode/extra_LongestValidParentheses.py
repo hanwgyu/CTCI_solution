@@ -4,7 +4,7 @@ class Solution(object):
         total_length = len(s)
         
         sol = 0
-        dp = [0] * total_length #dp[length]는 length위치에 있는 문자를 항상 포함하면서 만들수있는 최대 문자열 길이.
+        dp = [0] * total_length #dp[length]는 length위치에 있는 문자를 끝으로 하는 valid한 parentheses의 최대 길이
             
         for length in range(1, total_length):
             if s[length] == ')':
