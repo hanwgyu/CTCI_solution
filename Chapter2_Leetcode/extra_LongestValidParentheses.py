@@ -2,6 +2,7 @@
 # Time Complexity : O(N), Space Complexity : O(N)
 class Solution(object):
     def longestValidParentheses(self, s):
+        #Solution 1 : DP
         total_length = len(s)
         
         sol = 0
@@ -17,4 +18,31 @@ class Solution(object):
                     sol = dp[length]
         return sol
             
+        
+        
+    def longestValidParentheses_2(self, s):
+        #Solution 2
+        #단어가 ")"이고, 완전히 비지 않았을때 length를 업데이트.
+        #완전히 비었다는 뜻은 비정상적인 문장이 되었다는 뜻으로 더이상 길이를 늘릴수 없다는뜻.
+        #완전히 비었을때는 ")" 위치에 해당하는 idx를 push해줌.
+        #스택의 가장 마지막 원소를 start idx로 씀.
+        
+        stack = [-1]
+        
+        length, max_length = 0, 0
+        for i in range(len(s)):
+            if s[i] == '(':
+                stack.append(i)
+            else:
+                stack.pop()
+                if stack == []: # stack is empty
+                    stack.append(i)
+                else:
+                    start = stack[-1]
+                    length = i - start
+                    if max_length < length:
+                        max_length = length
+                        
+        return max_length
+        
         
