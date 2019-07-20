@@ -48,8 +48,7 @@ class Solution(object):
         
 # Time Complexity : O(N), Space Complexity : O(1)
     def longestValidParentheses_3(self, s):
-        left, right = 0, 0
-        max_length = 0
+        left, right, max_length = 0, 0, 0
         
         #Left-to-Right
         for i in range(len(s)):
