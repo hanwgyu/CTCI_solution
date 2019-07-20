@@ -46,3 +46,38 @@ class Solution(object):
         return max_length
         
         
+# Time Complexity : O(N), Space Complexity : O(1)
+    def longestValidParentheses_3(self, s):
+        left, right = 0, 0
+        max_length = 0
+        
+        #Left-to-Right
+        for i in range(len(s)):
+            if s[i] == '(':
+                left += 1
+            else:
+                right += 1
+            if left < right:
+                left, right = 0, 0
+            elif left == right:
+                length = 2* right
+                if max_length < length:
+                    max_length = length
+        
+        left, right = 0, 0
+        #Right-to-Left
+        for i in reversed(range(len(s))):
+            if s[i] == '(':
+                left += 1
+            else:
+                right += 1
+            if left > right:
+                left, right = 0, 0
+            elif left == right:
+                length = 2* right
+                if max_length < length:
+                    max_length = length
+        
+        return max_length
+        
+        
