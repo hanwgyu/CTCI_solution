@@ -6,7 +6,7 @@ from collections import Counter
 # 각 Task의 갯수를 세고, cooling중이지 않고 남은 갯수가 가장 많은 Task 순서대로 실행.
 # n intervals를 단위로 한번에 실행한 후 sorting.
 # (갯수가 줄어들은 task는 sorting후에도 항상 n intervals 이상의 실행간격을 보장)
-# TimeComplexity : O(N), SpaceComplexity : O(1)
+# TimeComplexity : O(Total Intervals), SpaceComplexity : O(1)
 class Solution(object):
     def leastInterval_2(self, tasks, n):
         remain, total_intervals = [0 for _ in range(26)], 0
@@ -28,7 +28,7 @@ class Solution(object):
 # Solution 1
 # 각 Task의 갯수를 세고, cooling중이지 않고 남은 갯수가 가장 많은 Task 순서대로 실행.
 # 매 interval마다 sorting. (Time Limit Exceeded)
-# TimeComplexity : O(N), SpaceComplexity : O(1)
+# TimeComplexity : O(Total Intervals), SpaceComplexity : O(1)
     def leastInterval_1(self, tasks, n):
         task_num, total_intervals, cooling_intervals = Counter(tasks), 0, [0 for _ in range(26)]
         while sum(task_num.values()) > 0:
