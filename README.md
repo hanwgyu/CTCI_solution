@@ -28,6 +28,7 @@
 | Stack  | Queue Using Stacks | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/) | [A](Chapter3_Stack_Queue/7_QueueViaStacks.py) | + | :star::star: |
 | Linked List | Reverse Linked List II | [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | [A](Chapter2_LinkedList/reverse_linked_list_ii.py) | + | :star: |
 | Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! |
+| Array | Odd Even Jump | [LeetCode](https://leetcode.com/problems/odd-even-jump/) | [A](Chapter3_Stack_Queue/Odd_Even_Jump.cpp) | -! | :star::star: | Check stack solution |
 
 
 +: Solved within 30 min
