@@ -27,7 +27,7 @@
 | Stack  | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/) | [A](Chapter3_Stack_Queue/6_StackMin.py) | -! | :star::star: |
 | Stack  | Queue Using Stacks | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/) | [A](Chapter3_Stack_Queue/7_QueueViaStacks.py) | + | :star::star: |
 | Linked List | Reverse Linked List II | [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | [A](Chapter2_LinkedList/reverse_linked_list_ii.py) | + | :star: |
-| Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! | !Check filling block solution | 
+| Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! | :star::star: | !Check filling block solution | 
 | Array | Odd Even Jump | [LeetCode](https://leetcode.com/problems/odd-even-jump/) | [A](Chapter3_Stack_Queue/Odd_Even_Jump.cpp) | -! | :star::star: | !Check monolithic stack solution |
 | Linked List | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | [A](Chapter2_LinkedList/Merge_Two_Sorted_Lists.py) | + | :star: | Inplace |
 
