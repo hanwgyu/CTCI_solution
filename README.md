@@ -30,6 +30,7 @@
 | Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! | :star::star: | <ul><li>- [ ] Check filling block solution</li></ul> | 
 | Array | Odd Even Jump | [LeetCode](https://leetcode.com/problems/odd-even-jump/) | [A](Chapter3_Stack_Queue/Odd_Even_Jump.cpp) | -! | :star::star: | <ul><li>- [ ] Check monolithic stack solution</li></ul> |
 | Linked List | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | [A](Chapter2_LinkedList/Merge_Two_Sorted_Lists.py) | + | :star: | Inplace |
+| Array | K Closest Points to Origin | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) | [A](Leetcode/K_Closest_Points_to_Origin.py) | + |
 
 
 +: Solved within 30 min
