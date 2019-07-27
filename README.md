@@ -23,14 +23,13 @@
 | Array  | Trapping rain water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) | [A](Chapter3_Stack_Queue/1_Trapping_Rain_Water.py) | - | :star::star: |
 | Stack  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [A](Chapter3_Stack_Queue/2_Valid_Parentheses.py) | + | :star: |
 | Stack  | Basic Calculator | [LeetCode](https://leetcode.com/problems/basic-calculator/) | [A](Chapter3_Stack_Queue/4_BasicCalculator.py) | - | :star: |
-| Stack  | Decode String | [LeetCode](https://leetcode.com/problems/decode-string/) | [A](Chapter3_Stack_Queue/5_DecodeString.py ) | + | :star: | !Use array instead of string |
+| Stack  | Decode String | [LeetCode](https://leetcode.com/problems/decode-string/) | [A](Chapter3_Stack_Queue/5_DecodeString.py ) | + | :star: | <ul><li>- [x] Use array instead of string</li></ul> |
 | Stack  | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/) | [A](Chapter3_Stack_Queue/6_StackMin.py) | -! | :star::star: |
 | Stack  | Queue Using Stacks | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/) | [A](Chapter3_Stack_Queue/7_QueueViaStacks.py) | + | :star::star: |
 | Linked List | Reverse Linked List II | [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | [A](Chapter2_LinkedList/reverse_linked_list_ii.py) | + | :star: |
-| Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! | :star::star: | !Check filling block solution | 
-| Array | Odd Even Jump | [LeetCode](https://leetcode.com/problems/odd-even-jump/) | [A](Chapter3_Stack_Queue/Odd_Even_Jump.cpp) | -! | :star::star: | !Check monolithic stack solution |
+| Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! | :star::star: | <ul><li>- [ ] Check filling block solution</li></ul> | 
+| Array | Odd Even Jump | [LeetCode](https://leetcode.com/problems/odd-even-jump/) | [A](Chapter3_Stack_Queue/Odd_Even_Jump.cpp) | -! | :star::star: | <ul><li>- [ ] Check monolithic stack solution</li></ul> |
 | Linked List | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | [A](Chapter2_LinkedList/Merge_Two_Sorted_Lists.py) | + | :star: | Inplace |
-
 
 
 +: Solved within 30 min
