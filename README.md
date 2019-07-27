@@ -24,7 +24,6 @@
 | Stack  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [A](Chapter3_Stack_Queue/2_Valid_Parentheses.py) | + | :star: |
 | Stack  | Basic Calculator | [LeetCode](https://leetcode.com/problems/basic-calculator/) | [A](Chapter3_Stack_Queue/4_BasicCalculator.py) | - | :star: |
 | Stack  | Decode String | [LeetCode](https://leetcode.com/problems/decode-string/) | [A](Chapter3_Stack_Queue/5_DecodeString.py ) | + | :star: | !Use array instead of string |
-| Linked List | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/submissions/
 | Stack  | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/) | [A](Chapter3_Stack_Queue/6_StackMin.py) | -! | :star::star: |
 | Stack  | Queue Using Stacks | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/) | [A](Chapter3_Stack_Queue/7_QueueViaStacks.py) | + | :star::star: |
 | Linked List | Reverse Linked List II | [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | [A](Chapter2_LinkedList/reverse_linked_list_ii.py) | + | :star: |
