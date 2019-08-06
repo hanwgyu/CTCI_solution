@@ -2,7 +2,7 @@
 # Solution 2 : Use Hash . Set string that represents the number of strings as a key. Time : O(NM), Space :O(NM)
 
 class Solution(object):
-    def groupAnagrams(self, strs):
+    def groupAnagrams_2(self, strs):
         a = dict()
         for s in strs:
             nums = [0 for _ in range(26)] # Number of alphabets
