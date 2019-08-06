@@ -30,11 +30,13 @@
 | Array | Task Scheduler | [LeetCode](https://leetcode.com/problems/task-scheduler/) | [A](Chapter3_Stack_Queue/Task_Scheduler.py) | -! | :star::star: | <ul><li>- [ ] Check filling block solution</li></ul> | 
 | Array | Odd Even Jump | [LeetCode](https://leetcode.com/problems/odd-even-jump/) | [A](Chapter3_Stack_Queue/Odd_Even_Jump.cpp) | -! | :star::star: | <ul><li>- [ ] Check monolithic stack solution</li></ul> |
 | Linked List | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | [A](Chapter2_LinkedList/Merge_Two_Sorted_Lists.py) | + | :star: | Inplace |
-| Heap | K Closest Points to Origin | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) | [A](Leetcode/K_Closest_Points_to_Origin.py) | + |
+| Heap | K Closest Points to Origin | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) | [A](Leetcode/K_Cloest_Points_to_Origin.py ) | + |
 | Heap | Merge K Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) | [A](Leetcode/Merge_K_Sorted_Lists.py) | + |
 | Heap | Find Medain from Data Stream | [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) | [A](Leetcode/Find_Median_from_Data_Stream.py) | - | :star::star: |
 | Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | -! | :star::star::star: |
-| Array | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | :star::star::star: |
+| Array, Hash | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | :star::star::star: |
+| Array, Hash | Group Anagrams | [LeetCode](https://leetcode.com/problems/group-anagrams/) | [A](Leetcode/Group_Anagrams.py) | + | :star: |
+
 
 +: Solved within 30 min
 
