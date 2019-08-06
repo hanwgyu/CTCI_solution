@@ -33,7 +33,7 @@
 | Heap | K Closest Points to Origin | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) | [A](Leetcode/K_Closest_Points_to_Origin.py) | + |
 | Heap | Merge K Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) | [A](Leetcode/Merge_K_Sorted_Lists.py) | + |
 | Heap | Find Medain from Data Stream | [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) | [A](Leetcode/Find_Median_from_Data_Stream.py) | - | :star::star: |
-| Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth-Largest-Element-in-an-Array.py) | -! | :star::star::star: |
+| Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | -! | :star::star::star: |
 
 +: Solved within 30 min
 
