@@ -34,6 +34,7 @@
 | Heap | Merge K Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) | [A](Leetcode/Merge_K_Sorted_Lists.py) | + |
 | Heap | Find Medain from Data Stream | [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) | [A](Leetcode/Find_Median_from_Data_Stream.py) | - | :star::star: |
 | Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | -! | :star::star::star: |
+| Array | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | :star::star::star: |
 
 +: Solved within 30 min
 
