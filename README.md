@@ -36,7 +36,7 @@
 | Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | -! | :star::star::star: |
 | Array, Hash | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | :star::star::star: |
 | Array, Hash | Group Anagrams | [LeetCode](https://leetcode.com/problems/group-anagrams/) | [A](Leetcode/Group_Anagrams.py) | + | :star: |
-
+| Array, Hash | Subarray Sum Equals K | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) | [A](Leetcode/Subarray_Sum_Equals_K.py) | - | :star::star: |
 
 +: Solved within 30 min
 
