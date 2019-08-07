@@ -1,5 +1,8 @@
 # Solution 0: Brute Force . Time : O(N^2) , Space : O(1)
-# Solution 1: Use Hash. Save {sum(0...n) : n} into hash. Diff of two elements are continuous subarrays ("sum(0...n) - sum(0..m) = sum(m...n) (if m<n)). Time : Avg O(N), Space : O(N)
+
+# Solution 1: Use Hash. Save {sum(0...n) : n} into hash. 
+# Diff of two elements are continuous subarrays ("sum(0...n) - sum(0..m) = sum(m...n) (if m<n)). 
+# Time : Avg O(N), Space : O(N)
 
 
 class Solution(object):
