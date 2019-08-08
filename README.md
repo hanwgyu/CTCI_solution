@@ -39,6 +39,7 @@
 | Array, Hash | Subarray Sum Equals K | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) | [A](Leetcode/Subarray_Sum_Equals_K.py) | - | :star::star: |
 | Array, Hash | Panlindrome Pairs | [LeetCode](https://leetcode.com/problems/palindrome-pairs/) | [A](Leetcode/Palindrome_Pairs.py) | -! | :star::star: | 
 | Hash | Insert Delete GetRandom O(1) | [LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [A](Leetcode/Insert_Delete_GetRandom_O(1).py) | + | :star: | 
+
 +: Solved within 30 min
 
 -: Solved over 30 min
