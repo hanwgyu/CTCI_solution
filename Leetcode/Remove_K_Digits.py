@@ -1,3 +1,5 @@
+# Time : O(N), Space : O(N)
+
 class Solution(object):
     def removeKdigits(self, num, k):
         stack, ans = [], 0
