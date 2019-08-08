@@ -37,6 +37,7 @@
 | Array, Hash | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | :star::star::star: |
 | Array, Hash | Group Anagrams | [LeetCode](https://leetcode.com/problems/group-anagrams/) | [A](Leetcode/Group_Anagrams.py) | + | :star: |
 | Array, Hash | Subarray Sum Equals K | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) | [A](Leetcode/Subarray_Sum_Equals_K.py) | - | :star::star: |
+| Array, Hash | Panlindrome Pairs | [LeetCode](https://leetcode.com/problems/palindrome-pairs/) | [A](Leetcode/Palindrome_Pairs.py) | -! | :star::star: | 
 
 +: Solved within 30 min
 
