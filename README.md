@@ -42,7 +42,7 @@
 | Linked List | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/) | [A](Leetcode/Copy_List_with_Random_Pointer.py) | + |
 | Stack | Remove K Digits | [LeetCode](https://leetcode.com/problems/remove-k-digits/) | [A](Leetcode/Remove_K_Digits.py) | - | :star::star: |
 | Tree, Stack | Serialize and Deserialize Binary Tree | [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [A](Leetcode/Serialize_and_Deserialize_Binary_Tree.py) | - | :star::star: |
-
+| Tree, Stack | Binary Tree Zigzag Level Order Traversal | [LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [A](Leetcode/Binary_Tree_Zigzag_Level_Order_Traversal.py) | + | :star: |
 +: Solved within 30 min
 
 -: Solved over 30 min
