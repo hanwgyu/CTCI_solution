@@ -12,58 +12,61 @@
 #   /  \
 #  -1   5
 #  /    
-# 3                    => 10!-1!3!#!#!#!5!#!#!
+# 3                    => 10!-1!3!#!#!#!5!#!#
 
-class Codec:
-    def preOrder(self, node, data):
-        if not node:
-            data.append('#!')
-            return
-        data.append(str(node.val)+'!')
-        self.preOrder(node.left, data)
-        self.preOrder(node.right, data)
-    
-    
+class Codec:    
     # Time : O(N), Space : O(N)
     def serialize(self, root):
+        
         """Encodes a tree to a single string.
         
         :type root: TreeNode
         :rtype: str
         """
-        data = []
-        self.preOrder(root, data)
-        return ''.join(data)
+        def preOrder(node, data):
+            if not node:
+                data.append('#')
+                return
+            data.append(str(node.val))
+            preOrder(node.left, data)
+            preOrder(node.right, data)
         
+        data = []
+        preOrder(root, data)
+        return '!'.join(data)
+        
+    def deserialize(self, data):
+        def preOrder():
+            val = next(it)
+            if val == '#':
+                return None
+            node = TreeNode(val)
+            node.left = preOrder()
+            node.right = preOrder()
+            return node
+        it = iter(data.split('!'))
+        return preOrder()
 
     # Time : O(N), Space : O(N)
-    def deserialize(self, data):
+    def deserialize_2(self, data):
         """Decodes your encoded data to tree.
         
         :type data: str
         :rtype: TreeNode
         """
                 
-        root, stack, i = None, [], 0
-        while i < len(data):
-            if data[i] == '#':
+        root, stack = None, []
+        a = data.split('!')
+        for val in a:
+            if val == '#':
                 node = None
-                i += 1
-            elif data[i] == '-':
-                start = i
-                while data[i] != '!':
-                    i += 1
-                node = TreeNode(data[start:i])
-            else :
-                start = i
-                while data[i] != '!':
-                    i += 1
-                node = TreeNode(data[start:i])
+            else:
+                node = TreeNode(val)
             if not stack:
                 root = node
             else:
                 s = stack.pop()
-                while s[1] == 0:
+                while stack and s[1] == 0:
                     s = stack.pop()      
                 if s[1] == 2:
                     s[0].left = node
@@ -73,5 +76,4 @@ class Codec:
                     stack.append((s[0], 0))
             if node:
                 stack.append((node, 2))
-            i += 1
         return root        
