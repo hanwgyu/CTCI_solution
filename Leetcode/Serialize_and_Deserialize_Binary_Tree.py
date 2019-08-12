@@ -6,7 +6,7 @@
 #         self.right = None
 
 # Solution : Serialize in pre-order. Express NULL as '#' and a node seperator as '!'.
-# Use stack to deserialize.
+# Deserialize : 1) Recursive 2) Use stack
 # ex)  
 #    10
 #   /  \
