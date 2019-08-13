@@ -6,8 +6,7 @@
 #         self.right = None
 
 # Solution : Check with in-order traversal. If current value becomes smaller than previous value, then return False.
-# Time : O(N), Space : O(1)
-# Python3
+# Time : O(N), Space : O(Height)
 
 class Solution(object):
     def isValidBST(self, root):
