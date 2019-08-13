@@ -45,7 +45,7 @@
 | Tree, Stack | Binary Tree Zigzag Level Order Traversal | [LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [A](Leetcode/Binary_Tree_Zigzag_Level_Order_Traversal.py) | + | :star: |
 | Tree | Validate Binary Search Tree | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) | [A](Leetcode/Validate_Binary_Search_Tree.py) | + | :star: |
 | Tree | Binary Tree Right Side View | [LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/) | [A](Leetcode/Binary_Tree_Right_Side_View.py) | + |
-
+| Tree | Binary Tree Maximum Path Sum | [LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [A](Leetcode/Binary_Tree_Maximum_Path_Sum.py) | - | :star::star: |
 
 +: Solved within 30 min
 
