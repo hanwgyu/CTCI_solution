@@ -7,7 +7,7 @@
 
 # Solution : 노드들을 Post-Order Traversal하면서, 해당 노드를 root로 하는 트리에서 해당 노드를 포함하는 maximum path sum을 구함. 
 # 그 중에서 가장 큰 값을 리턴.  
-# Time : O(N), Space : O(N)
+# Time : O(N), Space : O(H)
 
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
