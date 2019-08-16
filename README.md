@@ -51,7 +51,7 @@
 | String, Hash | First Unique Character in a String | [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/) | [A](Leetcode/First_Unique_Character_in_a_String.py) | + | 
 | Hash | Longest Harmonious Subsequence | [LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/) | [A](Leetcode/Longest_Harmonious_Subsequence.py) | + |
 | Heap, Hash | Top K Frequent Elements | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) | [A](Leetcode/Top_K_Frequent_Elements.py) | - | :star::star: |
-
+| Tree | Serialize and Deserialize BST | [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [A](Leetcode/Serialize_and_Deserialize_BST.py) | + | :star::star: |
 
 +: Solved within 30 min
 
