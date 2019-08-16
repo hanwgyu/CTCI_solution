@@ -48,6 +48,7 @@
 | Tree | Binary Tree Maximum Path Sum | [LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [A](Leetcode/Binary_Tree_Maximum_Path_Sum.py) | - | :star::star: |
 | Tree | Lowest Common Ancestor of a Binary Tree | [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [A](Leetcode/Lowest_Common_Ancestor_of_a_Binary_Tree.py) | + | :star: | 
 | Tree | Symmetric Tree | [LeetCode](https://leetcode.com/problems/symmetric-tree/) | [A](Leetcode/Symmetric_Tree.py) | + |
+| String, Hash | First Unique Character in a String | [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/) | [A](Leetcode/First_Unique_Character_in_a_String.py) | + | 
 
 
 +: Solved within 30 min
