@@ -5,16 +5,16 @@
 # Solution 1, 2: Use Heap. Time : O(NlogN), Space : O(N)
 
 class Solution:
-    def maxSlidingWindow4(self, nums: List[int], k: int) -> List[int]:
+    def maxSlidingWindow_4(self, nums: List[int], k: int) -> List[int]:
         queue, output = deque(), []
         for i in range(len(nums)):
-            while queue and queue[-1][0] < nums[i]:
+            while queue and nums[queue[-1]] < nums[i]:
                 queue.pop()
-            queue.append((nums[i], i))
+            queue.append(i)
             if i >= k-1:
-                while queue[0][1] < i-k+1:
+                while queue[0] < i-k+1:
                     queue.popleft()
-                output.append(queue[0][0])
+                output.append(nums[queue[0]])
         return output
     
     def maxSlidingWindow_3(self, nums: List[int], k: int) -> List[int]:
