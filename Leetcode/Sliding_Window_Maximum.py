@@ -1,5 +1,9 @@
-# Solution 3 : Use Stack. Stack 마지막 원소와 비교해 값이 커지면 작은 값들을 지우고 저장 작아지면 그냥 저장. 0을 output에 저장할 max값의 idx으로 두다가, 해당 원소가 window 범위에 속하지 않으면 idx를 증가시킴. Time : O(N), Space : O(N)
+# Solution 3 : Use Stack. Stack 마지막 원소와 비교해 값이 커지면 작은 값들을 지우고 저장 작아지면 그냥 저장. 
+# 0을 output에 저장할 max값의 idx으로 두다가, 해당 원소가 window 범위에 속하지 않으면 idx를 증가시킴. 
+# Time : O(N), Space : O(N)
+
 # Solution 1, 2: Use Heap. Time : O(NlogN), Space : O(N)
+
 class Solution:
     def maxSlidingWindow_3(self, nums: List[int], k: int) -> List[int]:
         stack,save_idx, output = [], 0, []
