@@ -1,10 +1,22 @@
-# Solution 3 : Use Stack. Stack 마지막 원소와 비교해 값이 커지면 작은 값들을 지우고 저장 작아지면 그냥 저장. 
+# Solution 3 : Use Stack or deque. Stack 마지막 원소와 비교해 값이 커지면 작은 값들을 지우고 저장 작아지면 그냥 저장. 
 # 0을 output에 저장할 max값의 idx으로 두다가, 해당 원소가 window 범위에 속하지 않으면 idx를 증가시킴. 
 # Time : O(N), Space : O(N)
 
 # Solution 1, 2: Use Heap. Time : O(NlogN), Space : O(N)
 
 class Solution:
+    def maxSlidingWindow4(self, nums: List[int], k: int) -> List[int]:
+        queue, output = deque(), []
+        for i in range(len(nums)):
+            while queue and queue[-1][0] < nums[i]:
+                queue.pop()
+            queue.append((nums[i], i))
+            if i >= k-1:
+                while queue[0][1] < i-k+1:
+                    queue.popleft()
+                output.append(queue[0][0])
+        return output
+    
     def maxSlidingWindow_3(self, nums: List[int], k: int) -> List[int]:
         stack,save_idx, output = [], 0, []
         for i in range(len(nums)):
