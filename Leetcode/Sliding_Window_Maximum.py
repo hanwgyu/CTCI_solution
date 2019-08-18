@@ -4,6 +4,7 @@
 
 # Solution 1, 2: Use Heap. Time : O(NlogN), Space : O(N)
 
+from collections import deque
 class Solution:
     def maxSlidingWindow_4(self, nums: List[int], k: int) -> List[int]:
         queue, output = deque(), []
