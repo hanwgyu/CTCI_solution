@@ -53,6 +53,7 @@
 | Heap, Hash | Top K Frequent Elements | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) | [A](Leetcode/Top_K_Frequent_Elements.py) | - | :star::star: |
 | Tree | Serialize and Deserialize BST | [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [A](Leetcode/Serialize_and_Deserialize_BST.py) | + | :star::star: |
 | Heap, Stack, Queue | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) | [A](Leetcode/Sliding_Window_Maximum.py) | -- | :star::star::star: |
+| Graph | Clone Graph | [LeetCode](https://leetcode.com/problems/clone-graph/) | [A](Leetcode/Clone_Graph.py) | + |
 
 +: Solved within 30 min
 
