@@ -54,7 +54,9 @@
 | Tree | Serialize and Deserialize BST | [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [A](Leetcode/Serialize_and_Deserialize_BST.py) | + | :star::star: |
 | Heap, Stack, Queue | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) | [A](Leetcode/Sliding_Window_Maximum.py) | -- | :star::star::star: |
 | Graph | Clone Graph | [LeetCode](https://leetcode.com/problems/clone-graph/) | [A](Leetcode/Clone_Graph.py) | + |
-| Graph | Course Schedule | [LeetCode](https://leetcode.com/problems/course-schedule/) | [A](Leetcode/Course_Schedule.py) | +! | :star::star::star: | Topological Sort | 
+| Graph | Course Schedule | [LeetCode](https://leetcode.com/problems/course-schedule/) | [A](Leetcode/Course_Schedule.py) | + | 
+| Graph | Course Schedule II | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) | [A](Leetcode/Course_Schedule_II.py) | +! | :star::star::star: | Topological Sort | 
+
 
 +: Solved within 30 min
 
