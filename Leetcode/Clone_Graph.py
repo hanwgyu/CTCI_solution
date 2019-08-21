@@ -6,7 +6,7 @@ class Node:
         self.neighbors = neighbors
 """
 
-#Solution : DFS. Time : O(|V|+|E|), Space : O(N)
+#Solution : DFS. Time : O(|V|+|E|), Space : O(|V|+|E|)
 
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
