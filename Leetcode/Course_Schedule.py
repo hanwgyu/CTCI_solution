@@ -1,6 +1,6 @@
 # Solution : 그래프가 Directed Acyclic Graph(DAG)이면 수강가능. Topological sort 알고리즘.
 
-# Solution 1 : Topological sort by Indegree . Time : O(|V|+|E|), Space : O(N)
+# Solution 1 : Topological sort by Indegree . Time : O(|V|+|E|), Space : O(|V|+|E|)
 
 from collections import defaultdict, deque
 class Solution:
