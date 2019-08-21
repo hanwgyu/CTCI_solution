@@ -1,5 +1,5 @@
 # Solution : Dijkstra algorithm. 모든 Min distance의 max값을 구함. 
-# Time : O(ElogV), Sapce: O(V+E)
+# Time : O(ElogE), Sapce: O(V+E)
 
 from collections import defaultdict
 
