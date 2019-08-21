@@ -56,7 +56,8 @@
 | Graph | Clone Graph | [LeetCode](https://leetcode.com/problems/clone-graph/) | [A](Leetcode/Clone_Graph.py) | + |
 | Graph | Course Schedule | [LeetCode](https://leetcode.com/problems/course-schedule/) | [A](Leetcode/Course_Schedule.py) | + | 
 | Graph | Course Schedule II | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) | [A](Leetcode/Course_Schedule_II.py) | +! | :star::star::star: | Topological Sort | 
-| Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/Evaluate_Division.py) | - | :star::star::star: | 
+| Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/Evaluate_Division.py) | - | :star::star::star: | Floyd-Warshall Algorithm |
+| Graph | Network Delay Time | [LeetCode](https://leetcode.com/problems/network-delay-time/) | [A](Leetcode/Network_Delay_Time.py) | + | :star::star::star: | Dijkstra Algorithm |
 
 +: Solved within 30 min
 
