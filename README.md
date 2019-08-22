@@ -58,6 +58,7 @@
 | Graph | Course Schedule II | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) | [A](Leetcode/Course_Schedule_II.py) | +! | :star::star::star: | Topological Sort | 
 | Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/Evaluate_Division.py) | - | :star::star::star: | Floyd-Warshall Algorithm |
 | Graph | Network Delay Time | [LeetCode](https://leetcode.com/problems/network-delay-time/) | [A](Leetcode/Network_Delay_Time.py) | + | :star::star::star: | Dijkstra Algorithm |
+| Graph | Is Graph Bipartite | [LeetCode](https://leetcode.com/problems/is-graph-bipartite/) | [A](Leetcode/Is_Graph_Bipartite.py) | - | :star::star: |
 
 +: Solved within 30 min
 
