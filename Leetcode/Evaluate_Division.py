@@ -5,13 +5,6 @@
 from collections import defaultdict
 
 class Solution:
-    # Solution1 : 값을 표시하는 Vertex to Vertex list를 만들고, 모든 노드에서 모든 노드까지 경로값을 업데이트. 중간 노드에 대해 iteration. Floyd-Warshall과 동일한 방식.
-# hash의 hash를 사용하여 경로값을 표시.
-# Time : O(V^3), Space : O(V^2)
-
-from collections import defaultdict
-
-class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         vals = defaultdict(lambda: defaultdict(lambda: -1.0))
         for (src, dst), val in zip(equations, values):
