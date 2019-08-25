@@ -5,6 +5,9 @@
 from collections import defaultdict
 
 class Solution:
+
+
+
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         vals = defaultdict(lambda: defaultdict(lambda: -1.0))
         inputs = defaultdict()
