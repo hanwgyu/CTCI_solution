@@ -58,7 +58,7 @@
 | Graph | Course Schedule II | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) | [A](Leetcode/Course_Schedule_II.py) | +! | :star::star::star: | Topological Sort | 
 | Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/Evaluate_Division.py) | - | :star::star::star: | Floyd-Warshall Algorithm |
 | Graph | Network Delay Time | [LeetCode](https://leetcode.com/problems/network-delay-time/) | [A](Leetcode/Network_Delay_Time.py) | + | :star::star::star: | Dijkstra Algorithm |
-| Graph | Is Graph Bipartite | [LeetCode](https://leetcode.com/problems/is-graph-bipartite/) | [A](Leetcode/Is_Graph_Bipartite.py) | - | :star::star: |
+| Graph | Is Graph Bipartite | [LeetCode](https://leetcode.com/problems/is-graph-bipartite/) | [A](Leetcode/Is_Graph_Bipartite.py) | - | :star::star: | Remember DFS Solution |
 | Graph | Reconstruct Itinerary | [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/) | [A](Leetcode/Reconstruct_Itinerary.py) | -! | :star::star::star: | Eulerian Trail / Circuit | 
 
 +: Solved within 30 min
