@@ -60,6 +60,7 @@
 | Graph | Network Delay Time | [LeetCode](https://leetcode.com/problems/network-delay-time/) | [A](Leetcode/Network_Delay_Time.py) | + | :star::star::star: | Dijkstra Algorithm |
 | Graph | Is Graph Bipartite | [LeetCode](https://leetcode.com/problems/is-graph-bipartite/) | [A](Leetcode/Is_Graph_Bipartite.py) | - | :star::star: | Remember DFS Solution |
 | Graph | Reconstruct Itinerary | [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/) | [A](Leetcode/Reconstruct_Itinerary.py) | -! | :star::star::star: | Eulerian Trail / Circuit | 
+| Bit Manipulation | Subsets | [LeetCode](https://leetcode.com/problems/subsets/) | [A](Leetcode/Subsets.py) | + | 
 
 +: Solved within 30 min
 
