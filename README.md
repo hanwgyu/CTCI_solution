@@ -61,6 +61,7 @@
 | Graph | Is Graph Bipartite | [LeetCode](https://leetcode.com/problems/is-graph-bipartite/) | [A](Leetcode/Is_Graph_Bipartite.py) | - | :star::star: | Remember DFS Solution |
 | Graph | Reconstruct Itinerary | [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/) | [A](Leetcode/Reconstruct_Itinerary.py) | -! | :star::star::star: | Eulerian Trail / Circuit | 
 | Bit Manipulation | Subsets | [LeetCode](https://leetcode.com/problems/subsets/) | [A](Leetcode/Subsets.py) | + | 
+| Bit Manipulation | Single Number | [LeetCode](https://leetcode.com/problems/single-number/) | [A](Leetcode/Single_Number.py) | + | :star::star: |
 
 +: Solved within 30 min
 
