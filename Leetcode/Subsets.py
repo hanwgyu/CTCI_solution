@@ -1,4 +1,4 @@
-# Time : O(N*2^N), Space: O(2^N)
+# Time : O(N*2^N), Space: O(N*2^N)
 
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
