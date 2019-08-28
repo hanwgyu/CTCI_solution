@@ -64,8 +64,8 @@
 | Bit Manipulation | Single Number | [LeetCode](https://leetcode.com/problems/single-number/) | [A](Leetcode/Single_Number.py) | + | :star::star: |
 | Bit Manipulation | Bitwise AND of Numbers Range | [LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [A](Leetcode/Bitwise_AND_of_Numbers_Range.py) | + |
 | Array | Missing Number | [LeetCode](https://leetcode.com/problems/missing-number/) | [A](Leetcode/Missing_Number.py) | + | :star: |
-| Bit Manipulation | Sum of Two Integers | [LeetCode]() | [A](Leetcode/Sum_of_Two_Integers.py) | - | :star::star: | Check negative int  transformation (only python) |
-
+| Bit Manipulation | Sum of Two Integers | [LeetCode](https://leetcode.com/problems/sum-of-two-integers) | [A](Leetcode/Sum_of_Two_Integers.py) | - | :star::star: | Check negative int  transformation (only python) |
+| Bit Manipulation | UTF-8 Validation | [LeetCode](https://leetcode.com/problems/utf-8-validation/) | [A](Leetcode/UTF-8_Validation.py) | + |
 
 +: Solved within 30 min
 
