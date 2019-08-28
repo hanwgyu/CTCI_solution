@@ -63,6 +63,8 @@
 | Bit Manipulation | Subsets | [LeetCode](https://leetcode.com/problems/subsets/) | [A](Leetcode/Subsets.py) | + | 
 | Bit Manipulation | Single Number | [LeetCode](https://leetcode.com/problems/single-number/) | [A](Leetcode/Single_Number.py) | + | :star::star: |
 | Bit Manipulation | Bitwise AND of Numbers Range | [LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [A](Leetcode/Bitwise_AND_of_Numbers_Range.py) | + |
+| Array | Missing Number | [LeetCode](https://leetcode.com/problems/missing-number/) | [A](Leetcode/Missing_Number.py) | + | :star: |
+
 
 
 +: Solved within 30 min
