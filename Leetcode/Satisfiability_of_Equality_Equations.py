@@ -2,6 +2,7 @@
 # Time : O(N), Space : O(N)
 
 from collections import defaultdict
+import string
 
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
@@ -10,19 +11,8 @@ class Solution:
                 return find(colors[c])
             return c
             
-        colors = dict()
-        for e in equations:
-            if e[0] not in colors:
-                colors[e[0]] = e[0]
-            if e[3] not in colors:
-                colors[e[3]] = e[3]
-        
+        colors = {c : c for c in string.ascii_lowercase}
         for e in equations:
             if e[1] == "=":
-                colors[find(e[0])] = find(e[3]) 
-               
-        for e in equations:
-            if e[1] == "!" and find(e[0]) == find(e[3]):
-                return False
-        return True
-        
+                colors[find(e[0])] = find(e[3])         
+        return not any(e[1] == "!" and find(e[0]) == find(e[3]) for e in equations)
