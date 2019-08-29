@@ -67,6 +67,7 @@
 | Bit Manipulation | Sum of Two Integers | [LeetCode](https://leetcode.com/problems/sum-of-two-integers) | [A](Leetcode/Sum_of_Two_Integers.py) | - | :star::star: | Check negative int  transformation (only python) |
 | Bit Manipulation | UTF-8 Validation | [LeetCode](https://leetcode.com/problems/utf-8-validation/) | [A](Leetcode/UTF-8_Validation.py) | + |
 | Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/Majority_Element.py) | -! | :star::star: |
+| Graph | Satisfiability of Equality Equations | [LeetCode](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [A](Leetcode/Satisfiability_of_Equality_Equations.py) | + | :star::star: | Union-Find |
 
 +: Solved within 30 min
 
