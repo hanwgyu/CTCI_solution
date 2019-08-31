@@ -66,7 +66,7 @@
 | Array | Missing Number | [LeetCode](https://leetcode.com/problems/missing-number/) | [A](Leetcode/Missing_Number.py) | + | :star: |
 | Bit Manipulation | Sum of Two Integers | [LeetCode](https://leetcode.com/problems/sum-of-two-integers) | [A](Leetcode/Sum_of_Two_Integers.py) | - | :star::star: | Check negative int  transformation (only python) |
 | Bit Manipulation | UTF-8 Validation | [LeetCode](https://leetcode.com/problems/utf-8-validation/) | [A](Leetcode/UTF-8_Validation.py) | + |
-| Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/Majority_Element.py) | -! | :star::star: |
+| Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/Majority_Element.py) | -! | :star::star: | TODO : Check Boyd-Moore voting algorithm |
 | Graph | Satisfiability of Equality Equations | [LeetCode](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [A](Leetcode/Satisfiability_of_Equality_Equations.py) | + | :star::star: | Union-Find |
 | Bit Manipulation | Single Number II | [LeetCode](https://leetcode.com/problems/single-number-ii/) | [A](Leetcode/Single_Number_II.py) | - | :star::star: | TODO: Update other solutions | 
 
