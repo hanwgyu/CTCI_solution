@@ -69,7 +69,7 @@
 | Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/Majority_Element.py) | -! | :star::star: | TODO : Check Boyd-Moore voting algorithm |
 | Graph | Satisfiability of Equality Equations | [LeetCode](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [A](Leetcode/Satisfiability_of_Equality_Equations.py) | + | :star::star: | Union-Find |
 | Bit Manipulation | Single Number II | [LeetCode](https://leetcode.com/problems/single-number-ii/) | [A](Leetcode/Single_Number_II.py) | - | :star::star: | TODO: Update other solutions | 
-| Grpah | Minimum Height Trees | [LeetCode](https://leetcode.com/problems/minimum-height-trees/) | [A](Leetcode/Minimum_Height_Trees.py) | --! | :star::star::star: | [Similar](Leetcode/Binary_Tree_Maximum_Path_Sum.py) | 
+| Grpah | Minimum Height Trees | [LeetCode](https://leetcode.com/problems/minimum-height-trees/) | [A](Leetcode/Minimum_Height_Trees.py) | --! | :star::star::star: | [Similar Problem](Leetcode/Binary_Tree_Maximum_Path_Sum.py) | 
 
 
 
