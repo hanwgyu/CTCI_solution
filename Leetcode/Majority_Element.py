@@ -7,9 +7,20 @@
 # Solution 3 : Bit Manipulation. 과반수 이상인 원소가 존재하므로, 과반수 이상으로 카운트 된 bit만 모으면 해당 원소를 표현가능.
 # Time : O(N), Space : O(1)
 
+# Solution 4 : Boyd-Moore voting algorithm. 값이 다른 두 원소를 지워가다보면, 과반수 이상인 원소가 남게됨.
+# Time : O(N), Space : O(1)
+
 from collections import defaultdict
 
 class Solution:
+    def majorityElement_4(self, nums: List[int]) -> int:
+        ans, cnt = 0, 0
+        for num in nums:
+            if cnt == 0:
+                ans = num
+            cnt = cnt + 1 if ans == num else cnt - 1
+        return ans
+    
     def majorityElement_3(self, nums: List[int]) -> int:
         # 32bit integer
         bits = [0 for _ in range(32)]
