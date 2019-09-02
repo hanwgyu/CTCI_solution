@@ -73,7 +73,7 @@
 | Math | Reverse Integer | [LeetCode](https://leetcode.com/problems/reverse-integer/) | [A](Leetcode/Reverse_Integer.py) | + |
 | Math | Palindrome Number | [LeetCode](https://leetcode.com/problems/palindrome-number/) | [A](Leetcode/Palindrome_Number.py) | + |
 | Math | Divide Two Integers | [LeetCode](https://leetcode.com/problems/divide-two-integers/) | [A](Leetcode/Divide_Two_Integers.py) | + | 
-
+| Math | Happy Number | [LeetCode](https://leetcode.com/problems/happy-number/) | [A](Leetcode/Happy_Number.py) | + | | TODO : Check another solution |
 
 
 +: Solved within 30 min
