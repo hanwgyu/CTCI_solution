@@ -72,6 +72,9 @@
 | Graph | Minimum Height Trees | [LeetCode](https://leetcode.com/problems/minimum-height-trees/) | [A](Leetcode/Minimum_Height_Trees.py) | --! | :star::star::star: | [Similar Problem](Leetcode/Binary_Tree_Maximum_Path_Sum.py) | 
 | Math | Reverse Integer | [LeetCode](https://leetcode.com/problems/reverse-integer/) | [A](Leetcode/Reverse_Integer.py) | + |
 | Math | Palindrome Number | [LeetCode](https://leetcode.com/problems/palindrome-number/) | [A](Leetcode/Palindrome_Number.py) | + |
+| Math | Divide Two Integers | [LeetCode](https://leetcode.com/problems/divide-two-integers/) | [A](Leetcode/Divide_Two_Integers.py) | + | 
+
+
 
 +: Solved within 30 min
 
