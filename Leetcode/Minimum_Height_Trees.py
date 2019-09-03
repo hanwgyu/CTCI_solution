@@ -2,14 +2,15 @@
 # Time : O(N), Space : O(N)
 
 from collections import defaultdict
+from typing import Set
 
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
-        def dfs(n : int, visited : Dict[int, bool]) -> List[int]:
+        def dfs(n : int, visited : Set[int]) -> List[int]:
             if n in visited:
-                return []
-            visited[n] = True
-            p_1, p_2 = [], []
+                return list()
+            visited.add(n)
+            p_1, p_2 = list(), list()
             for adj in graph[n]:
                 p = dfs(adj, visited)
                 if len(p) > len(p_1):
@@ -21,7 +22,8 @@ class Solution:
             if h > self.max_h:
                 self.max_h = h
                 self.max_p = p_1 + [n] + p_2[::-1]
-            return p_1 + [n]
+            p_1.append(n)
+            return p_1
         
         if not edges:
             return [0]
@@ -29,6 +31,5 @@ class Solution:
         for src, dst in edges:
             graph[src].append(dst)
             graph[dst].append(src)
-        dfs(edges[0][0], {})
+        dfs(edges[0][0], set())
         return [self.max_p[self.max_h//2]] if self.max_h%2 == 1 else [self.max_p[(self.max_h-1)//2], self.max_p[self.max_h//2]]
-            
