@@ -1,5 +1,6 @@
 // Solution 1 : DP. 
 // Time : O(N^2), Space : O(N)
+// C++로는 80ms인데, 똑같은 솔루션으로 Python에서는 400ms가 넘어 Time Limit Exceeded 발생함.
 
 class Solution {
 public:
