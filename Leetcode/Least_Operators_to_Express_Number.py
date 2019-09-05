@@ -11,6 +11,7 @@
 # Time Limit Exceed. Time : O(logx(target)), Space: O(logx(target))?
 
 # Solution 3: Solution 1 방법을 pos, neg를 매번 갱신해가면서 처리가능.
+# 1번에서 미래(더큰 차수)의 결과를 알지 못하면 현재를 결정하지 못한다고 생각하고 recursive로 짠건데 그럴 필요가 없었다.
 # Time : O(logx(target)), Space: O(1)
 
 
