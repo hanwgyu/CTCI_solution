@@ -10,7 +10,7 @@
 # Solution 2: target에 가까운 x차수에서 뺴거나 더하면서 나머지를 구해감. Recursive.
 # Time Limit Exceed. Time : O(logx(target)), Space: O(logx(target))?
 
-# Solution 3:  ????????????????????
+# Solution 3: Solution 1 방법을 pos, neg를 매번 갱신해가면서 처리가능.
 # Time : O(logx(target)), Space: O(1)
 
 
