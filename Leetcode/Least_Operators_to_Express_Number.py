@@ -20,7 +20,7 @@ class Solution:
     def cost(self, power : int) -> int:
         return power if power > 0 else 2
     
-    def leastOpsExpressTarget_3(self, x, y):
+    def leastOpsExpressTarget_3(self, x: int, y: int) -> int:
         pos = neg = k = 0
         while y:
             y, res = divmod(y, x)
