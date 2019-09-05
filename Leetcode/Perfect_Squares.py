@@ -1,10 +1,8 @@
-# Solution 1 : BFS. 
-# Time : O(N^2), Space : O(N)
-
-# Solution 2 : DP. 
+# Solution 1 : DP. 
 # Time Limit Exceeded. Time : O(N^2), Space : O(N)
 
-import math
+# Solution 2 : BFS. 
+# Time : O(N^2), Space : O(N)
 
 class Solution:    
     def numSquares_2(self, n: int) -> int:
