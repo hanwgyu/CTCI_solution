@@ -1,3 +1,4 @@
+# 나누기는 1를 구해야할때만 쓰임.
 
 # Solution 1: target을 x로 나누면서 나머지가 더하거나 뺼때 작아지는 방향으로 계산.Recursive.
 # maximum recursion depth exceed. Time : O(logx(target)), Space: O(logx(target))
