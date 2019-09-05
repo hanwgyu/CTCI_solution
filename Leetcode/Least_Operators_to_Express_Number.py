@@ -23,11 +23,11 @@ class Solution:
         pos = neg = k = 0
         while y:
             y, res = divmod(y, x)
-            if k:
-                pos, neg = min(res * k + pos, (res+1) * k + neg), min((x-res) * k + pos, (x-res-1) * k + neg)
+            if p:
+                pos, neg = min(res * self.cost(p) + pos, (res+1) * self.cost(p) + neg), min((x-res) * self.cost(p) + pos, (x-res-1) * self.cost(p) + neg)
             else:
                 pos, neg = res * self.cost(0), (x - res) * self.cost(0)
-            k += 1
+            p += 1
         return min(pos, k + neg) - 1
     
     
