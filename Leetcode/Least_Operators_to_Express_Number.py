@@ -12,9 +12,11 @@
 # Time Limit Exceed. Time : O(logx(target)), Space: O(logx(target))?
 
 # Solution 3: Solution 1 방법을 pos, neg를 매번 갱신해가면서 처리가능.
-# 1번에서 미래(더큰 차수)의 결과를 알지 못하면 현재를 결정하지 못한다고 생각하고 recursive로 짠건데 그럴 필요가 없었다. pos, neg를 둘다저장하니까.
 # Time : O(logx(target)), Space: O(1)
 
+# 추가설명) 1번에서 미래(더 큰 차수)의 결과를 알지 못하면 현재를 결정하지 못한다고 생각하고 recursive로 짠건데 그럴 필요가 없었다.
+# 모든 차수에 대해 pos, neg변환을 모두 캐싱해야한다고 생각했는데, pos->neg변환으로 그 다음 차수로 전달되는 추가 숫자는 최대 1이기 때문에, 
+#pos, neg만 저장하고 매번 갱신하면서 넘어가도 충분히 모든 케이스(숫자가 다음 차수로 전달되거나 or not)를 고려가능하다.
 
 class Solution:
     def cost(self, power : int) -> int:
