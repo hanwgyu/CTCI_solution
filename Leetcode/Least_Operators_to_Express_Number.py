@@ -11,7 +11,7 @@
 # Solution 2: target에 가까운 x차수에서 뺴거나 더하면서 나머지를 구해감. Recursive.
 # Time Limit Exceed. Time : O(logx(target)), Space: O(logx(target))?
 
-# Solution 3: Solution 1 방법을  pos, neg를 매번 갱신해가면서 처리가능.
+# Solution 3: Solution 1 방법을 개선해 pos, neg를 매번 갱신해가면서 처리가능.
 # Time : O(logx(target)), Space: O(1)
 
 # 추가설명) 1번에서 미래(더 큰 차수)의 결과를 알지 못하면 현재를 결정하지 못한다고 생각하고 recursive로 짠건데 그럴 필요가 없었다.
