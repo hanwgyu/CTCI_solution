@@ -77,7 +77,7 @@
 | Math | Count Primes | [LeetCode](https://leetcode.com/problems/count-primes/) | [A](Leetcode/Count_Primes.py) | + | :star: |
 | Math | Perfect Squares | [LeetCode](https://leetcode.com/problems/perfect-squares/) | [A](Leetcode/Perfect_Squares.cc) [A](Leetcode/Perfect_Squares.py) | - | :star: | 
 | Math | Least Operators to Express Number | [LeetCode](https://leetcode.com/problems/least-operators-to-express-number/) | [A](Leetcode/Least_Operators_to_Express_Number.py) | --! | :star::star::star: | 
-
+| Array | Candidate Key | [Kakao 2019 Blind] | [A](etc/2019_Kakao_Blind/Candidate_Key.py) | -! | :star: |
 
 +: Solved within 30 min
 
