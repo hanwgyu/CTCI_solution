@@ -80,7 +80,7 @@
 | Array | Open Chat Room | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42888) | [A](etc/2019_Kakao_Blind/Open_Chat_Room.py) | + |
 | Array | Failure Rate | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42889) | [A](etc/2019_Kakao_Blind/Failure_Rate.py) | + |
 | Array | Candidate Key | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42890) | [A](etc/2019_Kakao_Blind/Candidate_Key.py) | -! | :star: |
-
+| Array | Muji Mukbang | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42891) | [A](etc/2019_Kakao_Blind/Muji_Mukbang.py) | -! |
 
 
 +: Solved within 30 min
