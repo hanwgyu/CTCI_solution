@@ -1,5 +1,4 @@
 #brute-force
-#(2018년) KAKAO BLIND RECRUITMENT
 
 def solution(relation):
     numCol, n = len(relation[0]), len(relation) 
