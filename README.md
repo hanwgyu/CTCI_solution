@@ -83,6 +83,7 @@
 | Array | Muji Mukbang | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42891) | [A](etc/2019_Kakao_Blind/Muji_Mukbang.py) | -! |
 | Tree | Find Path Game | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42892) | [A](etc/2019_Kakao_Blind/Find_Path_Game.py) | -- |
 | String | Longest Palindromic Substring | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) | [A](Leetcode/Longest_Palindromic_Substring.py) | - | :star::star: |
+| Array | Maximum Subarray | [LeetCode](https://leetcode.com/problems/maximum-subarray/) | [A](Leetcode/Maximum_Subarray.py) | + |
 
 +: Solved within 30 min
 
