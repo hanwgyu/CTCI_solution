@@ -87,7 +87,7 @@
 | Array, DP | Minimum Path Sum | [LeetCode](https://leetcode.com/problems/minimum-path-sum/) | [A](Leetcode/Minimum_Path_Sum.py) | + |
 | Array, DP | Climbing Stairs | [LeetCode](https://leetcode.com/problems/climbing-stairs/) | [A](Leetcode/Climbing_Stairs.py) | + |
 | Array | Best Time to Buy and Sell Stock | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [A](Leetcode/Best_Time_to_Buy_and_Sell_Stock.py) | + | 
-
+| String, DP | Word Break | [LeetCode](https://leetcode.com/problems/word-break/) | [A](Leetcode/Word_Break.py) | - | :star::star::star: | Use Trie |
 
 +: Solved within 30 min
 
