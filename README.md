@@ -90,6 +90,8 @@
 | String, DP | Word Break | [LeetCode](https://leetcode.com/problems/word-break/) | [A](Leetcode/Word_Break.py) | - | :star::star::star: | Use Trie |
 | Bit Manipulation | Power of Two | [LeetCode](https://leetcode.com/problems/power-of-two/) | [A](Leetcode/Power_of_Two.py) | + | 
 | Array, DP | Coin Change | [LeetCode](https://leetcode.com/problems/coin-change/) | [A](Leetcode/Coin_Change.py) | + | 
+| String, DP | Regular Expression Matching | [LeetCode](https://leetcode.com/problems/regular-expression-matching/) | [A](Leetcode/Regular_Expression_Matching.py) | -- | :star: | TODO: Clean the code | 
+
 
 +: Solved within 30 min
 
