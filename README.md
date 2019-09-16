@@ -89,7 +89,7 @@
 | Array | Best Time to Buy and Sell Stock | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [A](Leetcode/Best_Time_to_Buy_and_Sell_Stock.py) | + | 
 | String, DP | Word Break | [LeetCode](https://leetcode.com/problems/word-break/) | [A](Leetcode/Word_Break.py) | - | :star::star::star: | Use Trie |
 | Bit Manipulation | Power of Two | [LeetCode](https://leetcode.com/problems/power-of-two/) | [A](Leetcode/Power_of_Two.py) | + | 
-
+| Array, DP | Coin Change | [LeetCode](https://leetcode.com/problems/coin-change/) | [A](Leetcode/Coin_Change.py) | + | 
 
 +: Solved within 30 min
 
