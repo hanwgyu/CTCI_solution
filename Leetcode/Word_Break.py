@@ -1,6 +1,6 @@
 # Solution : DP. 뒷글자부터 시작. 연속으로된 글자를 만들수 있는지 여부를 저장. 
 # Trie로 단어를 저장해서 관리.
-# Time : O(N), Space : O(N)
+# Time : O(NM), Space : O(N)
 
 class Node:
     def __init__(self, char : str, end = False):
