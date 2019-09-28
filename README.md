@@ -92,7 +92,7 @@
 | Array, DP | Coin Change | [LeetCode](https://leetcode.com/problems/coin-change/) | [A](Leetcode/Coin_Change.py) | + | 
 | String, DP | Regular Expression Matching | [LeetCode](https://leetcode.com/problems/regular-expression-matching/) | [A](Leetcode/Regular_Expression_Matching.py) | -- | :star: | TODO: Clean the code | 
 | String | Decode Ways | [LeetCode](https://leetcode.com/problems/decode-ways/) | [A](Leetcode/Decode_Ways.py) | + | 
-| DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | | TODO: Add solution | 
+| DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | :star::star::star: | TODO: Add solution | 
  
 +: Solved within 30 min
 
