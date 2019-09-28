@@ -45,6 +45,7 @@ class Solution:
             for idx in indexs:
                 if i+idx+1 <= len(s) and dp[i+idx+1]:
                     dp[i] = True
+                    break
         return dp[0]
         
         
