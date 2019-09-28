@@ -84,7 +84,7 @@
 | Tree | Find Path Game | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42892) | [A](etc/2019_Kakao_Blind/Find_Path_Game.py) | -- |
 | String, DP | Longest Palindromic Substring | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) | [A](Leetcode/Longest_Palindromic_Substring.py) | - | :star::star: |
 | Array | Maximum Subarray | [LeetCode](https://leetcode.com/problems/maximum-subarray/) | [A](Leetcode/Maximum_Subarray.py) | + |
-| Array, DP | Minimum Path Sum | [LeetCode](https://leetcode.com/problems/minimum-path-sum/) | [A](Leetcode/Minimum_Path_Sum.py) | + |
+| Array, DP | Minimum Path Sum | [LeetCode](https://leetcode.com/problems/minimum-path-sum/) | [A](Leetcode/Minimum_Path_Sum.py) | + | | | TODO: Check other solutions |
 | Array, DP | Climbing Stairs | [LeetCode](https://leetcode.com/problems/climbing-stairs/) | [A](Leetcode/Climbing_Stairs.py) | + |
 | Array | Best Time to Buy and Sell Stock | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [A](Leetcode/Best_Time_to_Buy_and_Sell_Stock.py) | + | 
 | String, DP | Word Break | [LeetCode](https://leetcode.com/problems/word-break/) | [A](Leetcode/Word_Break.py) | - | :star::star::star: | Use Trie |
@@ -92,6 +92,7 @@
 | Array, DP | Coin Change | [LeetCode](https://leetcode.com/problems/coin-change/) | [A](Leetcode/Coin_Change.py) | + | 
 | String, DP | Regular Expression Matching | [LeetCode](https://leetcode.com/problems/regular-expression-matching/) | [A](Leetcode/Regular_Expression_Matching.py) | -- | :star: | TODO: Clean the code | 
 | String | Decode Ways | [LeetCode](https://leetcode.com/problems/decode-ways/) | [A](Leetcode/Decode_Ways.py) | + | 
+| DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | TODO: Add solution | 
  
 +: Solved within 30 min
 
