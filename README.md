@@ -93,7 +93,7 @@
 | String, DP | Regular Expression Matching | [LeetCode](https://leetcode.com/problems/regular-expression-matching/) | [A](Leetcode/Regular_Expression_Matching.py) | -- | :star: | TODO: Clean the code | 
 | String | Decode Ways | [LeetCode](https://leetcode.com/problems/decode-ways/) | [A](Leetcode/Decode_Ways.py) | + | 
 | DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | :star::star::star: | TODO: Add solution | 
-| Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::start | TODO: Add other solutions | 
+| Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star: | TODO: Add other solutions | 
  
 +: Solved within 30 min
 
