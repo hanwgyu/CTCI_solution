@@ -95,6 +95,8 @@
 | DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | :star::star::star: | TODO: Add solution |
 | Math | Ugly Number II | [LeetCode](https://leetcode.com/problems/ugly-number-ii/) | | | | TODO: Solve | 
 | Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star: | TODO: Add other solutions | 
+ | Sort | Merge Intervals | [LeetCode](https://leetcode.com/problems/merge-intervals/) | [A](Leetcode/Merge_Intervals.py) | - | :star::star: |
+ 
  
 +: Solved within 30 min
 
