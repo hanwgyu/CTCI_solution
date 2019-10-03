@@ -97,7 +97,7 @@
 | Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star: | TODO: Add other solutions | 
  | Sort | Merge Intervals | [LeetCode](https://leetcode.com/problems/merge-intervals/) | [A](Leetcode/Merge_Intervals.py) | - | :star::star: |
  | Sort, Binary Search | Time Based Key-Value Store | [LeetCode](https://leetcode.com/problems/time-based-key-value-store/) | [A](Leetcode/Time_Based_Key-Value_Store.py) | + | :star::star: | REMIND : using bisect library (binary-serach) | 
- 
+ | DP, Binary Search | Split Array Largest Sum | [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) | [A](Leetcode/Split_Array_Largest_Sum.py) | -! | :star::star::star: | TODO : Add another solution | 
  
 +: Solved within 30 min
 
