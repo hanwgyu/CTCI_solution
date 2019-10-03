@@ -1,5 +1,7 @@
 from collections import defaultdict
 
+# Solution : set함수 실행시, timestamp가 증가하는 식으로만 추가되므로 내부 원소들은 timestamp에 대해 sorting되어 있음. 
+# get함수 실행시 Binary Search를 통해 결과값을 찾아냄. 
 # Space : O(N)
 
 class TimeMap:
