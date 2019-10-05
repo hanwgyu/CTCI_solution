@@ -13,9 +13,9 @@ class Solution:
             dp[i][1] = s
         
         for i in range(2,n+1):
-            for k in range(1,i):
+            for i_ in range(1,i):
                 for j in range(2, min(m, i)+1):
-                    dp[i][j] = min(dp[i][j], max(dp[k][j-1], dp[i][1]-dp[k][1]) if k >= j-1 else float('inf'))
+                    dp[i][j] = min(dp[i][j], max(dp[i_][j-1], dp[i][1]-dp[i_][1]) if i_ >= j-1 else float('inf'))
         
         return dp[n][m]
                 
