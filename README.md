@@ -100,7 +100,8 @@
  | DP, Binary Search | Split Array Largest Sum | [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) | [A](Leetcode/Split_Array_Largest_Sum.py) | -! | :star::star::star: | COMMENT : Brilliant Binary Search Solution | 
  | Binary Search | Median of Two Sorted Arrays | [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [A](Leetcode/Median_of_Two_Sorted_Arrays.py) | -! | :star::star::star: | 
  | Array | Product of Array Except Self | [LeetCode](https://leetcode.com/problems/product-of-array-except-self/) | [A](Leetcode/Product_of_Array_Except_Self.py) | + | 
- | Array | Set Matrix Zeroes | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) | [A](Leetcode/Set_Matrix_Zeroes.py) | -! | :star::star::star: | REMIND : Change array Inplace with Space O(1) | 
+ | Array | Set Matrix Zeroes | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) | [A](Leetcode/Set_Matrix_Zeroes.py) | -! | :star::star::star: | REMIND : Inplace array problem with Space Complexity O(1) | 
+ | Array | Game of Life | [LeetCode](https://leetcode.com/problems/game-of-life/) | [A](Leetcode/Game_of_Life.py) | - | :star::star: | REMIND: Inplace array problem with Space Complexity O(1) |
  
  
 +: Solved within 30 min
