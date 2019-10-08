@@ -99,7 +99,7 @@
  | Sort, Binary Search | Time Based Key-Value Store | [LeetCode](https://leetcode.com/problems/time-based-key-value-store/) | [A](Leetcode/Time_Based_Key-Value_Store.py) | + | :star::star: | REMIND : using bisect library (binary-serach) | 
  | DP, Binary Search | Split Array Largest Sum | [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) | [A](Leetcode/Split_Array_Largest_Sum.py) | -! | :star::star::star: | COMMENT : Brilliant Binary Search Solution | 
  | Binary Search | Median of Two Sorted Arrays | [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [A](Leetcode/Median_of_Two_Sorted_Arrays.py) | -! | :star::star::star: | 
- 
+ | Array | Product of Array Except Self | [LeetCode](https://leetcode.com/problems/product-of-array-except-self/) | [A](Leetcode/Product_of_Array_Except_Self.py) | + | 
  
 +: Solved within 30 min
 
