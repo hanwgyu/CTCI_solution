@@ -1,5 +1,5 @@
-# Solution : 각 cell을 저장공간으로 사용하여, 첫번쨰 iter에서 값을 10의자리에 원래값을 1의 자리에 저장.
-# 두번째 iter에서 저장된 값을 이용해 바뀐값을 구해냄.
+# Solution : 각 cell을 저장공간으로 사용하여, 첫번쨰 iter에서 주변 cell의 합을 10의자리에 현재 cell 값을 1의 자리에 저장.
+# 두번째 iter에서 저장된 합을 이용해 값을 바꿈.
 # Time : O(MN), Space : O(1)
 
 class Solution:
