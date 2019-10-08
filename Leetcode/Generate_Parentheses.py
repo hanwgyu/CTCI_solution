@@ -2,7 +2,7 @@
 # 총 갯수 : 2nCn - 2nCn+1 = 1/(n+1) * 2nCn+1
 # Time : O(4^N/N^(3/2)), Space : O(4^N/N^(3/2))
 
-# Solution 1: Iteration 돌고, string에 대한 array를 공유해가면서 값을 증가시킴.
+# Solution 1: Iteration 돌고, string에 대한 array를 공유해가면서 계산해나아감.
 
 # Solution 2: Tree의 Preorder Traversal처럼 동작. 왼쪽값부터 계산하면 항상 조건을 만족함.
 
