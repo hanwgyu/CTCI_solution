@@ -1,3 +1,4 @@
+# Solution : Stack을 이용해 숫자를 앞에서부터 넣어가면서, Stack마지막 값보다 현재 숫자가 작으면 Stack pop을 하고 현재값을 추가.
 # Time : O(N), Space : O(N)
 
 class Solution(object):
