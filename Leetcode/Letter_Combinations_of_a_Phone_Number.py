@@ -1,7 +1,7 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        def addLetter(digits: str, letter: str):
-            if digits == '':
+        def addLetter(digits: List[str], letter: str):
+            if digits == []:
                 ans.append(letter)
                 return
             for c in d[digits[0]]:
@@ -9,6 +9,7 @@ class Solution:
             
         d = {'2':['a','b','c'], '3':['d','e','f'], '4':['g','h','i'], '5':['j','k','l'], '6':['m','n','o'], '7':['p','q','r','s'], '8':['t','u','v'], '9':['w','x','y','z']}
         ans = []
-        if digits != "":
-            addLetter(digits, '')
+        if digits == "":
+            return []
+        addLetter(list(digits), "")
         return ans
