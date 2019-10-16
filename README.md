@@ -104,6 +104,8 @@
  | Array | Game of Life | [LeetCode](https://leetcode.com/problems/game-of-life/) | [A](Leetcode/Game_of_Life.py) | - | :star::star: | REMIND: Inplace array problem with Space Complexity O(1) |
  | Array | Reorder Data in Log Files | [LeetCode](https://leetcode.com/problems/reorder-data-in-log-files/) | [py](Leetcode/Reorder_Data_in_Log_Files.py) [cpp](Leetcode/Reorder_Data_in_Log_Files.cpp) | - | :star::star::star: | REMIND : sorting with lambda function | 
  | String | Generate Parentheses | [LeetCode](https://leetcode.com/problems/generate-parentheses/) | [A](Leetcode/Generate_Parentheses.py) | -! | :star::star::star: | REMIND : Traversal Solution  | 
+ | String | Letter Combinations of a Phone Number | [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [A](Leetcode/Letter_Combinations_of_a_Phone_Number.py) | + | 
+ 
  
 +: Solved within 30 min
 
