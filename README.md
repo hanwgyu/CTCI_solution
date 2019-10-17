@@ -106,6 +106,8 @@
  | String | Generate Parentheses | [LeetCode](https://leetcode.com/problems/generate-parentheses/) | [A](Leetcode/Generate_Parentheses.py) | -! | :star::star::star: | REMIND : Traversal Solution  | 
  | String | Letter Combinations of a Phone Number | [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [A](Leetcode/Letter_Combinations_of_a_Phone_Number.py) | + | 
  | Array | First Missing Positive | [LeetCode](https://leetcode.com/problems/first-missing-positive/) | [A](Leetcode/First_Missing_Positive.py) | +! | :star::star: | 
+ | Array | Spiral Matrix | [LeetCode](https://leetcode.com/problems/spiral-matrix/) | [A](Leetcode/Spiral_Matrix.py) | + | :star: | 
+ 
  
 +: Solved within 30 min
 
