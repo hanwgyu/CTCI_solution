@@ -1,7 +1,10 @@
-#Time : O(MN), Space : O(1)
+#Sol 1: Time : O(MN), Space : O(1)
 
 class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:   
+    def spiralOrder_2(self, matrix):
+        return matrix and [*matrix.pop(0)] + self.spiralOrder([*zip(*matrix)][::-1])
+    
+    def spiralOrder_1(self, matrix: List[List[int]]) -> List[int]:   
         if not matrix:
             return []
         N, M, ans = len(matrix), len(matrix[0]), []
