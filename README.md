@@ -108,6 +108,7 @@
  | Array | First Missing Positive | [LeetCode](https://leetcode.com/problems/first-missing-positive/) | [A](Leetcode/First_Missing_Positive.py) | +! | :star::star: | 
  | Array | Spiral Matrix | [LeetCode](https://leetcode.com/problems/spiral-matrix/) | [A](Leetcode/Spiral_Matrix.py) | + | :star: | REMIND: zip library |  
  | Array | Move Zeroes | [LeetCode](https://leetcode.com/problems/move-zeroes/) | [A](Leetcode/Move_Zeroes.py) | + | :star: | 
+ | Hash | Verifying an Alien Dictionary | [LeetCode](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [A](Leetcode/Verifying_an_Alien_Dictionary.py) | -! | :star::star: | REMIND : array comparison |
  
  
 +: Solved within 30 min
