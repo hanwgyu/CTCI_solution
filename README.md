@@ -111,7 +111,7 @@
  | Hash | Verifying an Alien Dictionary | [LeetCode](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [A](Leetcode/Verifying_an_Alien_Dictionary.py) | -! | :star::star: | REMIND : array comparison |
  | Hash | Longest String Chain | [LeetCode](https://leetcode.com/problems/longest-string-chain/) | | | | TODO : solve |
  | Linked List | Swap Nodes in Pairs | [LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/) | [A](Leetcode/Swap_Nodes_in_Pairs.py) | + | 
- 
+ | Linked List | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [A](Leetcode/Reverse_Nodes_in_k-Group.py) | + | :star: | 
  
 +: Solved within 30 min
 
