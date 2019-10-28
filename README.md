@@ -112,6 +112,8 @@
  | Hash | Longest String Chain | [LeetCode](https://leetcode.com/problems/longest-string-chain/) | | | | TODO : solve |
  | Linked List | Swap Nodes in Pairs | [LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/) | [A](Leetcode/Swap_Nodes_in_Pairs.py) | + | 
  | Linked List | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [A](Leetcode/Reverse_Nodes_in_k-Group.py) | + | :star: | 
+ | Linked List | Sort List | [LeetCode](https://leetcode.com/problems/sort-list/) | [A](Leetcode/Sort_List.py) | - | :star::star: | REMIND : Merge sort in linked list | 
+ 
  
 +: Solved within 30 min
 
