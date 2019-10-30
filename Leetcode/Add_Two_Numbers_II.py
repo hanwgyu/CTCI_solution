@@ -1,5 +1,5 @@
 # Solution : 두 리스트의 길이를 맞춰준 후 (짧은 리스트는 앞쪽에 0의 값을 가진 ListNode를 추가), Recursive하게 구현하여 다음 노드의 계산 결과값을 이용.
-# Time : O(max(N,M)), Space : O(1)
+# Time : O(max(N,M)), Space : O(max(N,M)) (Recursive stack)
 
 # Definition for singly-linked list.
 # class ListNode:
