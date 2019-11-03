@@ -119,6 +119,7 @@
  | Stack | Binary Search Tree Iterator | [LeetCode](https://leetcode.com/problems/binary-search-tree-iterator/) | [A](Leetcode/Binary_Search_Tree_Iterator.py) | -- | :star: |
  | Stack | Asteroid Collision | [LeetCode](https://leetcode.com/problems/asteroid-collision/) | [A](Leetcode/Asteroid_Collision.py) | + |
  | Stack | Daily Temperatures | [LeetCode](https://leetcode.com/problems/daily-temperatures/) | [A](Leetcode/Daily_Temperatures.py) | + |
+ | Array | Design Circular Queue | [LeetCode](https://leetcode.com/problems/design-circular-queue/) | [A](Leetcode/Design_Circular_Queue.py) | + | 
  
 +: Solved within 30 min
 
