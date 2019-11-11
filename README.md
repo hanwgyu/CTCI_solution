@@ -122,6 +122,9 @@
  | Array | Design Circular Queue | [LeetCode](https://leetcode.com/problems/design-circular-queue/) | [A](Leetcode/Design_Circular_Queue.py) | + | 
  | DP | Combination Sum | [LeetCode](https://leetcode.com/problems/combination-sum/)  | [A](Leetcode/Combination_Sum.py) | - | :star::star::star: |
  | DP | House Robber | [LeetCode](https://leetcode.com/problems/house-robber/) | [A](Leetcode/House_Robber.py) | + | :star::star: |
+ | DP | Maximal Sqaure | [LeetCode](https://leetcode.com/problems/maximal-square/) | [A](Leetcode/Maximal_Square.py) | + | :star::star: | 
+ | DP | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/) | | | | TODO: solve |
+ 
  
 +: Solved within 30 min
 
