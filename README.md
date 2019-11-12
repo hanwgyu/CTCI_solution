@@ -124,6 +124,7 @@
  | DP | House Robber | [LeetCode](https://leetcode.com/problems/house-robber/) | [A](Leetcode/House_Robber.py) | + | :star::star: |
  | DP | Maximal Sqaure | [LeetCode](https://leetcode.com/problems/maximal-square/) | [A](Leetcode/Maximal_Square.py) | + | :star::star: | 
  | DP | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/) | | | | TODO: solve |
+ | DP | Palindromic Substrings | [LeetCode](https://leetcode.com/problems/palindromic-substrings/) | [A](Leetcode/Panlindromic_Substrings.py) | + | :star::star: | REMIND : Space complexity reduce technique |
  
  
 +: Solved within 30 min
