@@ -14,11 +14,8 @@ class Solution:
                             d[target].append(e+[c])
             visited.add(target)
             
-        cs, visited = set(), set()
-        d = defaultdict(list)
-        
+        visited, d = set(), defaultdict(list)
         for c in candidates:
-            cs.add(c)
             d[c].append([c])
             
         findAllCombinations(target)
