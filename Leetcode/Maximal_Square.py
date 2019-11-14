@@ -12,13 +12,12 @@ class Solution:
             return 0
         ans = 0
         M, N = len(matrix), len(matrix[0])
-        N_large = True if M > N else False
-        S, L = M if N_large else N, N if N_large else M
+        S, L = M if N > M else N, N if N > M else M
         current, past = [0] * S, [0] * S
         
         for a in range(L):
             for b in range(S):
-                i, j = b if N_large else a, a if N_large else b
+                i, j = b if N > M else a, a if N > M else b
                 if matrix[i][j] == "1":
                     res = 1
                     if i > 0 and j > 0:
@@ -28,7 +27,6 @@ class Solution:
             past, current = current, past
             for b in range(S): current[b] = 0
         return ans
-    
     
     def maximalSquare_1(self, matrix: List[List[str]]) -> int:
         if not matrix:
