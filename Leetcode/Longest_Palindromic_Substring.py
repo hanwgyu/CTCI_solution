@@ -9,7 +9,7 @@
 from collections import deque
 
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
+    def longestPalindrome_1(self, s: str) -> str:
         def updateAns(start, end):
             if len(self.ans) < end-start+1:
                 self.ans = s[start:end+1]
@@ -31,3 +31,17 @@ class Solution:
             temp.append((i, True))
             dp = temp
         return self.ans
+    
+    
+    def longestPalindrome_0(self, s: str) -> str:
+        def findMaxPalindrome(l: int, r: int) -> (int, int):
+            while 0 <= l and r < len(s) and s[l] == s[r]:
+                l, r = l-1, r+1
+            return (l+1, r-1) 
+        
+        idxes = (0, -1)
+        for i in range(len(s)):
+            odd_idxes = findMaxPalindrome(i, i)
+            even_idxes = findMaxPalindrome(i, i+1)
+            idxes = max([idxes, odd_idxes, even_idxes], key=lambda x: x[1]-x[0])
+        return s[idxes[0]:idxes[1]+1]
