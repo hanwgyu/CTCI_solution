@@ -3,7 +3,7 @@
 # Solution 1 : DP.
 # Time : O(MN), Space : O(MN) 
 
-# Solution 1 : DP. 공간복잡도 줄임.
+# Solution 2 : DP. 공간복잡도 줄임.
 # Time : O(MN), Space : O(min(M,N)) 
 
 class Solution:
