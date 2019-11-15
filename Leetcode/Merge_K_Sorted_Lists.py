@@ -7,8 +7,7 @@
 class Solution:
     def mergeKLists_2(self, lists: List[ListNode]) -> ListNode:
         def mergeTwoList(first: ListNode, second: ListNode)-> ListNode:
-            dummy = ListNode(0)
-            cur = dummy
+            dummy = cur = ListNode(0)
             while first and second:
                 if first.val > second.val:
                     cur.next, second = second, second.next
