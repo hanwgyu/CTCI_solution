@@ -94,7 +94,7 @@
 | String | Decode Ways | [LeetCode](https://leetcode.com/problems/decode-ways/) | [A](Leetcode/Decode_Ways.py) | + | 
 | DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | :star::star::star: | TODO: Add solution |
 | Math | Ugly Number II | [LeetCode](https://leetcode.com/problems/ugly-number-ii/) | | | | TODO: Solve | 
-| Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star: | TODO: Add other solutions | 
+| Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star:star: |
  | Sort | Merge Intervals | [LeetCode](https://leetcode.com/problems/merge-intervals/) | [A](Leetcode/Merge_Intervals.py) | - | :star::star: |
  | Sort, Binary Search | Time Based Key-Value Store | [LeetCode](https://leetcode.com/problems/time-based-key-value-store/) | [A](Leetcode/Time_Based_Key-Value_Store.py) | + | :star::star: | REMIND : using bisect library (binary-serach) | 
  | DP, Binary Search | Split Array Largest Sum | [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) | [A](Leetcode/Split_Array_Largest_Sum.py) | -! | :star::star::star: | COMMENT : Brilliant Binary Search Solution | 
