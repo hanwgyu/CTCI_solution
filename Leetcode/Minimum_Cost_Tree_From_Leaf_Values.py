@@ -1,3 +1,4 @@
+# Burst Balloons 문제와 상당히 유사함.
 # Solution : DP + Merge. 반씩 잘라가면서 트리의 왼쪽 오른쪽으로 나누고 각 트리의 최소합과 최대 leaf node을 리턴
 # Time : O(N^2), Space : O(N^2) (DP없으면 O(N^3)?, O(N))
 
