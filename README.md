@@ -127,7 +127,7 @@
  | DP | Palindromic Substrings | [LeetCode](https://leetcode.com/problems/palindromic-substrings/) | [A](Leetcode/Panlindromic_Substrings.py) | + | :star::star: | REMIND : Space complexity reduce technique, Add another solution |
  | DP, Recursive | Burst Balloons | [LeetCode](https://leetcode.com/problems/burst-balloons/) | [A](Leetcode/Burst_Balloons.py) | --! | :star::star::star: | 
  | Recursive | Restore IP Addresses | [LeetCode](https://leetcode.com/problems/restore-ip-addresses/) | [A](Leetcode/Restore_IP_Addresses.py) | - | :star: | 
- 
+ | Array | Maximum Product Subarray | [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) | [A](Leetcode/Maximum_Product_Subarray.py) | + | :star::star::star: |
  
  
 +: Solved within 30 min
