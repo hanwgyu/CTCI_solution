@@ -128,7 +128,7 @@
  | DP, Recursive | Burst Balloons | [LeetCode](https://leetcode.com/problems/burst-balloons/) | [A](Leetcode/Burst_Balloons.py) | --! | :star::star::star: | 
  | Recursive | Restore IP Addresses | [LeetCode](https://leetcode.com/problems/restore-ip-addresses/) | [A](Leetcode/Restore_IP_Addresses.py) | - | :star: | 
  | Array | Maximum Product Subarray | [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) | [A](Leetcode/Maximum_Product_Subarray.py) | + | :star::star::star: |
- | DP | Longest Increasing Subsequence | [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) | [A](Leetcode/Longest_Increasing_Subsequence.py) | + | :star::star: |
+ | DP | Longest Increasing Subsequence | [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) | [A](Leetcode/Longest_Increasing_Subsequence.py) | + | :star::star::star: | TODO : Add another solution | 
  | DP | Minimum Cost Tree From Leaf Values | [LeetCode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [A](Leetcode/Minimum_Cost_Tree_From_Leaf_Values.py) | - | :star::star::star: | 
  | BackTracking | N-Queens | [LeetCode](https://leetcode.com/problems/n-queens/) | [A](Leetcode/N-Queens.py) | - | :star::star::star: | 
  
