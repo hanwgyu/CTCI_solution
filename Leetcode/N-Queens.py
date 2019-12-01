@@ -1,4 +1,7 @@
-# Solution 2 : Sol 1에 cols 공유하도록 변경. 복사비용 줄임. O(N!) / O(N)
+# Backtracking의 대표적인 문제.
+# Solution 2 : Sol 1에 cols 공유하도록 변경. 복사비용 줄임. O(N!)? / O(N)
+
+# Solution 3 : 구현패스. Leetcode solution참고. 대각선과 각 col에 queen이 위치하는지를 Bool로 저장해 isPossible시 검색 비용을 O(1)로 만듬. O(N!) / O(N)
 
 from collections import deque
 class Solution:
