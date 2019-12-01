@@ -9,16 +9,13 @@
 
 class Solution:
     def mctFromLeafValues_2(self, arr: List[int]) -> int:
-        st, ans = [], 0
-        for i, v in enumerate(arr):
-            while st and arr[st[-1]] < v:
-                if len(st) > 1:
-                    ans += arr[st.pop()] * min(arr[st[-1]], v)
-                else:
-                    ans += arr[st.pop()] * v
-            st.append(i)
-        while len(st) > 1:
-            ans += arr[st.pop()] * arr[st[-1]]
+        st, ans = [float('inf')], 0
+        for v in arr:
+            while st and st[-1] < v:
+                ans += st.pop() * min(st[-1], v)
+            st.append(v)
+        while len(st) > 2:
+            ans += st.pop() * st[-1]
         return ans
     
     def mctFromLeafValues_1(self, arr: List[int]) -> int:
