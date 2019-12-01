@@ -20,7 +20,7 @@
 | Linked List  | Intersection Of Two Linked List  | [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [A](Leetcode/Intersection_Of_Two_Linked_List.py ) | - | |
 | Linked List  | Linked List Cycle  | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [A](Leetcode/Linked_List_Cycle.py ) | + | :star::star: |
 | String | Longest Valid Parentheses | [LeetCode](https://leetcode.com/problems/longest-valid-parentheses/) | [A](Leetcode/Longest_Valid_Parentheses.py) | - | :star::star::star: |
-| Array  | Trapping rain water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) | [A](Leetcode/Trapping_Rain_Water.py) | - | :star::star: |
+| Array, Stack  | Trapping rain water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) | [A](Leetcode/Trapping_Rain_Water.py) | - | :star::star::star |
 | Stack  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [A](Leetcode/Valid_Parentheses.py) | + | :star: |
 | Stack  | Basic Calculator | [LeetCode](https://leetcode.com/problems/basic-calculator/) | [A](Leetcode/Basic_Calculator.py) | - | :star: |
 | Stack  | Decode String | [LeetCode](https://leetcode.com/problems/decode-string/) | [A](Leetcode/Decode_String.py ) | + | :star: | <ul><li>- [x] Use array instead of string</li></ul> |
@@ -128,9 +128,9 @@
  | DP, Recursive | Burst Balloons | [LeetCode](https://leetcode.com/problems/burst-balloons/) | [A](Leetcode/Burst_Balloons.py) | --! | :star::star::star: | 
  | Recursive | Restore IP Addresses | [LeetCode](https://leetcode.com/problems/restore-ip-addresses/) | [A](Leetcode/Restore_IP_Addresses.py) | - | :star: | 
  | Array | Maximum Product Subarray | [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) | [A](Leetcode/Maximum_Product_Subarray.py) | + | :star::star::star: |
- | DP | Longest Increasing Subsequence | [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) | [A](Leetcode/Longest_Increasing_Subsequence.py) | + | :star::star::star::star: | TODO : Add another solution | 
+ | DP | Longest Increasing Subsequence | [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) | [A](Leetcode/Longest_Increasing_Subsequence.py) | + | :star::star::star::star: |
  | DP | Minimum Cost Tree From Leaf Values | [LeetCode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [A](Leetcode/Minimum_Cost_Tree_From_Leaf_Values.py) | - | :star::star::star: | TODO : Add another solution |
- | BackTracking | N-Queens | [LeetCode](https://leetcode.com/problems/n-queens/) | [A](Leetcode/N-Queens.py) | - | :star::star::star: | TODO : Add O(N!) solution |  
+ | BackTracking | N-Queens | [LeetCode](https://leetcode.com/problems/n-queens/) | [A](Leetcode/N-Queens.py) | - | :star::star::star: |  
  
  
 +: Solved within 30 min
