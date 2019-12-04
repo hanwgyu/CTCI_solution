@@ -40,9 +40,7 @@ class Solution:
             node.right = preOrder(r)
             return node
          
-        N, d_in = len(preorder), {}
-        for j, e in enumerate(inorder):
-            d_in[e] = j  
+        d_in = {val:i for i, val in enumerate(inorder)}
         return preOrder(preorder)
         
         
