@@ -132,6 +132,7 @@
  | DP | Minimum Cost Tree From Leaf Values | [LeetCode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [A](Leetcode/Minimum_Cost_Tree_From_Leaf_Values.py) | - | :star::star::star: | REMIND: Brilliant solution |
  | BackTracking | N-Queens | [LeetCode](https://leetcode.com/problems/n-queens/) | [A](Leetcode/N-Queens.py) | - | :star::star::star: |  
  | Tree, DP | Unique Binary Search Trees | [LeetCode](https://leetcode.com/problems/unique-binary-search-trees/) | [A](Leetcode/Unique_Binary_Search_Trees.py) | - | :star::star::star: | REMIND : Catalan number |
+ | Tree | Construct Binary Tree from Preorder and Inorder Traversal | [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [A](Leetcode/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) | -! | :star::star::star: |   
  
  
 +: Solved within 30 min
