@@ -19,8 +19,7 @@ class Solution:
             node = TreeNode(val)
             node.left = preOrder(in_from, in_idx)
             node.right = preOrder(in_idx+1, in_to)
-            return node
-         
+            return node  
         d_in, self.pre_idx = {val:i for i, val in enumerate(inorder)}, 0
         return preOrder(0, len(inorder))
     
@@ -39,7 +38,6 @@ class Solution:
             node.left = preOrder(l)
             node.right = preOrder(r)
             return node
-         
         d_in = {val:i for i, val in enumerate(inorder)}
         return preOrder(preorder)
         
