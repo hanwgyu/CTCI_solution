@@ -12,7 +12,7 @@ class Solution:
         def nodeExist(idx: int):
             node, idx_rev = root, 0
             for i in range(self.H):
-                idx, idx_rev = idx//2, idx_rev + (idx%2)*(2**(self.H-1-i))
+                idx, idx_rev = idx//2, idx_rev | (idx%2) << (self.H-1-i)
             for i in range(self.H):
                 idx_rev, go_right = idx_rev//2, idx_rev%2
                 node = node.right if go_right else node.left
