@@ -26,15 +26,15 @@ class Solution:
         def solve(node: TreeNode, path: int, remain_h: int):
             if not node:
                 return
-            # 1) Add descendants
+            # 1) Add descendants of target
             if remain_h == 0:
                 solveDescendants(node, K)
                 return
-            # 2) Add ancestors
+            # 2) Add ancestors of target
             if K-remain_h == 0:
                 ans.append(node.val)         
             path, go_left = path//2, path%2
-            # 3) Add other descendants of ancestors
+            # 3) Add other descendants of ancestors of target
             solveDescendants(node.right if go_left else node.left, K-remain_h-1)
             solve(node.left if go_left else node.right, path, remain_h-1)
         
