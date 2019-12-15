@@ -139,6 +139,8 @@
  | Tree | Recover Binary Search Tree | [LeetCode](https://leetcode.com/problems/recover-binary-search-tree/) | [A](Leetcode/Recover_Binary_Search_Tree.py) | + | :star: | TODO : Check another solution (Space O(1)) |
  | Tree | Diameter of Binary Tree | [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) | [A](Leetcode/Diameter_of_Binary_Tree.py) | + | :star::star: |
  | Graph | Keys and Rooms | [LeetCode](https://leetcode.com/problems/keys-and-rooms/) | [A](Leetcode/Keys_and_Rooms.py) | + | :star::star: | REMIND : basic graph dfs | 
+ | Graph | Find the Town Judge | [LeetCode](https://leetcode.com/problems/find-the-town-judge/) | [A](Leetcode/Find_the_Town_Judge.py) | + | 
+ 
  
 +: Solved within 30 min
 
