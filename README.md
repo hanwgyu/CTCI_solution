@@ -134,8 +134,10 @@
  | Tree, DP | Unique Binary Search Trees | [LeetCode](https://leetcode.com/problems/unique-binary-search-trees/) | [A](Leetcode/Unique_Binary_Search_Trees.py) | - | :star::star::star: | REMIND : Catalan number |
  | Tree | Construct Binary Tree from Preorder and Inorder Traversal | [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [A](Leetcode/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) | -! | :star::star::star: |   
  | Tree | Count Complete Tree Nodes | [LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/) | [A](Leetcode/Count_Complete_Tree_Nodes.py) | - | :star::star::star: |
- | Tree | Subtree of Another Tree | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/) | [A](Leetcode/Subtree_of_Another_Tree.py) | + | | TODO: Check another solution |
- | Tree | All Nodes Distance K in Binary Tree | [LeetCode](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [A](Leetcode/All_Nodes_Distance_K_in_Binary_Tree.py) | + | | TODO: Check another solution | 
+ | Tree | Subtree of Another Tree | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/) | [A](Leetcode/Subtree_of_Another_Tree.py) | + | |
+ | Tree | All Nodes Distance K in Binary Tree | [LeetCode](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [A](Leetcode/All_Nodes_Distance_K_in_Binary_Tree.py) | + | | 
+ | Tree | Recover Binary Search Tree | [LeetCode](https://leetcode.com/problems/recover-binary-search-tree/) | [A](Leetcode/Recover_Binary_Search_Tree.py) | + | :star: | TODO : Check another solution (Space O(1)) |
+ 
  
 +: Solved within 30 min
 
