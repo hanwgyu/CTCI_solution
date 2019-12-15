@@ -1,7 +1,8 @@
 # Solution1 : DFS
 # Time : O(N), Space: O(N)
 
-# Solution2 : Union-find
+# Solution2 : Union-find. 'a == b'에 해당되는 각 노드들을 일렬(a가 parent)로 연결. 
+# 그 이후, 'a != b'를 체크할때 a의 root와 b의 root가 같으면 False를 리턴.
 # Time : O(N), Space : O(N)
 
 from collections import defaultdict
