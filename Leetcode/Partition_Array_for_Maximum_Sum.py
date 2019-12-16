@@ -1,4 +1,4 @@
-# Solution : DP. 
+# Solution : DP. 각 step에서 마지막 원소까지 1~K개의 인접한 원소중 최대 원소의 총합과 이전 dp를 이용함.
 # Time : O(NK), Space: O(N)
 
 from collections import defaultdict
