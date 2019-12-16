@@ -1,8 +1,6 @@
 # Solution : DP. 각 step에서 마지막 원소까지 1~K개의 인접한 원소중 최대 원소의 총합과 이전 dp를 이용함.
 # Time : O(NK), Space: O(N)
 
-from collections import defaultdict
-
 class Solution:
     def maxSumAfterPartitioning(self, A: List[int], K: int) -> int:
         N = len(A); dp = [0] * (N+1)
