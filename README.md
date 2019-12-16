@@ -20,7 +20,7 @@
 | Linked List  | Intersection Of Two Linked List  | [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [A](Leetcode/Intersection_Of_Two_Linked_List.py ) | - | |
 | Linked List  | Linked List Cycle  | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [A](Leetcode/Linked_List_Cycle.py ) | + | :star::star: |
 | String | Longest Valid Parentheses | [LeetCode](https://leetcode.com/problems/longest-valid-parentheses/) | [A](Leetcode/Longest_Valid_Parentheses.py) | - | :star::star::star: |
-| Array, Stack  | Trapping rain water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) | [A](Leetcode/Trapping_Rain_Water.py) | - | :star::star::star |
+| Array, Stack  | Trapping rain water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) | [A](Leetcode/Trapping_Rain_Water.py) | - | :star::star::star: |
 | Stack  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [A](Leetcode/Valid_Parentheses.py) | + | :star: |
 | Stack  | Basic Calculator | [LeetCode](https://leetcode.com/problems/basic-calculator/) | [A](Leetcode/Basic_Calculator.py) | - | :star: |
 | Stack  | Decode String | [LeetCode](https://leetcode.com/problems/decode-string/) | [A](Leetcode/Decode_String.py ) | + | :star: | <ul><li>- [x] Use array instead of string</li></ul> |
@@ -140,7 +140,7 @@
  | Tree | Diameter of Binary Tree | [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) | [A](Leetcode/Diameter_of_Binary_Tree.py) | + | :star::star: |
  | Graph | Keys and Rooms | [LeetCode](https://leetcode.com/problems/keys-and-rooms/) | [A](Leetcode/Keys_and_Rooms.py) | + | :star::star: | REMIND : basic graph dfs | 
  | Graph | Find the Town Judge | [LeetCode](https://leetcode.com/problems/find-the-town-judge/) | [A](Leetcode/Find_the_Town_Judge.py) | + |
- | Array, DP | Partition Array for Maximum Sum | [LeetCode](https://leetcode.com/problems/partition-array-for-maximum-sum/) | [A](Leetcode/Partition_Array_for_Maximum_Sum.py) | -! | 
+ | Array, DP | Partition Array for Maximum Sum | [LeetCode](https://leetcode.com/problems/partition-array-for-maximum-sum/) | [A](Leetcode/Partition_Array_for_Maximum_Sum.py) | -! | :star::star::star: |
  
  
 +: Solved within 30 min
