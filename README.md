@@ -136,7 +136,7 @@
  | Tree | Count Complete Tree Nodes | [LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/) | [A](Leetcode/Count_Complete_Tree_Nodes.py) | - | :star::star::star: |
  | Tree | Subtree of Another Tree | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/) | [A](Leetcode/Subtree_of_Another_Tree.py) | + | |
  | Tree | All Nodes Distance K in Binary Tree | [LeetCode](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [A](Leetcode/All_Nodes_Distance_K_in_Binary_Tree.py) | + | | 
- | Tree | Recover Binary Search Tree | [LeetCode](https://leetcode.com/problems/recover-binary-search-tree/) | [A](Leetcode/Recover_Binary_Search_Tree.py) | + | :star: | TODO : Check another solution (Space O(1)) |
+ | Tree | Recover Binary Search Tree | [LeetCode](https://leetcode.com/problems/recover-binary-search-tree/) | [A](Leetcode/Recover_Binary_Search_Tree.py) | + | :star::star::star: | REMIND : Morris Inorder Traversal (Space O(1))  |
  | Tree | Diameter of Binary Tree | [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) | [A](Leetcode/Diameter_of_Binary_Tree.py) | + | :star::star: |
  | Graph | Keys and Rooms | [LeetCode](https://leetcode.com/problems/keys-and-rooms/) | [A](Leetcode/Keys_and_Rooms.py) | + | :star::star: | REMIND : basic graph dfs | 
  | Graph | Find the Town Judge | [LeetCode](https://leetcode.com/problems/find-the-town-judge/) | [A](Leetcode/Find_the_Town_Judge.py) | + |
