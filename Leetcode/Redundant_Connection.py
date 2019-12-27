@@ -1,7 +1,8 @@
 # Solution 1 : Union-find. 같은 집합에 속한 edge가 나오면 해당 edge를 리턴.
-# Time : O(N), Space: O(N)
+# Time : O(N^2), Space: O(N)
 
 # Solution 2 : Optimized Union-find. 
+# Time : O(N), Space: O(N)
 
 class Solution:
     def findRedundantConnection_2(self, edges: List[List[int]]) -> List[int]:
