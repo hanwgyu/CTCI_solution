@@ -26,8 +26,7 @@ class Solution:
         d = {i : i for i in range(len(edges)+1)}
         depth = {i : 0 for i in range(len(edges)+1)}
         for e in edges:
-            u0, u1 = find(e[0]), find(e[1])
-            if not union(u0, u1):
+            if not union(find(e[0]), find(e[1])):
                 return e
         return None
     
