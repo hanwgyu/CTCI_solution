@@ -143,8 +143,8 @@
  | Array, DP | Partition Array for Maximum Sum | [LeetCode](https://leetcode.com/problems/partition-array-for-maximum-sum/) | [A](Leetcode/Partition_Array_for_Maximum_Sum.py) | -! | :star::star::star: |
  | Graph | Redundant Connection | [LeetCode](https://leetcode.com/problems/redundant-connection/) | [A](Leetcode/Redundant_Connection.py) | + | :star::star::star: | Optimized Union-Find |  
  | Graph | Couples Holding Hands | [LeetCode](https://leetcode.com/problems/couples-holding-hands/) | [A](Leetcode/Couples_Holding_Hands.py) | -- | :star::star::star: | 
- | Grpah | Regions Cut By Slashes | [LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/) | | | | TODO: Solve |
- 
+ | Graph | Regions Cut By Slashes | [LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/) | | | | TODO: Solve |
+ | Array | Rotting Oranges | [LeetCode](https://leetcode.com/problems/rotting-oranges/) | [A](Leetcode/Rotting_Oranges.py) | + | 
  
 +: Solved within 30 min
 
