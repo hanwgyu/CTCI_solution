@@ -146,6 +146,8 @@
  | Graph | Regions Cut By Slashes | [LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/) | | | | TODO: Solve |
  | Array | Rotting Oranges | [LeetCode](https://leetcode.com/problems/rotting-oranges/) | [A](Leetcode/Rotting_Oranges.py) | + | 
  | Array | Merge Sorted Array | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) | [A](Leetcode/Merge_Sorted_Array.py) | + | 
+ | Array | Next Permutation | [LeetCode](https://leetcode.com/problems/next-permutation/) | [A](Leetcode/Next_Permutation.py) | - | :star::star::star: | 
+ 
  
 +: Solved within 30 min
 
