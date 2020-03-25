@@ -1,3 +1,6 @@
+# Solution : 뒤에서부터 넣음.
+# Time : O(M+N), Space : O(1)
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
