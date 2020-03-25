@@ -145,6 +145,7 @@
  | Graph | Couples Holding Hands | [LeetCode](https://leetcode.com/problems/couples-holding-hands/) | [A](Leetcode/Couples_Holding_Hands.py) | -- | :star::star::star: | 
  | Graph | Regions Cut By Slashes | [LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/) | | | | TODO: Solve |
  | Array | Rotting Oranges | [LeetCode](https://leetcode.com/problems/rotting-oranges/) | [A](Leetcode/Rotting_Oranges.py) | + | 
+ | Array | Merge Sorted Array | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) | [A](Leetcode/Merge_Sorted_Array.py) | + | 
  
 +: Solved within 30 min
 
