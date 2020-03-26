@@ -1,4 +1,4 @@
-# Solution 1 : Time : O(N), Space : O(1)
+# Solution 1 : Time : O(l1+l2), Space : O(1)
 
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
