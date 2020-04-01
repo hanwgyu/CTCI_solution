@@ -1,7 +1,23 @@
-# Solution : DP. Time: O(MN), Space: O(MN).
+# Solution 1: DP. Time: O(MN), Space: O(MN).
+
+# Solution 2: DP with less memory. Time: O(MN), Space: O(N).
 
 class Solution:
-    def minPathSum(self, grid: List[List[int]]) -> int:
+    def minPathSum_2(self, grid: List[List[int]]) -> int:
+        num_row, num_col = len(grid), len(grid[0])
+        dp = []
+        s = 0
+        for j in range(num_col):
+            s += grid[0][j]
+            dp.append(s)
+        for i in range(1,num_row):
+            pre = dp[0]
+            for j in range(num_col):
+                dp[j] = min(dp[j], pre) + grid[i][j]
+                pre = dp[j]
+        return dp[num_col-1]
+    
+    def minPathSum_1(self, grid: List[List[int]]) -> int:
         num_row, num_col = len(grid), len(grid[0])
         dp = [[float('inf') for _ in range(num_col)] for _ in range(num_row)]
         dp[0][0] = grid[0][0]
