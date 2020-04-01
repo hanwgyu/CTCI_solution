@@ -1,8 +1,21 @@
-# Solution : DP.
+# Solution 1: DP.
 # Time : O(N), Space : O(N)
 
+# Solution 2 : DP with less memory
+# Time : O(N), Space : O(1)
+
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob_2(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        pre, cur = 0, 0
+        for n in nums:
+            tmp = cur
+            cur = max(pre+n, cur)
+            pre = tmp        
+        return cur
+    
+    def rob_1(self, nums: List[int]) -> int:
         if not nums:
             return 0
         N = len(nums)
