@@ -149,7 +149,7 @@
  | Array | Next Permutation | [LeetCode](https://leetcode.com/problems/next-permutation/) | [A](Leetcode/Next_Permutation.py) | - | :star::star::star: | 
  | String | Permutation in String | [LeetCode](https://leetcode.com/problems/permutation-in-string/) | [A](Leetcode/Permutation_in_String.py) | + |
  | DP, Backtracking | Longest Palindromic Subsequence | [LeetCode](https://leetcode.com/problems/longest-palindromic-subsequence/) | [A](Leetcode/Longest_Palindromic_Subsequence.py) | - | :star::star::star: | REMIND: Basic DP, Backtracking problem | 
- | Backtracking | Partition to K Equal Sum Subsets | [LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [A](Partition_to_K_Equal_Sum_Subsets.py) | -! | :star::star::star: |
+ | Backtracking | Partition to K Equal Sum Subsets | [LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [A](Leetcode/Partition_to_K_Equal_Sum_Subsets.py) | -! | :star::star::star: |
  
 +: Solved within 30 min
 
