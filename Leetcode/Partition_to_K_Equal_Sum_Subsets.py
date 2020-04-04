@@ -4,7 +4,7 @@
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
         def partition(nums: List[int], visited: List[bool], k: int, target: int, cur: int, index: int) -> bool:
-            if k == 0:
+            if k == 1:
                 return True
             if cur == target:
                 return partition(nums, visited, k-1, target, 0, 0)
@@ -15,7 +15,7 @@ class Solution:
                         return True
                     visited[i] = False
             return False
+        if sum(nums) % k != 0:
+            return False
         visited = [False] * len(nums)
-        return partition(nums, visited, k, sum(nums) / k, 0, 0)
-        
-        
+        return partition(nums, visited, k, sum(nums) // k, 0, 0)
