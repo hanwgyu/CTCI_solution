@@ -153,7 +153,7 @@
  | DFS | Flood Fill | [LeetCode](https://leetcode.com/problems/flood-fill/) | [A](Leetcode/Flood_Fill.py) | + | 
  | DFS | Permutation | [LeetCode](https://leetcode.com/problems/permutations/) | [A](Leetcode/Permutation.py) | + | :star::star: | TODO: Check other solutions | 
  | DFS | Number of Islands | [LeetCode](https://leetcode.com/problems/number-of-islands/submissions/) | [A](Leetcode/Number_of_Islands.py) | -! | :star::star: | REMIND: basic but smart dfs solution |
- 
+ | DFS | Word Search | [LeetCode](https://leetcode.com/problems/word-search/) | [A](Leetcode/Word_Search.py) | + | :star::star: | 
  
 +: Solved within 30 min
 
