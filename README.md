@@ -154,6 +154,8 @@
  | DFS | Permutation | [LeetCode](https://leetcode.com/problems/permutations/) | [A](Leetcode/Permutation.py) | + | :star::star: | TODO: Check other solutions | 
  | DFS | Number of Islands | [LeetCode](https://leetcode.com/problems/number-of-islands/submissions/) | [A](Leetcode/Number_of_Islands.py) | -! | :star::star: | REMIND: basic but smart dfs solution |
  | DFS | Word Search | [LeetCode](https://leetcode.com/problems/word-search/) | [A](Leetcode/Word_Search.py) | + | :star::star: | 
+ | Stack | Remove All Adjacent Duplicates In String | [LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [A](Leetcode/Remove_All_Adjacent_Duplicates_In_String.py) | + |
+ 
  
 +: Solved within 30 min
 
