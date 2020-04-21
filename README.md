@@ -92,7 +92,7 @@
 | Array, DP | Coin Change | [LeetCode](https://leetcode.com/problems/coin-change/) | [A](Leetcode/Coin_Change.py) | + | 
 | String, DP | Regular Expression Matching | [LeetCode](https://leetcode.com/problems/regular-expression-matching/) | [A](Leetcode/Regular_Expression_Matching.py) | -- | :star: | TODO: Clean the code | 
 | String | Decode Ways | [LeetCode](https://leetcode.com/problems/decode-ways/) | [A](Leetcode/Decode_Ways.py) | + | 
-| DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | | | :star::star::star: | TODO: Add solution |
+| DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | [A](Leetcode/Cherry_Pickup.py) | -! | :star::star::star: | REMIND:Good DP problem. TODO:Add better solution |
 | Math | Ugly Number II | [LeetCode](https://leetcode.com/problems/ugly-number-ii/) | | | | TODO: Solve | 
 | Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star::star: |
  | Sort | Merge Intervals | [LeetCode](https://leetcode.com/problems/merge-intervals/) | [A](Leetcode/Merge_Intervals.py) | - | :star::star: |
