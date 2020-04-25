@@ -156,6 +156,8 @@
  | DFS | Word Search | [LeetCode](https://leetcode.com/problems/word-search/) | [A](Leetcode/Word_Search.py) | + | :star::star: | 
  | Stack | Remove All Adjacent Duplicates In String | [LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [A](Leetcode/Remove_All_Adjacent_Duplicates_In_String.py) | + | 
  | Stack | Minimum Remove to Make Valid Parentheses | [LeetCode](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [A](Leetcode/Minimum_Remove_to_Make_Valid_Parentheses.py) | + | :star::star: | 
+ | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/Shortest_Subarray_with_Sum_at_Least_K.py) | -! | :star::star::star: | 
+ 
  
 +: Solved within 30 min
 
