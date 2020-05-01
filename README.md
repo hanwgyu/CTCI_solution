@@ -159,6 +159,8 @@
  | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/Shortest_Subarray_with_Sum_at_Least_K.py) | -! | :star::star::star: | 
  | Linked List | Remove Duplicates from Sorted List | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [A](Leetcode/Remove_Duplicates_from_Sorted_List.py) | + |
  | Linked List | Reorder List | [LeetCode](https://leetcode.com/problems/reorder-list/) | [A](Leetcode/Reorder_List.py) | - | :star::star::star: | 
+ | Linked List | Flatten a Multilevel Doubly Linked List | [LeetCode](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [A](Leetcode/Flatten_a_Multilevel_Doubly_Linked_List.py) | + | :star::star: | 
+ 
  
 +: Solved within 30 min
 
