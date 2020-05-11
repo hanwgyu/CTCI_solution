@@ -160,7 +160,7 @@
  | Linked List | Remove Duplicates from Sorted List | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [A](Leetcode/Remove_Duplicates_from_Sorted_List.py) | + |
  | Linked List | Reorder List | [LeetCode](https://leetcode.com/problems/reorder-list/) | [A](Leetcode/Reorder_List.py) | - | :star::star::star: | 
  | Linked List | Flatten a Multilevel Doubly Linked List | [LeetCode](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [A](Leetcode/Flatten_a_Multilevel_Doubly_Linked_List.py) | + | :star::star: | 
- 
+ | Linked List | Convert Sorted List to Binary Search Tree | [LeetCode](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [A](Leetcode/Convert_Sorted_List_to_Binary_Search_Tree.py) | + | :star::star: | 
  
 +: Solved within 30 min
 
