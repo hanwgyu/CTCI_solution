@@ -20,14 +20,11 @@ class Solution:
             if not node:
                 return
             curr_sum = prev_sum + node.val
-            # root에서부터의 sum들과의 차이가 목표값과 동일하면 갯수를 추가함.
             self.ret += d[curr_sum - sum]
-            # current sum값을 업데이트함
             d[curr_sum] += 1
             dfs(node.left, curr_sum)
             dfs(node.right, curr_sum)
-            d[curr_sum] -= 1
-            
+            d[curr_sum] -= 1      
         self.ret = 0
         d = defaultdict(int)
         d[0] = 1
