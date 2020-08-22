@@ -1,7 +1,7 @@
 # Time : O(1) (For all functions), Space : O(N)
 
-class MyCircularQueue:
 
+class MyCircularQueue:
     def __init__(self, k: int):
         """
         Initialize your data structure here. Set the size of the queue to be k.
@@ -12,16 +12,14 @@ class MyCircularQueue:
         self.front = 0
 
     def rearIndex(self) -> int:
-        return (self.front+self.size-1)%self.maxlen
- 
-       
+        return (self.front + self.size - 1) % self.maxlen
+
     def enQueue(self, value: int) -> bool:
         if self.isFull():
             return False
-        self.q[(self.rearIndex()+1)%self.maxlen] = value
+        self.q[(self.rearIndex() + 1) % self.maxlen] = value
         self.size += 1
         return True
-        
 
     def deQueue(self) -> bool:
         if self.isEmpty():
@@ -29,7 +27,6 @@ class MyCircularQueue:
         self.size -= 1
         self.front = (self.front + 1) % self.maxlen
         return True
-        
 
     def Front(self) -> int:
         if self.isEmpty():

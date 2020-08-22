@@ -1,6 +1,7 @@
 # Solution : use stack
 # Time : O(N), Space : O(N)
 
+
 class Solution:
     def removeDuplicates(self, S: str) -> str:
         st = []
@@ -9,4 +10,4 @@ class Solution:
                 st.pop()
                 continue
             st.append(s)
-        return ''.join(st)
+        return "".join(st)

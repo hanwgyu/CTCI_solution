@@ -1,4 +1,4 @@
-#MergeSort 구현.
+# MergeSort 구현.
 # Time : O(NlogN), Space : O(1)
 
 # Definition for singly-linked list.
@@ -7,22 +7,23 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         def mergeSort(front: ListNode, n: int):
             if n == 1:
                 return front
             mid = front
-            for _ in range(n//2-1): 
+            for _ in range(n // 2 - 1):
                 mid = mid.next
             # 두 리스트를 분리.
             temp = mid.next
             mid.next = None
             mid = temp
-            
-            node1 = mergeSort(front, n//2)
-            node2 = mergeSort(mid, n - n//2)
-            
+
+            node1 = mergeSort(front, n // 2)
+            node2 = mergeSort(mid, n - n // 2)
+
             head = ListNode(0)
             cur = head
             while node1 and node2:
@@ -38,11 +39,11 @@ class Solution:
                 cur.next, node2 = node2, node2.next
                 cur = cur.next
             return head.next
-            
+
         if not head:
             return None
         node, n = head, 0
         while node:
-            node, n = node.next, n+1
-    
+            node, n = node.next, n + 1
+
         return mergeSort(head, n)

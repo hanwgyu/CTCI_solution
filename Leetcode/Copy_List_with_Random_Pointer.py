@@ -1,4 +1,4 @@
-# Solution : 1) Copy node from head to tail. Set 'random' of new copy node as 'random' of origin node. Then set 'random' of origin node as new copy node.   
+# Solution : 1) Copy node from head to tail. Set 'random' of new copy node as 'random' of origin node. Then set 'random' of origin node as new copy node.
 # 2) Change 'random' of copy node as 'random' of origin node in same index
 # Time : O(N), Space : O(N)
 
@@ -10,6 +10,8 @@ class Node(object):
         self.next = next
         self.random = random
 """
+
+
 class Solution(object):
     def copyRandomList(self, head):
         copy = dummy = Node(0, None, None)
@@ -21,6 +23,6 @@ class Solution(object):
         copy = dummy
         while copy:
             if copy.random:
-                copy.random = copy.random.random        
+                copy.random = copy.random.random
             copy = copy.next
         return dummy.next

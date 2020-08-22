@@ -14,6 +14,7 @@
 import copy
 from collections import defaultdict
 
+
 class Solution:
     def pathSum_2(self, root: TreeNode, sum: int) -> int:
         def dfs(node: TreeNode, prev_sum: int):
@@ -24,14 +25,14 @@ class Solution:
             d[curr_sum] += 1
             dfs(node.left, curr_sum)
             dfs(node.right, curr_sum)
-            d[curr_sum] -= 1      
+            d[curr_sum] -= 1
+
         self.ret = 0
         d = defaultdict(int)
         d[0] = 1
         dfs(root, 0)
-        return self.ret 
-    
-    
+        return self.ret
+
     def pathSum_1(self, root: TreeNode, sum: int) -> int:
         def dfs(prev_sums: List[int], node: TreeNode):
             if not node:
@@ -45,6 +46,7 @@ class Solution:
                 self.ret += 1
             dfs(copy.deepcopy(prev_sums), node.left)
             dfs(prev_sums, node.right)
+
         self.ret = 0
         dfs([], root)
-        return self.ret 
+        return self.ret

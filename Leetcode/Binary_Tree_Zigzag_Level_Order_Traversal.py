@@ -15,16 +15,16 @@ class Solution(object):
                 node = src.pop()
                 ans.append(node.val)
                 if left_to_right and node.left:
-                    dest.append(node.left)    
+                    dest.append(node.left)
                 if node.right:
                     dest.append(node.right)
                 if not left_to_right and node.left:
                     dest.append(node.left)
             return ans
-        
+
         if not root:
             return None
-    
+
         stack_ltor, stack_rtol, ans = [root], [], []
         while stack_ltor or stack_rtol:
             a = []
@@ -36,4 +36,3 @@ class Solution(object):
                 ans.append(a)
 
         return ans
-        

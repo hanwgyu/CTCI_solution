@@ -10,6 +10,7 @@
 
 from collections import deque
 
+
 class Codec:
     def serialize(self, root):
         """Encodes a tree to a single string.
@@ -17,27 +18,29 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
+
         def preOrder(node):
             if not node:
                 return
             data.append(str(node.val))
             preOrder(node.left)
             preOrder(node.right)
+
         data = []
         preOrder(root)
-        return '!'.join(data)
-                    
+        return "!".join(data)
+
     def deserialize(self, data):
         def preOrder(minVal, maxVal):
             if not vals or vals[0] <= minVal or maxVal <= vals[0]:
                 return
             val = vals.popleft()
-            node = TreeNode(val)    
+            node = TreeNode(val)
             node.left = preOrder(minVal, val)
             node.right = preOrder(val, maxVal)
             return node
+
         if not data:
             return None
-        vals = deque(int(val) for val in data.split('!'))
-        return preOrder(float('-inf'), float('inf'))
-   
+        vals = deque(int(val) for val in data.split("!"))
+        return preOrder(float("-inf"), float("inf"))

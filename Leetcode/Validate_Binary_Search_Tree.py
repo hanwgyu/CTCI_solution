@@ -8,6 +8,7 @@
 # Solution : Check with in-order traversal. If current value becomes smaller than previous value, then return False.
 # Time : O(N), Space : O(Height)
 
+
 class Solution(object):
     def isValidBST(self, root):
         def inOrder(node):
@@ -22,6 +23,6 @@ class Solution(object):
             if not inOrder(node.right):
                 return False
             return True
-        val = float('-inf')
+
+        val = float("-inf")
         return inOrder(root)
-        

@@ -1,10 +1,11 @@
 # Time : O(log10(x)), Space : O(1)
 
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        if x < 0 or (x%10 == 0 and x > 0):
+        if x < 0 or (x % 10 == 0 and x > 0):
             return False
         half_rev = 0
         while x > half_rev:
-            half_rev, x = half_rev*10 + x%10, x//10
-        return half_rev == x or half_rev//10 == x
+            half_rev, x = half_rev * 10 + x % 10, x // 10
+        return half_rev == x or half_rev // 10 == x

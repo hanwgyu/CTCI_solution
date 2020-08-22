@@ -2,6 +2,7 @@
 # Time : O(N), Space : O(H)
 # 'Minimum Height Trees' 문제의 쉬운 버전.
 
+
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         def maxLength(node: TreeNode) -> None:
@@ -10,8 +11,9 @@ class Solution:
                 return 0
             l = maxLength(node.left)
             r = maxLength(node.right)
-            ans = max(ans, l+r)
-            return max(l,r)+1   
+            ans = max(ans, l + r)
+            return max(l, r) + 1
+
         ans = 0
         maxLength(root)
         return ans

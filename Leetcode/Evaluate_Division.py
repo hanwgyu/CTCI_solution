@@ -4,22 +4,33 @@
 
 from collections import defaultdict
 
+
 class Solution:
-    def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+    def calcEquation(
+        self,
+        equations: List[List[str]],
+        values: List[float],
+        queries: List[List[str]],
+    ) -> List[float]:
         vals = defaultdict(lambda: defaultdict(lambda: -1.0))
         for (src, dst), val in zip(equations, values):
             vals[src][src] = vals[dst][dst] = 1.0
             vals[src][dst] = val
             vals[dst][src] = 1.0 / val
-        
+
         for mid in vals.keys():
             for src in vals[mid]:
                 for dst in vals[mid]:
                     vals[src][dst] = vals[src][mid] * vals[mid][dst]
-                        
+
         return [vals[query[0]][query[1]] for query in queries]
-                        
-    def calcEquation_2(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+
+    def calcEquation_2(
+        self,
+        equations: List[List[str]],
+        values: List[float],
+        queries: List[List[str]],
+    ) -> List[float]:
         vals = defaultdict(lambda: defaultdict(lambda: -1.0))
         inputs = defaultdict()
         for i in range(len(equations)):
@@ -28,7 +39,7 @@ class Solution:
             vals[dst][src] = 1.0 / val
             inputs[src] = True
             inputs[dst] = True
-        
+
         for src in inputs.keys():
             for dst in inputs.keys():
                 if src == dst:
@@ -37,11 +48,14 @@ class Solution:
                 elif src in vals and dst in vals[src]:
                     continue
                 for mid in inputs.keys():
-                    if src in vals and mid in vals[src] and mid in vals and dst in vals[mid]:
+                    if (
+                        src in vals
+                        and mid in vals[src]
+                        and mid in vals
+                        and dst in vals[mid]
+                    ):
                         res = vals[src][mid] * vals[mid][dst]
                         vals[src][dst] = res
                         break
-                        
+
         return [vals[query[0]][query[1]] for query in queries]
-                        
-        

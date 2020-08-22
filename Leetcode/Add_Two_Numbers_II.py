@@ -7,6 +7,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         def expandListFront(node: ListNode, length: int, val: int) -> ListNode:
@@ -22,17 +23,19 @@ class Solution:
             if cur1.next and cur2.next:
                 carry = addCurrentNode(cur1.next, cur2.next)
             s = cur1.val + cur2.val + carry
-            cur1.val = s%10
-            return s//10
-        
+            cur1.val = s % 10
+            return s // 10
+
         n1, cur1, n2, cur2 = 0, l1, 0, l2
-        while cur1: cur1, n1 = cur1.next, n1+1
-        while cur2: cur2, n2 = cur2.next, n2+1
+        while cur1:
+            cur1, n1 = cur1.next, n1 + 1
+        while cur2:
+            cur2, n2 = cur2.next, n2 + 1
         if n1 < n2:
-            l1 = expandListFront(l1, n2-n1, 0)
+            l1 = expandListFront(l1, n2 - n1, 0)
         else:
-            l2 = expandListFront(l2, n1-n2, 0)
-        
+            l2 = expandListFront(l2, n1 - n2, 0)
+
         carry = addCurrentNode(l1, l2)
         if carry == 1:
             l1 = expandListFront(l1, 1, 1)

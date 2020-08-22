@@ -1,9 +1,9 @@
-#Time complexity : O(N), Space complexity : O(N)
+# Time complexity : O(N), Space complexity : O(N)
 class Solution(object):
     def isValid_2(self, s: str) -> bool:
         st = []
-        d = {'{':'}', '[':']', '(':')'}
-        
+        d = {"{": "}", "[": "]", "(": ")"}
+
         for c in s:
             if c in d.keys():
                 st.append(c)
@@ -11,31 +11,31 @@ class Solution(object):
                 if not st or d[st.pop()] != c:
                     return False
         return not st
-    
+
     def isValid_1(self, s):
-        #Solution : Use stack 
-        
-        #Constants
+        # Solution : Use stack
+
+        # Constants
         ROUND, CURLY, SQUARE = 1, 2, 3
-        
+
         stack = []
         for i in range(len(s)):
-            # If left-side 
-            if s[i] == '(':
+            # If left-side
+            if s[i] == "(":
                 stack.append(ROUND)
-            elif s[i] == '{':
+            elif s[i] == "{":
                 stack.append(CURLY)
-            elif s[i] == '[':
+            elif s[i] == "[":
                 stack.append(SQUARE)
-            #If right-side
+            # If right-side
             elif not stack:
                 return False
-            elif s[i] == ')' and stack.pop() != ROUND:
+            elif s[i] == ")" and stack.pop() != ROUND:
                 return False
-            elif s[i] == '}' and stack.pop() != CURLY:
+            elif s[i] == "}" and stack.pop() != CURLY:
                 return False
-            elif s[i] == ']' and stack.pop() != SQUARE:
+            elif s[i] == "]" and stack.pop() != SQUARE:
                 return False
         if stack:
-            return False 
+            return False
         return True

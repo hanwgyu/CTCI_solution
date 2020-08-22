@@ -1,6 +1,7 @@
 # Solution : stack에 원소를 저장하면서 마이너스값을 가진 운석은 스택내의 플러스값 운석과 싸워서 저장여부를 결정.
 # Time : O(N), Space : O(N)
 
+
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         stack = []

@@ -1,5 +1,5 @@
-#Time Complexity : O(n)
-#Solution : Count가 n이 넘어갔을때 부터 새로운 Pointer를 head에서 움직이기 시작해, 타겟 노드를 찾아 제거
+# Time Complexity : O(n)
+# Solution : Count가 n이 넘어갔을때 부터 새로운 Pointer를 head에서 움직이기 시작해, 타겟 노드를 찾아 제거
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         if not head:

@@ -3,9 +3,17 @@
 # Solution 1 : Topological sort by Indegree . Time : O(|V|+|E|), Space : O(|V|+|E|)
 
 from collections import defaultdict, deque
+
+
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        ready, adj_list, indegree = deque(), defaultdict(list), defaultdict(int)
+    def canFinish(
+        self, numCourses: int, prerequisites: List[List[int]]
+    ) -> bool:
+        ready, adj_list, indegree = (
+            deque(),
+            defaultdict(list),
+            defaultdict(int),
+        )
         output = 0
         for e in prerequisites:
             adj_list[e[1]].append(e[0])
@@ -19,7 +27,7 @@ class Solution:
             for n in adj_list[node]:
                 indegree[n] -= 1
                 if indegree[n] == 0:
-                    ready.append(n)     
+                    ready.append(n)
         if output == numCourses:
             return True
         return False

@@ -4,6 +4,7 @@
 # Stack에서 빼고 새로운 값을 추가할때 i값을 stack에 있던 값들을 고려해 설정.
 # Time : O(N), Space : O(N)
 
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         s, ans = [], 0

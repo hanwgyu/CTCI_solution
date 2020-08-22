@@ -4,21 +4,26 @@
 # Solution 3 : 구현패스. Leetcode solution참고. 대각선과 각 col에 queen이 위치하는지를 Bool로 저장해 isPossible시 검색 비용을 O(1)로 만듬. O(N!) / O(N)
 
 from collections import deque
+
+
 class Solution:
     def solveNQueens_2(self, n: int) -> List[List[str]]:
         def isPossible(cur_row: int) -> bool:
             for row in range(cur_row):
-                if abs(cols[cur_row]-cols[row]) == abs(cur_row-row) or cols[cur_row] == cols[row]:
+                if (
+                    abs(cols[cur_row] - cols[row]) == abs(cur_row - row)
+                    or cols[cur_row] == cols[row]
+                ):
                     return False
             return True
-        
+
         def addSolution():
             tmp = []
             for row in range(n):
                 col = cols[row]
-                tmp.append("."*col + "Q" + "."*(n-1-col))
+                tmp.append("." * col + "Q" + "." * (n - 1 - col))
             ans.append(tmp)
-        
+
         def findAllCases(cur_row: int):
             if cur_row == n:
                 addSolution()
@@ -26,30 +31,42 @@ class Solution:
             for col in range(n):
                 cols[cur_row] = col
                 if isPossible(cur_row):
-                    findAllCases(cur_row+1)            
+                    findAllCases(cur_row + 1)
+
         cols, ans = [0] * n, []
         findAllCases(0)
         return ans
-  
-#############################################################################################    
+
+    #############################################################################################
     def solveNQueens_1(self, n: int) -> List[List[str]]:
         def isPossible(cols: List[int], cur_row: int, cur_col: int) -> bool:
             for row, col in enumerate(cols):
-                if cur_row == row or cur_col == col or cur_row-cur_col == row-col or cur_row+cur_col == row+col:
+                if (
+                    cur_row == row
+                    or cur_col == col
+                    or cur_row - cur_col == row - col
+                    or cur_row + cur_col == row + col
+                ):
                     return False
-            return True    
-        def findAllCases(cols: List[int], cur_row: int, n: int) -> List[List[str]]:
+            return True
+
+        def findAllCases(
+            cols: List[int], cur_row: int, n: int
+        ) -> List[List[str]]:
             if cur_row == n:
                 return None
             ret = deque()
             for col in range(n):
                 if isPossible(cols, cur_row, col):
-                    if cur_row == n-1:
-                        ret.append(deque(["."*col + "Q" + "."*(n-1-col)]))
-                    tmp = findAllCases(cols+[col], cur_row+1, n)
+                    if cur_row == n - 1:
+                        ret.append(
+                            deque(["." * col + "Q" + "." * (n - 1 - col)])
+                        )
+                    tmp = findAllCases(cols + [col], cur_row + 1, n)
                     if tmp:
                         for e in tmp:
-                            e.appendleft("."*col + "Q" + "."*(n-1-col))
+                            e.appendleft("." * col + "Q" + "." * (n - 1 - col))
                             ret.append(e)
             return ret
+
         return findAllCases([], 0, n)

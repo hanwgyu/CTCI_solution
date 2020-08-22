@@ -4,32 +4,32 @@
 # Solution 2 : DP. 공간복잡도 줄임.
 # Time : O(L^2), Space : O(L)
 
+
 class Solution:
     def countSubstrings_2(self, s: str) -> int:
         L, ans = len(s), 0
-        dp1 = [True for _ in range(L+1)]
-        dp2 = [True for _ in range(L+1)]
+        dp1 = [True for _ in range(L + 1)]
+        dp2 = [True for _ in range(L + 1)]
         ans += L
-        
-        for l in range(L-1):
-            for i in range(1, L-l):
-                if dp1[i] and s[i-1] == s[i+l]:
-                    dp1[i-1], ans = True, ans+1
+
+        for l in range(L - 1):
+            for i in range(1, L - l):
+                if dp1[i] and s[i - 1] == s[i + l]:
+                    dp1[i - 1], ans = True, ans + 1
                 else:
-                    dp1[i-1] = False
+                    dp1[i - 1] = False
             dp1, dp2 = dp2, dp1
         return ans
-    
-    
+
     def countSubstrings_1(self, s: str) -> int:
         L, ans = len(s), 0
-        dp = [[False for _ in range(L+1)] for _ in range(L)] 
+        dp = [[False for _ in range(L + 1)] for _ in range(L)]
         for i in range(L):
-            dp[i][i], dp[i][i+1] = True, True
+            dp[i][i], dp[i][i + 1] = True, True
             ans += 1
-        
-        for l in range(L-1):
-            for i in range(1, L-l):
-                if dp[i][i+l] and s[i-1] == s[i+l]:
-                    dp[i-1][i+l+1], ans = True, ans+1
+
+        for l in range(L - 1):
+            for i in range(1, L - l):
+                if dp[i][i + l] and s[i - 1] == s[i + l]:
+                    dp[i - 1][i + l + 1], ans = True, ans + 1
         return ans

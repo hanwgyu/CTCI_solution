@@ -1,5 +1,6 @@
-#1-1
+# 1-1
 import unittest
+
 
 def unique(string):
     # ASCII (128 characters)
@@ -17,9 +18,10 @@ def unique(string):
 
     return True
 
+
 class Test(unittest.TestCase):
-    dataT = [('abcd'), ('s4fad'), ('')]
-    dataF = [('23ds2'), ('hb 627jh=j ()')]
+    dataT = [("abcd"), ("s4fad"), ("")]
+    dataF = [("23ds2"), ("hb 627jh=j ()")]
 
     def test_unique(self):
         # true check
@@ -30,6 +32,7 @@ class Test(unittest.TestCase):
         for test_string in self.dataF:
             actual = unique(test_string)
             self.assertFalse(actual)
+
 
 if __name__ == "__main__":
     unittest.main()

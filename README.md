@@ -163,6 +163,7 @@
  | Linked List | Convert Sorted List to Binary Search Tree | [LeetCode](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [A](Leetcode/Convert_Sorted_List_to_Binary_Search_Tree.py) | + | :star::star: | 
  | Tree |  Maximum Width of Binary Tree | [LeetCode](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [A](Leetcode/Maximum_Width_of_Binary_Tree.py) | + |
  | Tree | Path Sum III | [LeetCode](https://leetcode.com/problems/path-sum-iii) | [A](Leetcode/Path_Sum_III.py) | - |
+ | Array | Numbers With Same Consecutive Differences | [LeetCode](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [A](Leetcode/Numbers_With_Same_Consecutive_Differences.py) | + |
  
 +: Solved within 30 min
 

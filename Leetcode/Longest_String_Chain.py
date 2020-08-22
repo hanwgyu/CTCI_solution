@@ -1,6 +1,7 @@
 # DP. 각 idx의 원소가 포함된 solution의 최대 원소 갯수를 저장.
 # Time : O(NlogN), Space : O(N)
 
+
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
         def checkPredecessor(predecessor: str, target: str) -> bool:
@@ -17,7 +18,7 @@ class Solution:
                 else:
                     j += 1
             return True
-        
+
         words.sort(key=len)
         N = len(words)
         dp = [0] * N

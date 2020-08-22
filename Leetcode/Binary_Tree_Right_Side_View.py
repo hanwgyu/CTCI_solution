@@ -8,6 +8,7 @@
 # Solution : Use pre-order. Save node.val to ans[Height] at every node.
 # Time: O(N), Space : O(Height)
 
+
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         def preOrder(node: TreeNode, height: int):
@@ -19,7 +20,7 @@ class Solution:
                 ans[height] = node.val
             preOrder(node.left, height + 1)
             preOrder(node.right, height + 1)
-            
+
         ans = []
         preOrder(root, 0)
         return ans

@@ -8,6 +8,7 @@
 # pre_idx를 global하게 관리해, 현재 Tree의 root를 쉽게 찾을 수 있게함.
 # Time : O(N), Space : O(N)
 
+
 class Solution:
     def buildTree_2(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         def preOrder(in_from: int, in_to: int) -> TreeNode:
@@ -18,12 +19,12 @@ class Solution:
             in_idx = d_in[val]
             node = TreeNode(val)
             node.left = preOrder(in_from, in_idx)
-            node.right = preOrder(in_idx+1, in_to)
-            return node  
-        d_in, self.pre_idx = {val:i for i, val in enumerate(inorder)}, 0
+            node.right = preOrder(in_idx + 1, in_to)
+            return node
+
+        d_in, self.pre_idx = {val: i for i, val in enumerate(inorder)}, 0
         return preOrder(0, len(inorder))
-    
-    
+
     def buildTree_1(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         def preOrder(preorder: List[int]) -> TreeNode:
             if not preorder:
@@ -32,13 +33,14 @@ class Solution:
             l, r = [], []
             for i in range(1, len(preorder)):
                 e = preorder[i]
-                if d_in[e] < parent_i: l.append(e)
-                else: r.append(e)
+                if d_in[e] < parent_i:
+                    l.append(e)
+                else:
+                    r.append(e)
             node = TreeNode(val)
             node.left = preOrder(l)
             node.right = preOrder(r)
             return node
-        d_in = {val:i for i, val in enumerate(inorder)}
+
+        d_in = {val: i for i, val in enumerate(inorder)}
         return preOrder(preorder)
-        
-        

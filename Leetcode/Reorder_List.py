@@ -7,31 +7,35 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def reorderList(self, head: ListNode) -> None:
         """
         Do not return anything, modify head in-place instead.
         """
+
         def reverseList(head: ListNode) -> ListNode:
-            if not head: return None
+            if not head:
+                return None
             post, cur, pre, = None, head, None
             while cur:
                 post = cur.next
                 cur.next = pre
-                pre, cur = cur, post 
+                pre, cur = cur, post
             return pre
-        
-        if not head: return None
+
+        if not head:
+            return None
         # Find length
         N = 1
         cur = head
         while cur.next:
-            N, cur = N+1, cur.next
+            N, cur = N + 1, cur.next
         # Find Mid and sperate two lists
         cur = head
-        for i in range((N-1)//2):
+        for i in range((N - 1) // 2):
             cur = cur.next
-        rev_head, cur.next = cur.next, None 
+        rev_head, cur.next = cur.next, None
         # reverse second list
         rev_head = reverseList(rev_head)
         # merge two lists
@@ -42,5 +46,3 @@ class Solution:
             rev_cur.next = post
             cur, rev_cur = post, rev_post
         return head
-        
-        

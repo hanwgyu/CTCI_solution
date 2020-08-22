@@ -9,6 +9,8 @@
 #         self.right = right
 
 from collections import defaultdict
+
+
 class Solution:
     def widthOfBinaryTree(self, root: TreeNode) -> int:
         def dfs(node, level, idx):
@@ -16,10 +18,13 @@ class Solution:
                 return
             if level not in self.left_idx:
                 self.left_idx[level] = idx
-                
-            self.max_width = max(self.max_width, idx - self.left_idx[level] + 1)
+
+            self.max_width = max(
+                self.max_width, idx - self.left_idx[level] + 1
+            )
             dfs(node.left, level + 1, 2 * idx)
             dfs(node.right, level + 1, 2 * idx + 1)
+
         self.left_idx = defaultdict(int)
         self.max_width = 0
         dfs(root, 0, 0)

@@ -11,21 +11,27 @@ class Node:
         self.child = child
 """
 
+
 class Solution:
-    def flatten(self, head: 'Node') -> 'Node':
+    def flatten(self, head: "Node") -> "Node":
         def link(node: Node):
-            if not node: return
+            if not node:
+                return
             if self.last_node:
                 self.last_node.next = node
                 self.last_node.child = None
                 node.prev = self.last_node
             self.last_node = node
-        if not head: return
+
+        if not head:
+            return
         self.last_node = None
         st = [head]
         while st:
             node = st.pop()
-            if node.next: st.append(node.next)
-            if node.child: st.append(node.child)
+            if node.next:
+                st.append(node.next)
+            if node.child:
+                st.append(node.child)
             link(node)
         return head

@@ -4,9 +4,16 @@
 
 from collections import defaultdict, deque
 
+
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        ready, adj_list, indegree = deque(), defaultdict(list), defaultdict(int)
+    def findOrder(
+        self, numCourses: int, prerequisites: List[List[int]]
+    ) -> List[int]:
+        ready, adj_list, indegree = (
+            deque(),
+            defaultdict(list),
+            defaultdict(int),
+        )
         output = []
         for e in prerequisites:
             adj_list[e[1]].append(e[0])
@@ -20,7 +27,7 @@ class Solution:
             for n in adj_list[node]:
                 indegree[n] -= 1
                 if indegree[n] == 0:
-                    ready.append(n)     
+                    ready.append(n)
         if len(output) != numCourses:
             return []
         return output

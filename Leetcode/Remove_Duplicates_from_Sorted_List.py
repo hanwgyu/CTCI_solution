@@ -6,6 +6,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         if not head:

@@ -8,6 +8,8 @@
 # https://codedoc.tistory.com/414
 
 from bisect import bisect_left
+
+
 class Solution:
     def lengthOfLIS_2(self, nums: List[int]) -> int:
         a = []
@@ -18,15 +20,14 @@ class Solution:
             else:
                 a[pos] = n
         return len(a)
-    
-    
+
     def lengthOfLIS_1(self, nums: List[int]) -> int:
         if not nums:
             return 0
-        N = len(nums) 
+        N = len(nums)
         dp = [1] * N
         for i in range(1, len(nums)):
-            for j in range(0, i): 
+            for j in range(0, i):
                 if nums[i] > nums[j]:
                     dp[i] = max(dp[i], dp[j] + 1)
         return max(dp)

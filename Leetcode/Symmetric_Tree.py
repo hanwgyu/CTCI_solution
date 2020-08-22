@@ -6,7 +6,8 @@
 #         self.right = None
 
 
-#Time : O(N), Space : O(N)
+# Time : O(N), Space : O(N)
+
 
 class Solution:
     def isSymmetric_1(self, root: TreeNode) -> bool:
@@ -15,10 +16,14 @@ class Solution:
                 return True
             if not node1 or not node2:
                 return False
-            return (node1.val == node2.val) and traverse(node1.left, node2.right) and traverse(node1.right, node2.left)   
-    
+            return (
+                (node1.val == node2.val)
+                and traverse(node1.left, node2.right)
+                and traverse(node1.right, node2.left)
+            )
+
     def isSymmetric_2(self, root: TreeNode) -> bool:
-        def preOrder(node: TreeNode, ltor : bool):
+        def preOrder(node: TreeNode, ltor: bool):
             if not node:
                 if ltor:
                     a_ltor.append(None)
@@ -34,7 +39,7 @@ class Solution:
             preOrder(node.right, ltor)
             if not ltor:
                 preOrder(node.left, ltor)
-        
+
         a_ltor, a_rtol = [], []
         preOrder(root, True)
         preOrder(root, False)

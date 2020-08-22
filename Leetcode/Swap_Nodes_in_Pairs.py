@@ -6,6 +6,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         if not head:
@@ -15,7 +16,11 @@ class Solution:
         before, front, back, head = None, head, head.next, head.next
         while front and back:
             front.next, back.next = back.next, front
-            if before: before.next = back
-            front, back, before = front.next, front.next.next if front.next else None, front
+            if before:
+                before.next = back
+            front, back, before = (
+                front.next,
+                front.next.next if front.next else None,
+                front,
+            )
         return head
-            

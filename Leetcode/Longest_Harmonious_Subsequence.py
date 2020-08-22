@@ -9,8 +9,7 @@ class Solution:
                 d[num] = 1
         ans = 0
         for num in nums:
-            if (num+1) in d:
-                l = d[num] + d[num+1]
+            if (num + 1) in d:
+                l = d[num] + d[num + 1]
                 ans = max(ans, l)
         return ans
-            

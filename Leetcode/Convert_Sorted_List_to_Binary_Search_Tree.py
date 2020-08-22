@@ -19,17 +19,18 @@ class Solution:
         def createBST(i: int) -> TreeNode:
             if i == 0:
                 return None
-            q, r = (i-1)//2, (i-1)%2
-            l = createBST(q+r)
+            q, r = (i - 1) // 2, (i - 1) % 2
+            l = createBST(q + r)
             node = TreeNode(self.cur.val)
             self.cur = self.cur.next
             r = createBST(q)
             node.left, node.right = l, r
             return node
+
         # Get length
         L = 0
         node = head
         while node:
-            L, node = L+1, node.next
+            L, node = L + 1, node.next
         self.cur = head
         return createBST(L)
