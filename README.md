@@ -166,7 +166,8 @@
  | Array | Numbers With Same Consecutive Differences | [LeetCode](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [A](Leetcode/Numbers_With_Same_Consecutive_Differences.py) | + |
  | String | Goat Latin | [LeetCode](https://leetcode.com/problems/goat-latin/) | [A](Leetcode/Goat_Latin.py) | + |
  | Array | Sort Array By Parity | [LeetCode](https://leetcode.com/problems/sort-array-by-parity/) | [A](Leetcode/Sort_Arry_By_Parity.py) | + |
- 
+ | Array | The Maze | [LeetCode](https://leetcode.com/problems/the-maze/) | [A](Leetcode/The_Maze.py) | + |
+
 +: Solved within 30 min
 
 -: Solved over 30 min
