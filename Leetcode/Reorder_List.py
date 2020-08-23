@@ -1,11 +1,13 @@
-# Solution : 절반 이후의 리스트를 Reverse시켜서 앞쪽 리스트와 합침.
+# Solution : 절반 노드로 나누고, 뒤쪽 노드를 reverse한후, 두 노드를 합침.
 # Time : O(N), Space: O(1)
 
 # Definition for singly-linked list.
 # class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+from typing import Tuple
 
 
 class Solution:
@@ -14,35 +16,50 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
-        def reverseList(head: ListNode) -> ListNode:
-            if not head:
-                return None
-            post, cur, pre, = None, head, None
-            while cur:
-                post = cur.next
-                cur.next = pre
-                pre, cur = cur, post
-            return pre
+        def seperateList(head: ListNode) -> Tuple[ListNode, ListNode]:
+            # find length
+            node, l = head, 0
+            while node:
+                node, l = node.next, l + 1
+            # seperate nodes
+            node = head
+            for _ in range(l // 2 - 1):
+                node = node.next
+            mid = node.next
+            node.next = None
+            return (head, mid)
 
-        if not head:
-            return None
-        # Find length
-        N = 1
-        cur = head
-        while cur.next:
-            N, cur = N + 1, cur.next
-        # Find Mid and sperate two lists
-        cur = head
-        for i in range((N - 1) // 2):
-            cur = cur.next
-        rev_head, cur.next = cur.next, None
-        # reverse second list
-        rev_head = reverseList(rev_head)
-        # merge two lists
-        post, cur, rev_post, rev_cur = None, head, None, rev_head
-        while cur and rev_cur:
-            post, rev_post = cur.next, rev_cur.next
-            cur.next = rev_cur
-            rev_cur.next = post
-            cur, rev_cur = post, rev_post
-        return head
+        def reverseList(head: ListNode) -> ListNode:
+            if not head.next:
+                return head
+            cur, last = head, None
+            while cur:
+                tmp = cur.next
+                cur.next = last
+                last = cur
+                cur = tmp
+            return last
+
+        def mergeList(first: ListNode, second: ListNode) -> ListNode:
+            head = ListNode()
+            node = head
+            while first or second:
+                if first:
+                    node.next = first
+                    node = node.next
+                    first = first.next
+                    if not second:
+                        break
+                if second:
+                    node.next = second
+                    node = node.next
+                    second = second.next
+                    if not first:
+                        break
+            return head.next
+
+        if not head or not head.next:
+            return
+        first, second = seperateList(head)
+        second = reverseList(second)
+        return mergeList(first, second)
