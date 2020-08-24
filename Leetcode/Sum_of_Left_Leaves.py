@@ -1,6 +1,7 @@
 # Solution 1 : Time : O(N), Space: O(H)
 
-# Solution 2 : Morris Tree Traversal. 왼쪽으로 내려갔을때 다시 올라오기위해 Stack이나 Recursion을 사용하지 않도록 구현.(메모리 사이즈 줄일 수 있음) 왼쪽 child의 가장 오른쪽 child를 현재 노드의 오른쪽 child와 연결해 traverse가 끝난후에 다시 현재 노드의 오른쪽 child로 이동하도록 구현.
+# Solution 2 : Morris Tree Traversal. 왼쪽으로 내려갔을때 다시 올라오기위해 Stack이나 Recursion을 사용하지 않도록 구현.(메모리 사이즈 줄일 수 있음)
+# 왼쪽 child의 가장 오른쪽 child를 현재 노드의 오른쪽 child와 연결해 traverse가 끝난후에 다시 현재 노드의 오른쪽 child로 이동하도록 구현.
 # Time : O(N), Space: O(1)
 
 # Definition for a binary tree node.
