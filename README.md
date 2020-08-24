@@ -167,6 +167,8 @@
  | String | Goat Latin | [LeetCode](https://leetcode.com/problems/goat-latin/) | [A](Leetcode/Goat_Latin.py) | + |
  | Array | Sort Array By Parity | [LeetCode](https://leetcode.com/problems/sort-array-by-parity/) | [A](Leetcode/Sort_Arry_By_Parity.py) | + |
  | Array | The Maze | [LeetCode](https://leetcode.com/problems/the-maze/) | [A](Leetcode/The_Maze.py) | + |
+ | Tree | Sum of Left Leaves | [LeetCode](https://leetcode.com/problems/sum-of-left-leaves/) | [A](Leetcode/Sum_of_Left_Leaves.py) | + |
+ | String, Stack | Stream of Characters | [LeetCode](https://leetcode.com/problems/stream-of-characters/) | [A](Leetcode/Stream_of_Characters.py) | - | :star::star: | REMIND: Use Trie |
 
 +: Solved within 30 min
 
