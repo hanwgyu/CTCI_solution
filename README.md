@@ -169,6 +169,13 @@
  | Array | The Maze | [LeetCode](https://leetcode.com/problems/the-maze/) | [A](Leetcode/The_Maze.py) | + |
  | Tree | Sum of Left Leaves | [LeetCode](https://leetcode.com/problems/sum-of-left-leaves/) | [A](Leetcode/Sum_of_Left_Leaves.py) | + |
  | String, Stack | Stream of Characters | [LeetCode](https://leetcode.com/problems/stream-of-characters/) | [A](Leetcode/Stream_of_Characters.py) | - | :star::star: | REMIND: Use Trie |
+ | DP, Binary Search | Minimum Cost For Tickets | [LeetCode](https://leetcode.com/problems/minimum-cost-for-tickets) | [A](Leetcode/Minimum_Cost_For_Tickets.py) | - | :star::star::star: |
+ | Array | Fizz Buzz | [LeetCode](https://leetcode.com/problems/fizz-buzz/) | [A](Leetcode/Fizz_Buzz.py) | + | 
+ | Binary Search | Find Right Interval | [LeetCode](https://leetcode.com/problems/find-right-interval/) | [A](Leetcode/Find_Right_Interval.py) | + | :star::star: | 
+ | Graph | Largest Component Size by Common Factor | [LeetCode](https://leetcode.com/problems/largest-component-size-by-common-factor/) | [A](Leetcode/Largest_Component_Size_by_Common_Factor.py) | -! | :star::star::star: | REMIND: Common factors and efficient way of union find |
+ | Tree | Delete Node in a BST | [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/) | [A](Leetcode/Delete_Node_in_a_BST.py) | - | :star::star::star: | REMIND: BST delete node. TODO: A way to moving node not change value  |
+ | Array, Hash | Pancake Sorting | [LeetCode](https://leetcode.com/problems/pancake-sorting/) | [A](Leetcode/Pancake_Sorting.py) | - | :star::star::star: | TODO: efficient way? |
+ | Math | Implement Rand10() Using Rand7() | [LeetCode](https://leetcode.com/problems/implement-rand10-using-rand7/) | [A](Leetcode/Implement_Rand10_Using_Rand7.py) | -! | :star::star::star: | |
 
 +: Solved within 30 min
 
