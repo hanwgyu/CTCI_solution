@@ -1,5 +1,5 @@
 # Solution : 뒤에서부터 한칸씩 sort를 늘려나감.
-# Time : O(N^2) , Space : O(N)
+# Time : O(N) , Space : O(N)
 
 # TODO : 최소 횟수로 Sorting하는 방법?
 
