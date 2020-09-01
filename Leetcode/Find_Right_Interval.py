@@ -3,6 +3,7 @@
 # Solution : start point 들만 sorting해서, binary search.
 # Time : O(NlogN), Space : O(N)
 
+# start point, end point에 대한 array들을 sorting. 그 이후 두 array를 비교하면. O(N)
 
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
