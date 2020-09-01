@@ -2,6 +2,7 @@
 # Time : O(H), Space: O(H)
 
 # TODO) 값 변경말고, 노드 자체를 이동시키는 쉬운 방법 없나?
+# 내려간 이후에 while문 안돌고 그냥 연결해주면 끝. Space: O(1)
 
 # Definition for a binary tree node.
 # class TreeNode:
