@@ -2,7 +2,7 @@
 # val값이 작아질 때가 두번 발생하면 첫번째는 앞쪽노드, 두번째는 뒤쪽노드가 바뀐노드.
 # Time : O(N), Space : O(H)
 
-# Solution 2 : Morris Inorder Traversal. Space를 사용하지 않는 inorder traversal. 맨 오른쪽 자식 노드를 부모노드에 연결해 stack없이 iterate이후 위로 올라오게 동작시킴.
+# Solution 2 : Morris Preorder Traversal. Space를 사용하지 않는 preorder traversal. 맨 오른쪽 자식 노드를 부모노드에 연결해 stack없이 iterate이후 위로 올라오게 동작시킴.
 # node가 오른쪽 자식으로 이동할때 (올라오거나, 오른쪽으로 내려갈때)만 pre_n과의 크기를 비교함.
 # Time : O(N), Space : O(1)
 
