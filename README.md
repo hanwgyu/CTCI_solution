@@ -180,7 +180,7 @@
  | Tree | All Elements in Two Binary Search Trees | [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | [A](Leetcode/All_Elements_in_Two_Binary_Search_Trees.py) | - | :star::star::star: | REMIND: inorder traverse using stack, compare two trees while traversing |
  | String, Hash | Word Pattern | [LeetCode](https://leetcode.com/problems/word-pattern/) | [A](Leetcode/Word_Pattern.py) | + | | |
  | Array | Insert Intervals | [LeetCode](https://leetcode.com/problems/insert-interval/) | [A](Leetcode/Insert_Intervals.py) | - | :star: | |
- | Array | Combination Sum III | [LeetCode](https://leetcode.com/problems/combination-sum-iii/) | [A](Leetcode/Combination_Sum.py) | + | :star::star: | |
+ | Array | Combination Sum III | [LeetCode](https://leetcode.com/problems/combination-sum-iii/) | [A](Leetcode/Combination_Sum_III.py) | + | :star::star: | |
  | Array | Maximum Subarray | [LeetCode](https://leetcode.com/problems/maximum-subarray/) | [A](Leetcode/Maximum_Subarray.py) | + | | |
  | String | Bulls and Cows | [LeetCode](https://leetcode.com/problems/bulls-and-cows/) | [A](Leetcode/Bulls_and_Cows.py) | + | | |
  | String | Compare Version Numbers | [LeetCode](https://leetcode.com/problems/compare-version-numbers/) | [A](Leetcode/Compare_Version_Numbers.py) | + | | |
