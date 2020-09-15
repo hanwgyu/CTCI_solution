@@ -1,5 +1,5 @@
 # Solution 1: DP.
-# Time : O(N), Space: O(N)
+# Time : O(N), Space: O(1)
 
 # Solution 2: 값들이 Integer이므로 곱하면 절대값은 커져감.
 # 왼쪽에서 오른쪽으로, 오른쪽에서 왼쪽으로 두번 보면서 누적된 곱의 최대값을 저장해나아가면 됨.
@@ -27,17 +27,9 @@ class Solution:
 
     def maxProduct_1(self, nums: List[int]) -> int:
         if not nums:
-            return None
-        ans = nums[0]
-        dp = [[0, 0] for _ in range(len(nums))]
-        dp[0][0], dp[0][1] = nums[0], nums[0]
-
-        for i in range(1, len(nums)):
-            dp[i][0] = max(
-                max(dp[i - 1][0] * nums[i], dp[i - 1][1] * nums[i]), nums[i]
-            )
-            dp[i][1] = min(
-                min(dp[i - 1][0] * nums[i], dp[i - 1][1] * nums[i]), nums[i]
-            )
-            ans = max(ans, dp[i][0])
-        return ans
+            return 0
+        ret, dp = float("-inf"), [1, 1]
+        for n in nums:
+            dp = [min(dp[0] * n, dp[1] * n, n), max(dp[0] * n, dp[1] * n, n)]
+            ret = max(ret, dp[1])
+        return ret

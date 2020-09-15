@@ -83,7 +83,6 @@
 | Array | Muji Mukbang | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42891) | [A](etc/2019_Kakao_Blind/Muji_Mukbang.py) | -! |
 | Tree | Find Path Game | [Kakao 2019 Blind](https://www.welcomekakao.com/learn/courses/30/lessons/42892) | [A](etc/2019_Kakao_Blind/Find_Path_Game.py) | -- |
 | String, DP | Longest Palindromic Substring | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) | [A](Leetcode/Longest_Palindromic_Substring.py) | - | :star::star: |
-| Array | Maximum Subarray | [LeetCode](https://leetcode.com/problems/maximum-subarray/) | [A](Leetcode/Maximum_Subarray.py) | + |
 | Array, DP | Minimum Path Sum | [LeetCode](https://leetcode.com/problems/minimum-path-sum/) | [A](Leetcode/Minimum_Path_Sum.py) | + | |  TODO: Check other solutions |
 | Array, DP | Climbing Stairs | [LeetCode](https://leetcode.com/problems/climbing-stairs/) | [A](Leetcode/Climbing_Stairs.py) | + |
 | Array | Best Time to Buy and Sell Stock | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [A](Leetcode/Best_Time_to_Buy_and_Sell_Stock.py) | + | 
@@ -176,6 +175,16 @@
  | Tree | Delete Node in a BST | [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/) | [A](Leetcode/Delete_Node_in_a_BST.py) | - | :star::star::star: | REMIND: BST delete node. TODO: A way to moving node not change value  |
  | Array, Hash | Pancake Sorting | [LeetCode](https://leetcode.com/problems/pancake-sorting/) | [A](Leetcode/Pancake_Sorting.py) | - | :star::star::star: | TODO: efficient way? |
  | Math | Implement Rand10() Using Rand7() | [LeetCode](https://leetcode.com/problems/implement-rand10-using-rand7/) | [A](Leetcode/Implement_Rand10_Using_Rand7.py) | -! | :star::star::star: | |
+ | Array | Largest Time for Given Digits | [LeetCode](https://leetcode.com/problems/largest-time-for-given-digits/) | [A](Leetcode/Largest_Time_for_Given_Digits.py) | + | |
+ | String | Partition Labels | [LeetCode](https://leetcode.com/problems/partition-labels/) | [A](Leetcode/Partition_Labels.py) | + | | |
+ | Tree | All Elements in Two Binary Search Trees | [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | [A](Leetcode/All_Elements_in_Two_Binary_Search_Trees.py) | - | :star::star::star: | REMIND: inorder traverse using stack, compare two trees while traversing |
+ | String, Hash | Word Pattern | [LeetCode](https://leetcode.com/problems/word-pattern/) | [A](Leetcode/Word_Pattern.py) | + | | |
+ | Array | Insert Intervals | [LeetCode](https://leetcode.com/problems/insert-interval/) | [A](Leetcode/Insert_Intervals.py) | - | :star: | |
+ | Array | Combination Sum III | [LeetCode](https://leetcode.com/problems/combination-sum-iii/) | [A](Leetcode/Combination_Sum.py) | + | :star::star: | |
+ | Array | Maximum Subarray | [LeetCode](https://leetcode.com/problems/maximum-subarray/) | [A](Leetcode/Maximum_Subarray.py) | + | | |
+ | String | Bulls and Cows | [LeetCode](https://leetcode.com/problems/bulls-and-cows/) | [A](Leetcode/Bulls_and_Cows.py) | + | | |
+ | String | Compare Version Numbers | [LeetCode](https://leetcode.com/problems/compare-version-numbers/) | [A](Leetcode/Compare_Version_Numbers.py) | + | | |
+ | Tree | Sum of Root To Leaf Binary Numbers | [LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [A](Leetcode/Sum_of_Root_To_Leaf_Binary_Numbers.py) | + | :star::star: |
 
 +: Solved within 30 min
 
