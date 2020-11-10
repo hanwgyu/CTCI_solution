@@ -190,7 +190,7 @@
  | Array, Hash | Check Array Formation Through Concatenation | [LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/) | [A](Leetcode/Check_Array_Formation_Through_Concatenation.py) | + | :star: |
  | Math | Count Sorted Vowel Strings | [LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/) | [A](Leetcode/Count_Sorted_Vowel_Strings.py) | + | :star::star::star: | 조합문제 |
  | Heap | Furthest Building You Can Reach | [LeetCode](https://leetcode.com/problems/furthest-building-you-can-reach/) | [A](Leetcode/Furthest_Building_You_Can_Reach.py) | - | :star::star::star: | 
- | Math | Kth Smallest Instructions | [LeetCode](https://leetcode.com/problems/kth-smallest-instructions/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | + | :star::star::star: | 
+ | Math | Kth Smallest Instructions | [LeetCode](https://leetcode.com/problems/kth-smallest-instructions/) | [A](Leetcode/Kth_Smallest_Instructions.py) | + | :star::star::star: | 
  
 +: Solved within 30 min
 
