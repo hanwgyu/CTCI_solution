@@ -1,14 +1,28 @@
 # Solution 1 : Heap.
 # Time : O(HlogH), Space: O(H)
 
-# Solution 2 : DP. 각 위치에서 사용 ladder수에 따른 최소 사용 bricks수를 저장해나아감.
-# Time : O(ladders*H) , Space : O(ladders*H)
+# Solution 2: 개선된 Heap.
+# Time : O(NlogM), Space : O(M) (bricks 개수: M, ladders 개수: N)
 
 import heapq
 
 
 class Solution:
-    def furthestBuilding(self, heights: List[int], bricks: int, ladders: int) -> int:
+    def furthestBuilding_2(self, heights: List[int], bricks: int, ladders: int) -> int:
+        q = []
+        i = 0
+        for i in range(1, len(heights)):
+            diff = heights[i] - heights[i-1]
+            if diff <= 0:
+                continue
+            heapq.heappush(q, diff)
+            if len(q) > ladders:
+                bricks -= heapq.heappop(q)
+            if bricks < 0:
+                return i-1        
+        return len(heights)-1
+    
+    def furthestBuilding_1(self, heights: List[int], bricks: int, ladders: int) -> int:
         diffs = []
         h_b = float("inf")
         for i, h in enumerate(heights):
