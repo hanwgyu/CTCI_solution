@@ -185,7 +185,13 @@
  | String | Bulls and Cows | [LeetCode](https://leetcode.com/problems/bulls-and-cows/) | [A](Leetcode/Bulls_and_Cows.py) | + | | |
  | String | Compare Version Numbers | [LeetCode](https://leetcode.com/problems/compare-version-numbers/) | [A](Leetcode/Compare_Version_Numbers.py) | + | | |
  | Tree | Sum of Root To Leaf Binary Numbers | [LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [A](Leetcode/Sum_of_Root_To_Leaf_Binary_Numbers.py) | + | :star::star: |
-
+ | String | Length of Last Word | [LeetCode](https://leetcode.com/problems/length-of-last-word/) | [A](Leetcode/Length_of_Last_Word.py) | + | 
+ | Array | Robot Bounded In Circle | [LeetCode](https://leetcode.com/problems/robot-bounded-in-circle/) | [A](Leetcode/Robot_Bounded_In_Circle.py) | + |
+ | Array, Hash | Check Array Formation Through Concatenation | [LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/) | [A](Leetcode/Check_Array_Formation_Through_Concatenation.py) | + | :star: |
+ | Math | Count Sorted Vowel Strings | [LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/) | [A](Leetcode/Count_Sorted_Vowel_Strings.py) | + | :star::star::star: | 조합문제 |
+ | Heap | Furthest Building You Can Reach | [LeetCode](https://leetcode.com/problems/furthest-building-you-can-reach/) | [A](Leetcode/Furthest_Building_You_Can_Reach.py) | - | :star::star::star: | 
+ | Math | Kth Smallest Instructions | [LeetCode](https://leetcode.com/problems/kth-smallest-instructions/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | + | :star::star::star: | 
+ 
 +: Solved within 30 min
 
 -: Solved over 30 min
