@@ -17,7 +17,7 @@ class Solution:
             l.append(a)
             cur_k, cur_n = cur_k + 1, cur_n - a
             if cur_n == 0:
-                ret.append(copy.deepcopy(l))
+                ret.append(list(l))
                 l.pop()
                 return
             for new_a in range(a + 1, 10):

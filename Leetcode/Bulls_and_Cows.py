@@ -1,4 +1,4 @@
-# Time : O(N), Space : O(N)
+# Time : O(N), Space : O(1)
 
 from collections import defaultdict
 
