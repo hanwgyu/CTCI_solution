@@ -17,8 +17,9 @@ a0+  a1+a2+...+an-1 + an= n+5 (ai > 0)
 
 """
 
-from math import comb
+# Solution 2 : DP
 
+from math import comb
 
 class Solution:
     def countVowelStrings_2(self, n: int) -> int:
