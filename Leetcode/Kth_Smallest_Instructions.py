@@ -9,7 +9,6 @@ class Solution:
         v, h = destination
         ans = []
         for _ in range(v + h):
-            print(ans, k, v, h)
             n = comb(h + v - 1, max(0, h - 1))
             if h == 0 or (k > n and v > 0):
                 v -= 1
