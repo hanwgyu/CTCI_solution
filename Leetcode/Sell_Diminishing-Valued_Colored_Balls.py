@@ -1,6 +1,6 @@
 # 가장 높이가 큰것부터 팔면됨.
 # sorting 한후 가장 높은 블록의 갯수 및 그다음 높은 블록의 높이 차이를 업데이트하면서 계산
-# Time : O(NlogN), Space : O(1)
+# Time : O(NlogN), Space : O(1) ( N : inventory 크기)
 
 
 class Solution:
