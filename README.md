@@ -188,10 +188,14 @@
  | String | Length of Last Word | [LeetCode](https://leetcode.com/problems/length-of-last-word/) | [A](Leetcode/Length_of_Last_Word.py) | + | 
  | Array | Robot Bounded In Circle | [LeetCode](https://leetcode.com/problems/robot-bounded-in-circle/) | [A](Leetcode/Robot_Bounded_In_Circle.py) | + |
  | Array, Hash | Check Array Formation Through Concatenation | [LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/) | [A](Leetcode/Check_Array_Formation_Through_Concatenation.py) | + | :star: |
- | Math | Count Sorted Vowel Strings | [LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/) | [A](Leetcode/Count_Sorted_Vowel_Strings.py) | + | :star::star::star: | 조합문제 |
+ | Math | Count Sorted Vowel Strings | [LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/) | [A](Leetcode/Count_Sorted_Vowel_Strings.py) | + | :star::star::star: | Combination Problem |
  | Heap | Furthest Building You Can Reach | [LeetCode](https://leetcode.com/problems/furthest-building-you-can-reach/) | [A](Leetcode/Furthest_Building_You_Can_Reach.py) | - | :star::star::star: | 
  | Math | Kth Smallest Instructions | [LeetCode](https://leetcode.com/problems/kth-smallest-instructions/) | [A](Leetcode/Kth_Smallest_Instructions.py) | + | :star::star::star: | 
- 
+ | Array | Get Maximum in Generated Array | [LeetCode](https://leetcode.com/problems/get-maximum-in-generated-array/) | [A](Leetcode/Get_Maximum_in_Generated_Array.py) | + |
+ | String | Minimum Deletions to Make Character Frequencies Unique | [LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [A](Leetcode/Minimum_Deletions_to_Make_Character_Frequencies_Unique.py) | + |
+ | Array, Math | Sell Diminishing-Valued Colored Balls | [LeetCode](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/) | [A](Leetcode/Sell_Diminishing-Valued_Colored_Balls.py) | + | :star::star: |  
+ | Binary Index Tree | Create Sorted Array through Instructions | [LeetCode](https://leetcode.com/problems/create-sorted-array-through-instructions/) | [A](Leetcode/Create_Sorted_Array_through_Instructions.py) | -! | :star::star::star: | Binary Index Tree | 
+
 +: Solved within 30 min
 
 -: Solved over 30 min
