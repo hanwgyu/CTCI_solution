@@ -1,10 +1,10 @@
 # Solution 1 : binary search 한후 add
-# Time : O(NM), Space : O(M). # M은 Instructions 종류 갯수
+# Time : O(N^2), Space : O(N).
 # Time Limit Exceeded
 
 
 # Solution 2 : binary index tree. instruction의 갯수를 업데이트해나아감.
-# Time : O(NlogN). Space: O(N)
+# Time : O(NlogN). Space: O(N) # N: max(Instructions)
 
 import bisect
 
