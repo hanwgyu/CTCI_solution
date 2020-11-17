@@ -4,7 +4,7 @@
 
 
 # Solution 2 : binary index tree. instruction의 갯수를 업데이트해나아감.
-# Time : O(NlogN). Space: O(N) # N: max(Instructions)
+# Time : O(MlogM). Space: O(M) # M: max(Instructions)
 
 import bisect
 
