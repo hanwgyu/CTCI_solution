@@ -10,6 +10,14 @@ class Type(Enum):
     INTRO = 1
     EXTRO = 2
 
+def memoization(func):
+    memo = dict()
+    def wrapper(*args):
+        if args not in memo:
+            memo[args] = func(*args)
+        return memo[args]
+    return wrapper
+
 class Solution:
     def checkHappiness(self, i, a, type):
         if type == Type.NONE:
@@ -23,7 +31,7 @@ class Solution:
             ans += (-30) if a[i] == Type.INTRO else 20
         return ans + 120 if type == Type.INTRO else ans+40
     
-    def getMaxGridHappiness(self, m: int, n: int, introvertsCount: int, extrovertsCount: int) -> int:
+    def getMaxGridHappiness_2(self, m: int, n: int, introvertsCount: int, extrovertsCount: int) -> int:
         def updateHappiness(i, intro, extro, happiness, a, d, type):
             diff = self.checkHappiness(i, a, type)
             temp, a[i] = a[i], type
@@ -56,34 +64,31 @@ class Solution:
                         updateHappiness(i, intro, extro, happiness, a, d, Type.NONE)
                 pre_d = d
         return self.ans
-   
+    
     def getMaxGridHappiness_1(self, m: int, n: int, introvertsCount: int, extrovertsCount: int) -> int:
-        def dfs(i, j, intro, extro, happiness, d):
-            if m*n-(j*m+i) < intro + extro:
-                return
+        @memoization
+        def dfs(i, j, intro, extro, a):
+            a = list(a)
             if i == m:
                 if j == n-1:
-                    self.ans = max(self.ans, happiness)
-                    return
-                dfs(0, j+1, intro, extro, happiness,d)
-                return
+                    return 0
+                return dfs(0, j+1, intro, extro, tuple(a))
+            ans = 0
             if intro > 0:
-                diff = self.checkHappiness(i, d, Type.INTRO)
-                temp, d[i] = d[i], Type.INTRO
-                dfs(i+1, j, intro-1, extro, happiness+diff,d)
-                d[i] = temp
+                diff = self.checkHappiness(i, a, Type.INTRO)
+                temp, a[i] = a[i], Type.INTRO
+                ans = max(ans, dfs(i+1, j, intro-1, extro, tuple(a)) + diff)
+                a[i] = temp
             if extro > 0:
-                diff = self.checkHappiness(i, d, Type.EXTRO)
-                temp, d[i] = d[i], Type.EXTRO
-                dfs(i+1, j, intro, extro-1, happiness+diff,d)
-                d[i] = temp
-            temp, d[i] = d[i], Type.NONE
-            dfs(i+1, j, intro, extro, happiness,d)
-            d[i] = temp
-            
+                diff = self.checkHappiness(i, a, Type.EXTRO)
+                temp, a[i] = a[i], Type.EXTRO
+                ans = max(ans, dfs(i+1, j, intro, extro-1, tuple(a)) + diff)
+                a[i] = temp
+            temp, a[i] = a[i], Type.NONE
+            ans = max(ans, dfs(i+1, j, intro, extro, tuple(a)))
+            a[i] = temp
+            return ans
         if m > n:
             m, n = n, m
-        d = [Type.NONE for _ in range(m)]   
-        self.ans = float('-inf')
-        dfs(0,0,introvertsCount,extrovertsCount,0,d)
-        return self.ans
+        a = [Type.NONE for _ in range(m)]   
+        return dfs(0, 0, introvertsCount,extrovertsCount, tuple(a))
