@@ -2,6 +2,7 @@
 # memory 써서 통과! 
 
 # Solution 2 : dp. 이전 row의 state와 남은 사람의 수에 따라 happiness를 저장해나아감.
+# index가 변경될때마다 기존 dict을 지워서 메모리크기를 줄임.
 
 from enum import Enum
 
