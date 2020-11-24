@@ -198,7 +198,7 @@
  | Array | Design an Ordered Stream | [LeetCode](https://leetcode.com/problems/design-an-ordered-stream/) | [A](Leetcode/Design_an_Ordered_Stream.py) | + |
  | Hash | Minimum Operations to Reduce X to Zero | [LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [A](Leetcode/Minimum_Operations_to_Reduce_X_to_Zero.py) | + | :star::star: | 
  | String | Determine if Two Strings Are Close | [LeetCode](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [A](Leetcode/Determine_if_Two_Strings_Are_Close.py) | + | :star: |
- | DP | Maximize Grid Happiness | [LeetCode](https://leetcode.com/problems/maximize-grid-happiness/) | [A](Leetcode/Maximize_Grid_Happiness.py) | -- | :star::star::star: |
+ | DP | Maximize Grid Happiness | [LeetCode](https://leetcode.com/problems/maximize-grid-happiness/) | [A](Leetcode/Maximize_Grid_Happiness.py) | -- | :star::star::star::star: | REMIND :  Decorator pattern when save memory (DFS + Memory) |
 
 
 +: Solved within 30 min
