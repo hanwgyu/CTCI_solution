@@ -21,12 +21,23 @@ class Solution:
             ans += (-30) if a[i] == Type.INTRO else 20
         return ans + 120 if type == Type.INTRO else ans+40
     
-    def getMaxGridHappiness_2(self, m: int, n: int, introvertsCount: int, extrovertsCount: int) -> int:
+    def getMaxGridHappiness(self, m: int, n: int, introvertsCount: int, extrovertsCount: int) -> int:
+        def updateHappiness(i, intro, extro, happiness, a, d, type):
+            diff = self.checkHappiness(i, a, type)
+            temp, a[i] = a[i], type
+            if type == Type.INTRO:
+                intro -= 1
+            elif type == Type.EXTRO:
+                extro -= 1
+            d[(intro, extro)][tuple(a)] = max(d[(intro, extro)][tuple(a)], happiness+diff)
+            a[i] = temp
+            self.ans = max(self.ans, happiness+diff)
+            
         if m > n:
             m, n = n, m
         pre_d = defaultdict(lambda:defaultdict(int))  # key : intro, extro, key : a
         pre_d[(introvertsCount, extrovertsCount)][tuple([Type.NONE for _ in range(m)])] = 0
-        ans = 0
+        self.ans = 0
         for j in range(n):
             for i in range(m):
                 d = defaultdict(lambda:defaultdict(int))
@@ -35,25 +46,14 @@ class Solution:
                         a = list(a)
                         # check introvert
                         if intro > 0:
-                            diff = self.checkHappiness(i, a, Type.INTRO)
-                            temp, a[i] = a[i], Type.INTRO
-                            d[(intro-1, extro)][tuple(a)] = max(d[(intro-1, extro)][tuple(a)], happiness+diff)
-                            a[i] = temp
-                            ans = max(ans, happiness+diff)
+                            updateHappiness(i, intro, extro, happiness, a, d, Type.INTRO)
                         # check extrovert
                         if extro > 0:
-                            diff = self.checkHappiness(i, a, Type.EXTRO)
-                            temp, a[i] = a[i], Type.EXTRO
-                            d[(intro, extro-1)][tuple(a)] = max(d[(intro, extro-1)][tuple(a)], happiness+diff)
-                            a[i] = temp
-                            ans = max(ans, happiness+diff)
+                            updateHappiness(i, intro, extro, happiness, a, d, Type.EXTRO)
                         # check none    
-                        temp, a[i] = a[i], Type.NONE
-                        d[(intro, extro)][tuple(a)] = max(d[(intro, extro)][tuple(a)], happiness)
-                        a[i] = temp
-                        ans = max(ans, happiness)
+                        updateHappiness(i, intro, extro, happiness, a, d, Type.NONE)
                 pre_d = d
-        return ans
+        return self.ans
    
     def getMaxGridHappiness_1(self, m: int, n: int, introvertsCount: int, extrovertsCount: int) -> int:
         def dfs(i, j, intro, extro, happiness, d):
