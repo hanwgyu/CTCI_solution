@@ -1,5 +1,5 @@
 # Solution 1: dfs. 0,1(introvert),2(extrovert)로 모두 칠해가면서 모든 경우의 수 체크
-# Time limit exceeded.
+# memory 써서 통과!
 
 # Solution 2 : dp. 이전 row의 state와 남은 사람의 수에 따라 happiness를 저장해나아감.
 
