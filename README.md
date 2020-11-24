@@ -195,6 +195,11 @@
  | String | Minimum Deletions to Make Character Frequencies Unique | [LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [A](Leetcode/Minimum_Deletions_to_Make_Character_Frequencies_Unique.py) | + |
  | Array, Math | Sell Diminishing-Valued Colored Balls | [LeetCode](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/) | [A](Leetcode/Sell_Diminishing-Valued_Colored_Balls.py) | + | :star::star: |  
  | Binary Index Tree | Create Sorted Array through Instructions | [LeetCode](https://leetcode.com/problems/create-sorted-array-through-instructions/) | [A](Leetcode/Create_Sorted_Array_through_Instructions.py) | -! | :star::star::star: | Binary Index Tree | 
+ | Array | Design an Ordered Stream | [LeetCode](https://leetcode.com/problems/design-an-ordered-stream/) | [A](Leetcode/Design_an_Ordered_Stream.py) | + |
+ | Hash | Minimum Operations to Reduce X to Zero | [LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [A](Leetcode/Minimum_Operations_to_Reduce_X_to_Zero.py) | + | :star::star: | 
+ | String | Determine if Two Strings Are Close | [LeetCode](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [A](Leetcode/Determine_if_Two_Strings_Are_Close.py) | + | :star: |
+ | DP | Maximize Grid Happiness | [LeetCode](https://leetcode.com/problems/maximize-grid-happiness/) | [A](Leetcode/Maximize_Grid_Happiness.py) | -- | :star::star::star: |
+
 
 +: Solved within 30 min
 
