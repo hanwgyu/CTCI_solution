@@ -12,6 +12,8 @@ class Type(Enum):
 
 class Solution:
     def checkHappiness(self, i, a, type):
+        if type == Type.NONE:
+            return 0
         ans = 0
         if i > 0 and a[i-1] != Type.NONE:
             ans += (-30) if type == Type.INTRO else 20
