@@ -5,6 +5,10 @@
 
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:
+        c1, c2 = Counter(word1), Counter(word2)
+        return c1.keys() == c2.keys() and sorted(c1.values()) == sorted(c2.values())
+    
+    def closeStrings(self, word1: str, word2: str) -> bool:
         a1, a2 = [0 for _ in range(26)], [0 for _ in range(26)]
         s = set()
         for c in word1:
