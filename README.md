@@ -199,7 +199,10 @@
  | Hash | Minimum Operations to Reduce X to Zero | [LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [A](Leetcode/Minimum_Operations_to_Reduce_X_to_Zero.py) | + | :star::star: | 
  | String | Determine if Two Strings Are Close | [LeetCode](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [A](Leetcode/Determine_if_Two_Strings_Are_Close.py) | + | :star: |
  | DP | Maximize Grid Happiness | [LeetCode](https://leetcode.com/problems/maximize-grid-happiness/) | [A](Leetcode/Maximize_Grid_Happiness.py) | -- | :star::star::star::star: | REMIND :  Decorator pattern when save memory (DFS + Memory) |
-
+ | Array | Check If Two String Arrays are Equivalent | [LeetCode](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [A](Leetcode/Check_If_Two_String_Arrays_are_Equivalent.py) | + | | REMIND: library `itertools` (zip_longest, chain.from_iterable) |  
+ | Math | Smallest String With A Given Numeric Value | [LeetCode](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | [A](Leetcode/Smallest_String_With_A_Given_Numeric_Value.py) | + | :star: |
+ | Array | Ways to Make a Fair Array | [LeetCode](https://leetcode.com/problems/ways-to-make-a-fair-array/) | [A](Leetcode/Ways_to_Make_a_Fair_Array.py) | + | :star: | 
+ | Greedy | Minimum Initial Energy to Finish Tasks | [LeetCode](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | [A](Leetcode/Minimum_Initial_Energy_to_Finish_Tasks.py) | - | :star::star: | TODO: Need clear reason for solution |  
 
 +: Solved within 30 min
 
