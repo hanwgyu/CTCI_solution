@@ -5,6 +5,6 @@
 class Solution:
     def getSmallestString(self, n: int, k: int) -> str:
         q, r = divmod(k, 26)
-        while n - q > r:
+        while n - q >= r:
             q, r = q - 1, r + 26
         return (n - q - 1) * "a" + chr(96 + r - (n - q - 1)) + q * "z"
