@@ -4,6 +4,13 @@
 
 class Solution:
     def getSmallestString(self, n: int, k: int) -> str:
+        # a를 모두 깔고 뒤부터 z로 바꿈.
+        q, r = divmod(k-n, 25)
+        if r == 0:
+            q, r = q - 1, r + 25
+        return (n - q - 1) * "a" + chr(ord('a') + r) + q * "z"
+    
+    def getSmallestString(self, n: int, k: int) -> str:
         q, r = divmod(k, 26)
         while n - q >= r:
             q, r = q - 1, r + 26
