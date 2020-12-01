@@ -6,9 +6,7 @@ class Solution:
     def getSmallestString(self, n: int, k: int) -> str:
         # a를 모두 깔고 뒤부터 z로 바꿈.
         q, r = divmod(k-n, 25)
-        if r == 0:
-            q, r = q - 1, r + 25
-        return (n - q - 1) * "a" + chr(ord('a') + r) + q * "z"
+        return (n - q - (r>0)) * "a" + chr(ord('a') + r) * (r>0) + q * "z"
     
     def getSmallestString(self, n: int, k: int) -> str:
         q, r = divmod(k, 26)
