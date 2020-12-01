@@ -1,5 +1,5 @@
 # Solution : 최대한 a와 z로 만들고, 나머지 하나만 다른 알파벳으로 구성.
-# Time : O(1), Space : O(1)
+# Time : O(N), Space : O(1)
 
 
 class Solution:
