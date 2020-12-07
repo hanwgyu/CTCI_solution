@@ -203,6 +203,11 @@
  | Math | Smallest String With A Given Numeric Value | [LeetCode](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | [A](Leetcode/Smallest_String_With_A_Given_Numeric_Value.py) | + | :star: |
  | Array | Ways to Make a Fair Array | [LeetCode](https://leetcode.com/problems/ways-to-make-a-fair-array/) | [A](Leetcode/Ways_to_Make_a_Fair_Array.py) | + | :star: | 
  | Greedy | Minimum Initial Energy to Finish Tasks | [LeetCode](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | [A](Leetcode/Minimum_Initial_Energy_to_Finish_Tasks.py) | - | :star::star: | TODO: Need clear reason for solution |  
+ | Array | Richest Customer Wealth | [LeetCode](https://leetcode.com/problems/richest-customer-wealth/) | [A](Leetcode/Richest_Customer_Wealth.py) | + |
+ | Stack | Find the Most Competitive Subsequence | [LeetCode](https://leetcode.com/problems/find-the-most-competitive-subsequence/) | [A](Leetcode/Find_the_Most_Competitive_Subsequence.py) | + | :star: |
+ | Array, Math | Minimum Moves to Make Array Complementary | [LeetCode](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) | [A](Leetcode/Minimum_Moves_to_Make_Array_Complementary.py) | - | :star::star::star: |
+ | Heap, Math | Minimize Deviation in Array | [LeetCode](https://leetcode.com/problems/minimize-deviation-in-array/) | [A](Leetcode/Minimize_Deviation_in_Array.py) | -! | :star::star::star: |
+
 
 +: Solved within 30 min
 
