@@ -15,6 +15,39 @@ class Solution(object):
                 return False
         return True
     
+    def isPalindrome(self, head: ListNode) -> bool:
+        """
+            Time Complexity : O(N), Space Complexity : O(1)
+            Solution : 아래 방식과 동일한데 절반 위치를 구하고 리스트를 분리한 후 
+        """
+        if not head.next:
+            return True
+        dummy = ListNode()
+        dummy.next = head
+        one, two = dummy, dummy
+        while two and two.next:
+            one = one.next
+            two = two.next.next
+        
+        prev = one.next
+        one.next = None
+        cur = prev.next
+        prev.next = None
+        
+        # Reverse
+        while cur:
+            next = cur.next
+            cur.next = prev
+            prev = cur
+            cur = next
+        
+        while head and prev:
+            if head.val != prev.val:
+                return False
+            head = head.next
+            prev = prev.next
+        return True
+    
     def isPalindrome(self, head):
         """
             Time Complexity : O(N), Space Complexity : O(1)
