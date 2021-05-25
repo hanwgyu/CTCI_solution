@@ -1,7 +1,25 @@
-# Time Complexity : O(N), Space Complexity : O(1)
-# Solution : 전체 길이를 구하고 절반 이후로는 순서를 뒤집어 새롭게 연결. 그 이후, head와 tail에서 각각 정순, 역순으로 노드를 비교
+
 class Solution(object):
+    def isPalindrome(self, head: ListNode) -> bool:
+        """
+            Time Complexity : O(N), Space Complexity : O(N)
+            Solution : list만들어서 two pointer로 비교
+        """
+        cur = head
+        a = []
+        while cur:
+            a.append(cur.val)
+            cur = cur.next
+        for i in range(len(a)):
+            if a[i] != a[len(a)-1-i]:
+                return False
+        return True
+    
     def isPalindrome(self, head):
+        """
+            Time Complexity : O(N), Space Complexity : O(1)
+            Solution : 전체 길이를 구하고 절반 이후로는 순서를 뒤집어 새롭게 연결. 그 이후, head와 tail에서 각각 정순, 역순으로 노드를 비교
+        """
         # Calculate total length
         node = head
         length = 0
