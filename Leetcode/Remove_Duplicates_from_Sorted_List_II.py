@@ -1,5 +1,23 @@
 # Time Complexity : O(N). Space Complexity : O(1)
 class Solution(object):
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        if not head:
+            return None
+        dummy = ListNode()
+        dummy.next = head
+        prev, cur = dummy, head.next
+        
+        while cur:
+            if prev.next.val == cur.val:
+                while cur and prev.next.val == cur.val:
+                    cur = cur.next
+                prev.next = cur
+            else:
+                prev = prev.next
+            if cur:
+                cur = cur.next
+        return dummy.next
+    
     def deleteDuplicates(self, head):
         if not head:
             return None
