@@ -1,6 +1,31 @@
 # https://leetcode.com/problems/longest-valid-parentheses/
 # Time Complexity : O(N), Space Complexity : O(N)
 class Solution(object):
+    def longestValidParentheses(self, s: str) -> int:
+        """
+        특정 위치에서 최적의 해가 deterministic한가? yes
+        특정 위치에서 앞의 문자들만 보고도 최적의 해를 구할 수 있는가? yes
+        이 위치에서 끝나는 제일 긴 paranthesis 길이를 저장
+        """
+        ls = defaultdict(int)
+        st = []
+        ans = 0
+        l = 0
+        for i, c in enumerate(s):
+            if c == '(':
+                st.append(l)
+                l = 0
+            else:
+                if st:
+                    l += st.pop() + 2
+                    ans = max(ans, l)
+                else:
+                    l = 0
+        return ans
+        
+    
+    
+    
     def longestValidParentheses(self, s):
         # Solution 1 : DP
         total_length = len(s)
