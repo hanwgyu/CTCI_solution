@@ -21,7 +21,7 @@
 | Linked List  | Linked List Cycle  | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [A](Leetcode/Linked_List_Cycle.py ) | + | :star::star: |
 | String | Longest Valid Parentheses | [LeetCode](https://leetcode.com/problems/longest-valid-parentheses/) | [A](Leetcode/Longest_Valid_Parentheses.py) | - | :star::star::star: |
 | Array, Stack  | Trapping rain water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) | [A](Leetcode/Trapping_Rain_Water.py) | - | :star::star::star: |
-| Stack  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [A](Leetcode/Valid_Parentheses.py) | + | :star: |
+| Stack  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [A](Leetcode/Valid_Parentheses.py) | + | :star::star::star: |
 | Stack  | Basic Calculator | [LeetCode](https://leetcode.com/problems/basic-calculator/) | [A](Leetcode/Basic_Calculator.py) | - | :star: |
 | Stack  | Decode String | [LeetCode](https://leetcode.com/problems/decode-string/) | [A](Leetcode/Decode_String.py ) | + | :star: | <ul><li>- [x] Use array instead of string</li></ul> |
 | Stack  | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/) | [A](Leetcode/Stack_Min.py) | -! | :star::star: |
