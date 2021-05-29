@@ -1,3 +1,29 @@
+class Solution:
+    def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
+        def reverse(start: ListNode, n: int):
+            """
+                Reverse next `n` node from `start`.
+            """
+            prev = start.next
+            cur = prev
+            
+            for _ in range(right-left):
+                fur = cur.next
+                cur.next = cur.next.next
+                fur.next = prev
+                prev = fur
+            start.next = prev
+
+        dummy = ListNode()
+        dummy.next = head
+        cur = dummy
+        for _ in range(left-1):
+            cur = cur.next
+        reverse(cur, right-left)
+        return dummy.next
+
+
+
 # Time Complexity :O(N), Space Complexity : O(1)
 class Solution(object):
     def reverseBetween(self, head, m, n):
