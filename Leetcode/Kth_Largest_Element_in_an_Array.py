@@ -10,8 +10,10 @@ class Solution:
             quickSort(l, pos-1)
             quickSort(pos+1, r)
         def partition(l, r, pivot):
+            #랜덤한 pivot 과 가장 오른쪽 r을 스왑 
             nums[r], nums[pivot] = nums[pivot], nums[r]
             pivot = r
+            # r을 한칸 이동
             r = r-1
             while l <= r:
                 # desc order로 sorting.
@@ -22,6 +24,8 @@ class Solution:
                 else:
                     nums[l], nums[r] = nums[r], nums[l]
             print(nums, l, r, pivot)
+            # sorting이 완료되면 l과 pivot을 스왑해서 리턴. 
+            # pivot을 기준으로 왼쪽 오른쪽이 정렬 완료됨.
             nums[l], nums[pivot] = nums[pivot], nums[l]   
             return l
             
