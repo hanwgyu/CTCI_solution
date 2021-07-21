@@ -207,7 +207,7 @@
  | Stack | Find the Most Competitive Subsequence | [LeetCode](https://leetcode.com/problems/find-the-most-competitive-subsequence/) | [A](Leetcode/Find_the_Most_Competitive_Subsequence.py) | + | :star: |
  | Array, Math | Minimum Moves to Make Array Complementary | [LeetCode](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) | [A](Leetcode/Minimum_Moves_to_Make_Array_Complementary.py) | - | :star::star::star: |
  | Heap, Math | Minimize Deviation in Array | [LeetCode](https://leetcode.com/problems/minimize-deviation-in-array/) | [A](Leetcode/Minimize_Deviation_in_Array.py) | -! | :star::star::star: |
-
+ | String, Binary Search |  Longest Duplicate Substring | [LeetCode](https://leetcode.com/problems/longest-duplicate-substring/) | [A](Leetcode/1044.py) | -! | :star::star::star: | Rolling hash, Rabin-Karp algorithm | 
 
 +: Solved within 30 min
 
