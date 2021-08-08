@@ -209,10 +209,10 @@
  | Heap, Math | Minimize Deviation in Array | [LeetCode](https://leetcode.com/problems/minimize-deviation-in-array/) | [A](Leetcode/Minimize_Deviation_in_Array.py) | -! | :star::star::star: |
  | String, Binary Search |  Longest Duplicate Substring | [LeetCode](https://leetcode.com/problems/longest-duplicate-substring/) | [A](Leetcode/1044.py) | -! | :star::star::star: | Rolling hash, Rabin-Karp algorithm |
  | String, DP | Delete Operation for Two Strings | [LeetCode](https://leetcode.com/problems/delete-operation-for-two-strings/) | [A](Leetcode/583.py) | -! | :star::star::star: |
- | DP, Array | Maximum Number of Points with Cost | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-number-of-points-with-cost/) | -! | :star::star::star: |
- | DFS, Trie | Maximum Genetic Difference Query | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-genetic-difference-query/) | -! | :star::star::star: | Hard |
- | DP, Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | -! | :star::star::star: | Hard |
- | Trie, Hash | Delete Duplicate Folders in System | [LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/) | -! | :star::star::star: | Hard |
+ | DP, Array | Maximum Number of Points with Cost | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-number-of-points-with-cost/) | [A](Leetcode/1937.py) | -! | :star::star::star: |
+ | DFS, Trie | Maximum Genetic Difference Query | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-genetic-difference-query/) | [A](Leetcode/1938.py) | -! | :star::star::star: | Hard |
+ | Trie, Hash | Delete Duplicate Folders in System | [LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/) | [A](Leetcode/1948.py) | -! | :star::star::star: | Hard |
+ | DP, Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | [A](Leetcode/) | -! | :star::star::star: | Hard |
 
 +: Solved within 30 min
 
