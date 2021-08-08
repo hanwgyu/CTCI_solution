@@ -212,7 +212,8 @@
  | DP, Array | Maximum Number of Points with Cost | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-number-of-points-with-cost/) | [A](Leetcode/1937.py) | -! | :star::star::star: |
  | DFS, Trie | Maximum Genetic Difference Query | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-genetic-difference-query/) | [A](Leetcode/1938.py) | -! | :star::star::star: | Hard |
  | Trie, Hash | Delete Duplicate Folders in System | [LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/) | [A](Leetcode/1948.py) | -! | :star::star::star: | Hard |
- | DP, Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | [A](Leetcode/) | -! | :star::star::star: | Hard |
+ | DP, Binary Search, Heap | Maximum Profit in Job Scheduling | [LeetCode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [A](Leetcode/1235.py) | -! | :star::star::star: | Hard |
+ | Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | [A](Leetcode/759.py) | -! | :star::star::star: |
 
 +: Solved within 30 min
 
