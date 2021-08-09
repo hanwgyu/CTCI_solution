@@ -214,7 +214,7 @@
  | Trie, Hash | Delete Duplicate Folders in System | [LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/) | [A](Leetcode/1948.py) | -! | :star::star::star: | Hard |
  | DP, Binary Search, Heap | Maximum Profit in Job Scheduling | [LeetCode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [A](Leetcode/1235.py) | -! | :star::star::star: | Hard |
  | Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | [A](Leetcode/759.py) | -! | :star::star::star: |
- | Double Linked List | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/) | [A](Leetcode/460.py) | -! | :star::star::star: | Hard and brilliant using of Double Linked List |
+ | Double Linked List | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/) | [A](Leetcode/460.py) | -! | :star::star::star: | Hard and brilliant using of Double Linked List + Hash (Finding node in O(1)) |
 
 +: Solved within 30 min
 
