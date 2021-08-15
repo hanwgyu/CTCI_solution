@@ -215,6 +215,11 @@
 | 211  | DP, Binary Search, Heap | Maximum Profit in Job Scheduling | [LeetCode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [A](Leetcode/1235.py) | -! | :star::star::star: | Hard |
 | 212  | Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | [A](Leetcode/759.py) | -! | :star::star::star: |
 | 213  | Double Linked List | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/) | [A](Leetcode/460.py) | -! | :star::star::star: | Hard and brilliant using of Double Linked List + Hash (Finding node in O(1)) |
+| 214 | Math | Three Divisors | [LeetCode](https://leetcode.com/problems/three-divisors/) | [A](Leetcode/1952.py) | + |
+| 215 | Array | Maximum Number of Weeks for Which You Can Work | [LeetCode](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/) | [A](Leetcode/1953.py) | + |
+| 216 | Math, Binary Search | Minimum Garden Perimeter to Collect Enough Apples | [LeetCode](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | [A](Leetcode/1954.py) | + |
+| 217 | DP | Count Number of Special Subsequences | [LeetCode](https://leetcode.com/problems/count-number-of-special-subsequences/) | [A](Leetcode/1955.py) | + | |
+
 
 +: Solved within 30 min
 
