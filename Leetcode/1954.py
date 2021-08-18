@@ -6,7 +6,13 @@
 # n이 100000 일때 사과 개수가 4 * 10^15
 # Time : O(log(X^(1/3)))(X: neededApples 최대 범위), Space : O(1)
 
-
+# 4등분 나눠서 계산하면 . 시그마(2a-1) - 시그마(a) + 시그마(2a) - 시그마(a-1) = 3a^2.
+# 전체합은 시그마(12a^2) = (2a+1)a(a+1)*2
+# [4 3 2 3][4
+# [3        3
+#  2        2
+#  3        3]
+#  4][3 2 3 4]
 class Solution:
     def minimumPerimeter_2(self, neededApples: int) -> int:
         l, r = 0, 100000
