@@ -4,7 +4,7 @@
 
 # 고민 2 : Binary search 로 찾음.
 # n이 100000 일때 사과 개수가 4 * 10^15
-# Time : O(log(neededApples^(1/3))), Space : O(1)
+# Time : O(log(X^(1/3)))(X: neededApples 최대 범위), Space : O(1)
 
 
 class Solution:
