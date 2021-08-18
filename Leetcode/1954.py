@@ -1,8 +1,11 @@
 # 고민 1 : centor에서 길이가 n일때, perimeter는 8n
 # 사과 개수는 (2n+1) * n * (n+1) * 2
+# Time : O(neededApples^(1/3)), Space : O(1)
 
 # 고민 2 : Binary search 로 찾음.
 # n이 100000 일때 사과 개수가 4 * 10^15
+# Time : O(log(neededApples^(1/3))), Space : O(1)
+
 
 class Solution:
     def minimumPerimeter_2(self, neededApples: int) -> int:
