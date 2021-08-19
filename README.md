@@ -218,7 +218,13 @@
 | 214 | Math | Three Divisors | [LeetCode](https://leetcode.com/problems/three-divisors/) | [A](Leetcode/1952.py) | + |
 | 215 | Array | Maximum Number of Weeks for Which You Can Work | [LeetCode](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/) | [A](Leetcode/1953.py) | + |
 | 216 | Math, Binary Search | Minimum Garden Perimeter to Collect Enough Apples | [LeetCode](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | [A](Leetcode/1954.py) | + |
-| 217 | DP | Count Number of Special Subsequences | [LeetCode](https://leetcode.com/problems/count-number-of-special-subsequences/) | [A](Leetcode/1955.py) | + | |
+| 217 | DP | Count Number of Special Subsequences | [LeetCode](https://leetcode.com/problems/count-number-of-special-subsequences/) | [A](Leetcode/1955.py) | + | :star::star::star: |
+| 218 | DP | Best Time to Buy and Sell Stock III | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [A](Leetcode/123.py) | -! | :star::star::star: |
+| 219 | String | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) | [A](Leetcode/76.py) | -! | :star::star::star: | Sliding window, two pointer |
+| 220 | Array | Height Checker | [LeetCode](https://leetcode.com/problems/height-checker/) | [A](Leetcode/1051.py) | + |
+| 221 | String | Long Pressed Name | [LeetCode](https://leetcode.com/problems/long-pressed-name/) | [A](Leetcode/925.py) | + |
+| 222 | Stack | Count Submatrices With All Ones | [LeetCode](https://leetcode.com/problems/count-submatrices-with-all-ones/) | [A](Leetcode/1504.py) | -! | :star::star::star: | increasing stack. Hard. |
+| 223 | Graph, Back Tracking | All Paths from Source Lead to Destination | [LeetCode](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) | [A](Leetcode/1059.py) | - | :star::star::star: | Graph hard. Smart back tracking algorithm |
 
 
 +: Solved within 30 min
