@@ -226,6 +226,8 @@
 | 222 | Stack | Count Submatrices With All Ones | [LeetCode](https://leetcode.com/problems/count-submatrices-with-all-ones/) | [A](Leetcode/1504.py) | -! | :star::star::star: | increasing stack. Hard. |
 | 223 | Graph, Back Tracking | All Paths from Source Lead to Destination | [LeetCode](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) | [A](Leetcode/1059.py) | - | :star::star::star: | Graph hard. Smart back tracking algorithm |
 | 224 | Tree, String | Longest Absolute File Path | [LeetCode](https://leetcode.com/problems/longest-absolute-file-path/) | [A](Leetcode/388.py) | - | :star::star::star: | Smart depth check algorithm |
+| 225 | Heap, Sliding Window, Sort | Minimum Cost to Hire K Workers | [LeetCode](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [A](Leetcode/857.py) | - | :star::star::star: | Sliding 되는minimum sum 구할때 heap 사용. |
+| 226 | Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/399.py) | + | :star::star::star: | 기본적인 그래프 문제. floyd-warshall vs Dijkstra |
 
 
 +: Solved within 30 min
