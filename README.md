@@ -225,6 +225,7 @@
 | 221 | String | Long Pressed Name | [LeetCode](https://leetcode.com/problems/long-pressed-name/) | [A](Leetcode/925.py) | + |
 | 222 | Stack | Count Submatrices With All Ones | [LeetCode](https://leetcode.com/problems/count-submatrices-with-all-ones/) | [A](Leetcode/1504.py) | -! | :star::star::star: | increasing stack. Hard. |
 | 223 | Graph, Back Tracking | All Paths from Source Lead to Destination | [LeetCode](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) | [A](Leetcode/1059.py) | - | :star::star::star: | Graph hard. Smart back tracking algorithm |
+| 224 | Tree, String | Longest Absolute File Path | [LeetCode](https://leetcode.com/problems/longest-absolute-file-path/) | [A](Leetcode/388.py) | - | :star::star::star: | Smart depth check algorithm |
 
 
 +: Solved within 30 min
