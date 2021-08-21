@@ -14,9 +14,31 @@
 #   if mid < target <= right ---> 왼쪽 절반 날림
 #   else ----> 오른쪽 절반 날림
 
-# Solution 3 : 일반 binary search하는 것처럼 동작시키기 위해 target과 nums[m]값이
-# 위치하는 수열이 다른 경우, inf, -inf값으로 설정해 search를 동작시킨다.
+"""
+ Solution 3 : 비교하는 값을 변경해서 일반 binary search하는 것처럼 동작시킨다.
 
+[12, 13, 14, 15, 16, 17, 18, 19, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+1. 17을 찾을때
+[12, 13, 14, 15, 16, 17, 18, 19, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf]
+
+2. 7을 찾을때
+[-inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+실제 array를 변경하는게 아니라 비교하는 mid 값을 조건에 따라 변경하자.
+1. mid가 target과 다른 열에 있고,  mid < target -----> inf로 변경
+2. mid가 target과 다른 열에 있고, mid > target -----> -inf로 변경
+3. mid가 target과 같은 열에 있음 -----> 그대로 둠
+
+다른 열에 있는지? ----> num0 <=  target != num0 <= mid
+
+사이즈 2일때 예외 케이스 고려
+nums  t
+[1,3] 1 같은열   -> 로직은 mid=mid
+[1,3] 3 같은열   -> 로직은 mid=mid
+[3,1] 1 다른열   -> 로직은 mid=float('-inf')
+[3,1] 3 다른열   -> 이부분 로직이 mid=mid 로 잘못처리되나 동작에 문제 없음 (바로 리턴)
+"""
 
 class Solution:
     def search_3(self, nums: List[int], target: int) -> int:
@@ -25,7 +47,8 @@ class Solution:
             m = (l + r) // 2
             num = (
                 nums[m]
-                if (target < nums[0]) == (nums[m] < nums[0])
+                # 사이즈 2일때 예외 케이스 고려 잘해서 부등호 결정해야함
+                if (target >= nums[0]) == (nums[m] >= nums[0])
                 else (float("-inf") if target < nums[0] else float("inf"))
             )
             if num < target:
