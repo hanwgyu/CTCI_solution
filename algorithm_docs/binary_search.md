@@ -1,8 +1,8 @@
 ## Binary Search
 
 ### 구현 방식
-두가지가 있다.
-```
+아래와 같이 두가지 방식으로 구현할 수 있다.
+```py
 def binary_search(arr, x):
     l = 0
     r = len(arr) - 1
@@ -21,7 +21,7 @@ def binary_search(arr, x):
 
 또는
 
-```
+```py
 def binary_search(arr, x):
     l = 0
     r = len(arr) - 1
