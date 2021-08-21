@@ -1,6 +1,6 @@
-## Binary Search
+# Binary Search
 
-### 구현 방식
+## 구현 방식
 아래와 같이 두가지 방식으로 구현할 수 있다.
 ```py
 def binary_search(arr, x):
@@ -39,7 +39,7 @@ def binary_search(arr, x):
 ```
 2번 구현 방식을 쓰자.  외우기도 쉽고, arr 크기가 1일때도 사용할 수 있다. (아래에서 설명)
 
-### 어려운점..
+## 어려운점..
 
 binary search를 바꿔서 쓰는 알고리즘은 매우 구현하기 어려울 수 있다.
 [example](Leetcode/Search_in_Rotated_Sorted_Array.py) 꼭 확인해볼것.
@@ -63,3 +63,13 @@ while문을 빠져나오고서는 l=0, r=-1이기 때문에 1인 idx를 체크�
 1번 솔루션으로 풀면 while 문 자체를 들어가지 않는다.
 
 **결론은 2번 솔루션이 낫고, 원소 개수가 2개일때 (binarysearch가 진행되서 2개로 줄어들었을때도) 예외 케이스들이 많아서 항상 구현시  경우의 수들을 생각해봐야한다.**
+
+
+
+## 좋은 문제들
+
+### 변형된 Binary search
+Array에서 O(logN) 시간에 어떤 값을 찾아내는 문제. Binary Search의 조건을 변형해서 구현한다.
+
+#### 33. Search in Rotated Sorted Array
+#### 162. Find Peak Element
