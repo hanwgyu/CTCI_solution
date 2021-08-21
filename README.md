@@ -93,7 +93,7 @@
 | 89 | String | Decode Ways | [LeetCode](https://leetcode.com/problems/decode-ways/) | [A](Leetcode/Decode_Ways.py) | + |
 | 90 | DP | Cherry Pickup | [LeetCode](https://leetcode.com/problems/cherry-pickup/) | [A](Leetcode/Cherry_Pickup.py) | -! | :star::star::star: | REMIND:Good DP problem. TODO:Add better solution |
 | 91 | Math | Ugly Number II | [LeetCode](https://leetcode.com/problems/ugly-number-ii/) | | | | TODO: Solve |
-| 92 | Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star::star: |
+| 92 | Binary Search | Search in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [A](Leetcode/Search_in_Rotated_Sorted_Array.py) | -- | :star::star::star: | 범위 계산이 굉장히 어렵고 여러번 반복해서 봐야하는 문제. |
 | 93  | Sort | Merge Intervals | [LeetCode](https://leetcode.com/problems/merge-intervals/) | [A](Leetcode/Merge_Intervals.py) | - | :star::star: |
 | 94  | Sort, Binary Search | Time Based Key-Value Store | [LeetCode](https://leetcode.com/problems/time-based-key-value-store/) | [A](Leetcode/Time_Based_Key-Value_Store.py) | + | :star::star: | REMIND : using bisect library (binary-serach) |
 | 95  | DP, Binary Search | Split Array Largest Sum | [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) | [A](Leetcode/Split_Array_Largest_Sum.py) | -! | :star::star::star: | COMMENT : Brilliant Binary Search Solution |
@@ -228,6 +228,7 @@
 | 224 | Tree, String | Longest Absolute File Path | [LeetCode](https://leetcode.com/problems/longest-absolute-file-path/) | [A](Leetcode/388.py) | - | :star::star::star: | Smart depth check algorithm |
 | 225 | Heap, Sliding Window, Sort | Minimum Cost to Hire K Workers | [LeetCode](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [A](Leetcode/857.py) | - | :star::star::star: | Sliding 되는minimum sum 구할때 heap 사용. |
 | 226 | Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/399.py) | + | :star::star::star: | 기본적인 그래프 문제. floyd-warshall vs Dijkstra |
+| 227 | Binary Search | Find Peak Element | [LeetCode](https://leetcode.com/problems/find-peak-element/) | [A](Leetcode/192.py) | -! | :star::star::star: | Binary search! 똑똑한 방법이다.. |
 
 
 +: Solved within 30 min

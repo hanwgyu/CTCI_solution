@@ -1,6 +1,19 @@
 # Time : O(logN), Space : O(1)
 # 범위 설정하는 것이 상당히 까다로움. 여러번 시행착오를 거쳐 해답을 찾아냈음.
 
+
+# m을 l, r과 비교하면서 rotated된걸을 확인해서 진행
+# <=로 할지 <로 할지, r = m 으로할지, r = m-1로 할지 매우 어려움. 정형화 되어있는게 아니라 로직에 따라 결정을 해야함.
+# 이 경우에는 매우우우우우어렵다..........ㅠㅠ
+
+# Solution 2 :
+# if 왼쪽 부분이 monotonically increasing => pivot이 오른쪽에 있다
+#   if left <= target < mid -----> 오른쪽 절반 날림
+#   else  -----> 왼쪽 절반 날림
+# else 오른쪽 부분이 monotonically increasing => pivot이 왼에 있다
+#   if mid < target <= right ---> 왼쪽 절반 날림
+#   else ----> 오른쪽 절반 날림
+
 # Solution 3 : 일반 binary search하는 것처럼 동작시키기 위해 target과 nums[m]값이
 # 위치하는 수열이 다른 경우, inf, -inf값으로 설정해 search를 동작시킨다.
 
@@ -30,7 +43,10 @@ class Solution:
             m = (l + r) // 2
             if nums[m] == target:
                 return m
-            if nums[l] <= nums[m]:
+            if nums[l] <= nums[m]: # 이부분을 < 로하면 '[3,1], 1'을 통과 못함... 이게 까다로운 부분이다.
+                # m이 //2로 계산하기 때문에 원소 갯수가 2개로 작으면 l==m이 되고,
+                # 조건문이  r= m-1로 진행될경우  그다음에 바로 while문을 빠져나온다. 근데 이러면 1인 부분을 체크할 수 없다.
+                # 최대한 l을 변경하는 방식으로 진행되야 while문을 끝내지 않고 체크를 한번 더할 수 있다.
                 if nums[l] <= target < nums[m]:
                     r = m - 1
                 else:
