@@ -71,5 +71,7 @@ while문을 빠져나오고서는 l=0, r=-1이기 때문에 1인 idx를 체크�
 ### 변형된 Binary search
 Array에서 O(logN) 시간에 어떤 값을 찾아내는 문제. Binary Search의 조건을 변형해서 구현한다.
 
-#### 33. Search in Rotated Sorted Array
-#### 162. Find Peak Element
+#### Example problems
+- 33. Search in Rotated Sorted Array
+- 162. Find Peak Element
+- 4. Median of Two Sorted Arrays

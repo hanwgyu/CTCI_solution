@@ -5,6 +5,42 @@
 # Time : O(log(min(M,N))), Space :O(1)
 
 
+"""
+210822
+
+구하고자 하는 것은 sorted된 array의 갯수로써 중간이 되는 지점.
+일단 binary search를 적용하기 위해서는.. 공동의 범위 l, r를 두고, m1을 구한후, m2는 합친 갯수를 정확히 절반으로 나누는 곳으로 이동해야함.
+m1, m2를 이동해나아가면서 값으로서 m1,m2 를 기준으로 왼쪽 파티션의 값들이 오른쪽 파티션 값들보다 항상 작아야함.
+
+범위를 잡는게 까다로운 부분.
+m1의 범위는 작은 원소를 가진 갯수의 범위 +- 1 로 잡고, 최대 범위를 벗어나면 값을 float('inf'), float('-inf')로 처리함.
+"""
+
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        M, N = len(nums1), len(nums2)
+        if M < N:
+            return self.findMedianSortedArrays(nums2, nums1)
+        l, r = -1, N
+        is_even = ((M + N) % 2) == 0
+        while l <= r:
+            m2 = (l+r)//2
+            m1 = (M+N+1)//2-m2
+            l1 = float('inf') if m1-1 > M-1 else (float('-inf') if m1-1 < 0 else nums1[m1-1])
+            r1 = float('inf') if m1 > M-1 else (float('-inf') if m1 < 0 else nums1[m1])
+            l2 = float('inf') if m2-1 > N-1 else (float('-inf') if m2-1 < 0 else nums2[m2-1])
+            r2 = float('inf') if m2 > N-1 else (float('-inf') if m2 < 0 else nums2[m2])
+            if r2 < l1:
+                l = m2 + 1
+            elif l2 > r1:
+                r = m2 - 1
+            else:
+                if not is_even:
+                    return max(l1,l2)
+                else:
+                    return (max(l1,l2) + min(r1,r2))/2
+        return -1
+
 class Solution:
     def findMedianSortedArrays(
         self, nums1: List[int], nums2: List[int]
