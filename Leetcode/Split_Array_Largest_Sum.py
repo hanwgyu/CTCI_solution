@@ -8,26 +8,24 @@
 
 
 class Solution:
-    def splitArray_2(self, nums, m):
-        def valid(mid):
-            cnt = 0
-            current = 0
-            for n in nums:
-                current += n
-                if current > mid:
-                    cnt += 1
-                    if cnt >= m:
-                        return False
-                    current = n
-            return True
+    def splitArray(self, nums: List[int], m: int) -> int:
+        def valid(s: int, m: int) -> bool:
+            """
+            m개로 쪼갠 array들의 각각의 합이 s보다 작은지 체크
+            """
+            cur = 0
+            for c in nums:
+                if cur+c > s:
+                    m -= 1
+                    cur = 0
+                cur += c
+            return m >= 1
 
-        l = max(nums)
-        h = sum(nums)
-
-        while l < h:
-            mid = l + (h - l) // 2
-            if valid(mid):
-                h = mid
+        l, r = max(nums), sum(nums)
+        while l <= r:
+            mid = (l+r)//2
+            if valid(mid, m):
+                r = mid - 1
             else:
                 l = mid + 1
         return l
