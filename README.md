@@ -231,6 +231,11 @@
 | 227 | Binary Search | Find Peak Element | [LeetCode](https://leetcode.com/problems/find-peak-element/) | [A](Leetcode/192.py) | -! | :star::star::star: | Binary search! 똑똑한 방법이다.. |
 | 228 | Array | Find Array Given Subset Sums | [LeetCode](https://leetcode.com/problems/find-array-given-subset-sums/) | [A](Leetcode/1982.py) | -! | :star::star::star: | 신기하고 어려운 문제. 리마인드 필요 |
 | 229 | Trie | Design Search Autocomplete System | [LeetCode](https://leetcode.com/problems/design-search-autocomplete-system/) | [A](Leetcode/642.py) | - | :star::star: | Trie로 자동완성 구현. 그냥 재밌다. |
+| 230 | Tree | Count Complete Tree Nodes | [LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/) | [A](Leetcode/222.py) | +! | :star::star::star: |
+| 231 | Graph | Reorder Routes to Make All Paths Lead to the City Zero | [LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [A](Leetcode/1466.py) | + | :star::star:
+| 232 | Array | Find the Longest Valid Obstacle Course at Each Position | [LeetCode](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | [A](Leetcode/1964.py) | + | :star::star::star: | Longest Increasing Subsequnce (LIS) |
+| 233 | DP | Number of Unique Good Subsequences | [LeetCode](https://leetcode.com/problems/number-of-unique-good-subsequences/) | [A](Leetcode/1987.py) | -! | :star::star::star: |
+
 
 
 +: Solved within 30 min
