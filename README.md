@@ -236,7 +236,7 @@
 | 232 | Array | Find the Longest Valid Obstacle Course at Each Position | [LeetCode](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | [A](Leetcode/1964.py) | + | :star::star::star: | Longest Increasing Subsequnce (LIS) |
 | 233 | DP | Number of Unique Good Subsequences | [LeetCode](https://leetcode.com/problems/number-of-unique-good-subsequences/) | [A](Leetcode/1987.py) | -! | :star::star::star: |
 | 234 | Sorting | The Number of Weak Characters in the Game | [LeetCode](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) | [A](Leetcode/1996.py) | - | :star::star::star: | Sorting을 창의적으로 쓰는 문제 |
-
+| 235 | DP | | | [A](Leetcode/72.py) | - | :star::star::star: |
 
 
 
