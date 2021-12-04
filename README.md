@@ -237,8 +237,7 @@
 | 233 | DP | Number of Unique Good Subsequences | [LeetCode](https://leetcode.com/problems/number-of-unique-good-subsequences/) | [A](Leetcode/1987.py) | -! | :star::star::star: |
 | 234 | Sorting | The Number of Weak Characters in the Game | [LeetCode](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) | [A](Leetcode/1996.py) | - | :star::star::star: | Sorting을 창의적으로 쓰는 문제 |
 | 235 | DP | | | [A](Leetcode/72.py) | - | :star::star::star: |
-
-
+| 236 | Union-Find | | | [A](Leetcode/827.py) | -! | :star::star::star: | 
 
 +: Solved within 30 min
 
