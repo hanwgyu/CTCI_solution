@@ -7,49 +7,51 @@
 
 class Solution:
     def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
-        def lca(cur: TreeNode) -> TreeNode: # least common ancestor
+        def lca(cur: TreeNode) -> TreeNode:  # least common ancestor
             if not cur:
                 return None
             if cur.val in (startValue, destValue):
                 return cur
             left, right = lca(cur.left), lca(cur.right)
             return cur if left and right else left or right
-        
+
         root = lca(root)
-        
+
         st = [(root, "")]
         path1, path2 = None, None
         while st and (not path1 or not path2):
             node, path = st.pop()
-            if node.val == startValue: path1 = path
-            if node.val == destValue: path2 = path
-            if node.left: st.append((node.left, path+"L"))
-            if node.right: st.append((node.right, path+"R"))
+            if node.val == startValue:
+                path1 = path
+            if node.val == destValue:
+                path2 = path
+            if node.left:
+                st.append((node.left, path+"L"))
+            if node.right:
+                st.append((node.right, path+"R"))
         return "U" * len(path1) + path2
-        
-        
-    
+
     def getDirections_1(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
-        def dfs(cur: TreeNode, target: int, loc: str='1') -> str:
+        def dfs(cur: TreeNode, target: int, loc: str = '1') -> str:
             if not cur:
                 return ''
             if cur.val == target:
                 return loc
             return dfs(cur.left, target, loc+'0') or dfs(cur.right, target, loc+'1')
-            
+
         s1 = dfs(root, startValue)
         s2 = dfs(root, destValue)
-        
+
         def up(i) -> str:
             return 'U' * (len(s1) - i)
-        
+
         def down(i) -> str:
             move = ''
             while i < len(s2):
                 move = move + 'L' if s2[i] == '0' else move + 'R'
                 i += 1
             return move
-        
+
         i = 0
         while i < len(s1) and i < len(s2) and s1[i] == s2[i]:
             i += 1
