@@ -241,6 +241,7 @@
 | 236 | Graph | | | [A](Leetcode/2097.py) | -! | 3 | eulerian trail. 한붓그리기 |
 | 237 | String | | | [A](Leetcode/727.py) | -! | 3 | |
 | 238 | Binary Search, Array | | | [A](Leetcode/715.py) | -! | 3 |
+| 239 | Stack | | | [A](Leetcode/1499.py) | -! | 4 |
 
 +: Solved within 30 min
 
