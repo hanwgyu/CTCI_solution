@@ -11,6 +11,14 @@
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        """
+        두번째가 첫번째의 결정에 영향 받으므로, t2_cost에 첫번째와 두번째의 case를 모두 합친 값을 저장해나아감.
+        그 이후, t2_profit만 리턴.
+        t1_cost = min(s1)
+        t1_profit = e1-s1
+        t2_cost = s2-(t1_profit)
+        t2_profit = e2-(s2+s1-e1)
+        """
         t1_cost, t1_profit, t2_cost, t2_profit = float('inf'), 0, float('inf'), 0
         for p in prices:
             t1_cost = min(t1_cost, p)
@@ -32,8 +40,6 @@ class Solution:
         for i in range(L):
             ans = max(ans, l_dp[i] + r_dp[i])
         return ans
-
-
 
     def maxProfit_1(self, prices: List[int]) -> int:
         dp = [0] * len(prices)
