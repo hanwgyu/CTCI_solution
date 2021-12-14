@@ -18,6 +18,10 @@ class Solution:
         case 2: s[:i] + s[i:]
         case 3: s 전체를 3개 이상으로 쪼개는 방법 -> s+s 에서 s가 가장 처음 나오는 곳을 찾음
             ex) ababab => abababababab => ab[ababab]abab => index 2를 리턴. s[:index]가 가장 작은 공통 문자.
+        
+        케이스를 나누는게 제일 중요한데.. case2에서 두 문자를 병합하는 케이스가 
+            - ab + ba 형태이면 abb + a 에서 이미 계산이 됐고,
+            - ab + ab 형태이면 case3에 포함되는 걸 알아차리는게 중요하다.
         """
         N = len(s)
         # case 3
