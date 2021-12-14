@@ -242,6 +242,7 @@
 | 237 | String | | | [A](Leetcode/727.py) | -! | 3 | |
 | 238 | Binary Search, Array | | | [A](Leetcode/715.py) | -! | 3 |
 | 239 | Stack | | | [A](Leetcode/1499.py) | -! | 4 |
+| 240 | DP | | | [A](Leetcode/729.py) | -! | 4 |
 
 +: Solved within 30 min
 
