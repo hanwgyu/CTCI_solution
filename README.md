@@ -246,6 +246,7 @@
 | 241 | Heap | | | [A](Leetcode/407.py) | -! | 4 |
 | 242 | BFS | | | [A](Leetcode/1293.py) | -! | 4 |
 | 243 | DFS | | | [A](Leetcode/329.py) | -! | 4 | 1293번과 같이 풀어보기 |
+| 244 | BFS | | | [A](Leetcode/1345.py) | + | 4 | 1293번과 유사함 |
 
 +: Solved within 30 min
 
