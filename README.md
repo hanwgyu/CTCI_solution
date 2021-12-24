@@ -243,7 +243,8 @@
 | 238 | Binary Search, Array | | | [A](Leetcode/715.py) | -! | 3 |
 | 239 | Stack | | | [A](Leetcode/1499.py) | -! | 4 |
 | 240 | DP | | | [A](Leetcode/471.py) | -! | 4 |
-| 241 | Heap | | | [A](Leetcode/407.py) | -! | 4 | 
+| 241 | Heap | | | [A](Leetcode/407.py) | -! | 4 |
+| 242 | BFS | | | [A](Leetcode/1293.py) | -! | 4 |
 
 +: Solved within 30 min
 
