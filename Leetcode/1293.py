@@ -1,5 +1,5 @@
 # 모든 방향으로 + visited
-# bfs로 이동하면 step이 작은 순서대로 이동해서 제대로 나오게됨.
+# bfs로 이동하면 step이 작은 순서대로 이동해서 제대로 나오게됨. (이 로직을 이해하는게 제일 중요하다. )
 # REMIND: 어려움. 이 패턴에 익숙해져야함.
 
 class Solution:
@@ -11,7 +11,6 @@ class Solution:
             if grid[0][0] == 1 and k == 0:
                 return -1
             return 0
-        ans = float('inf')
         while dq:
             x_,y_,r_,step_ = dq.popleft()
             for diff in [(-1,0), (1,0), (0,-1), (0,1)]:
@@ -24,7 +23,7 @@ class Solution:
                 if  r > k or (x,y,r) in visited:
                     continue
                 if x == M-1 and y == N-1:
-                    ans = min(ans, step)
+                    return step
                 visited.add((x,y,r))
                 dq.append((x,y,r,step))
-        return ans if ans != float('inf') else -1
+        return -1
