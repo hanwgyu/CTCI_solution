@@ -248,7 +248,9 @@
 | 243 | DFS | | | [A](Leetcode/329.py) | -! | 4 | 1293번과 같이 풀어보기 |
 | 244 | BFS | | | [A](Leetcode/1345.py) | + | 4 | 1293번과 유사함 |
 | 245 | BFS | | | [A](Leetcode/1368.py) | + | 4 | 1293번과 유사함 |
-| 246 | DP | | | [A](Leetcode/1406.py) | -! | 4 | 게임이론? 모르겠음.. |
+| 246 | DP | Stone Game III | | [A](Leetcode/1406.py) | -! | 4 | 게임이론? 모르겠음.. |
+| 247 | DP | Stone Game II | | [A](Leetcode/1140.py) | -! | 3 | 게임이론, lru_cache |
+| 248 | DP | Stone Game IV | | [A](Leetcode/1510.py) | + | 4 | 게임이론, lru_cache, 재밌음! |
 
 
 +: Solved within 30 min

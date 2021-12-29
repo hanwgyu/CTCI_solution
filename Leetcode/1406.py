@@ -6,7 +6,8 @@
 # 합친 점수를 기록하여 0, 마이너스, 양수에 따라 이기는 사람이 정해짐. DP
 # O(N) / O(N)
 
-# REMIND : 겁나 어려웡...
+# REMIND : 겁나 어려웡... 하나의 점수로 합치기 위해 dp를 빼가면서 계산하는 방법이 핵심인듯.
+# 두개가 나오면 애매함..
 
 class Solution:
     def stoneGameIII(self, A: List[int]) -> str:
