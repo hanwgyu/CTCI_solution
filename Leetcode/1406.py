@@ -17,3 +17,20 @@ class Solution:
             dp[i] = max(sum(A[i:i+j+1])-dp[i+j+1] for j in (0,1,2) if i+j < N)
         return "Tie" if dp[0] == 0 else ("Alice" if dp[0] > 0 else "Bob")
             
+
+    def stoneGameIII(self, A: List[int]) -> str:
+        """
+        답은 맞긴한데 시간 초과함.
+        """
+        N = len(A)
+        
+        @lru_cache(maxsize=None)
+        def minmax(i: int, player: int) -> int:
+            if i >= N:
+                return 0
+            if player == 0: #Alice
+                return max(sum(A[i:i+x])+minmax(i+x, 1-player) for x in range(1, 4) if i+x <= N)
+            else:
+                return min(-sum(A[i:i+x])+minmax(i+x, 1-player) for x in range(1, 4) if i+x <= N)
+        res = minmax(0, 0)
+        return "Tie" if res == 0 else ("Alice" if res > 0 else "Bob")

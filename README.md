@@ -251,6 +251,7 @@
 | 246 | DP | Stone Game III | | [A](Leetcode/1406.py) | -! | 4 | 게임이론? 모르겠음.. |
 | 247 | DP | Stone Game II | | [A](Leetcode/1140.py) | -! | 3 | 게임이론, lru_cache |
 | 248 | DP | Stone Game IV | | [A](Leetcode/1510.py) | + | 4 | 게임이론, lru_cache, 재밌음! |
+| 249 | DP | Stone Game VIII | | [A](Leetcode/1872.py) | --! | 4 | Stone Game 시리즈중 제일 어렵고 중요함. |
 
 
 +: Solved within 30 min
