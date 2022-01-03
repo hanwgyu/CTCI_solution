@@ -254,6 +254,7 @@
 | 249 | DP | Stone Game VIII | | [A](Leetcode/1872.py) | --! | 4 | Stone Game 시리즈중 제일 어렵고 중요함. |
 | 250 | Stack | Car Fleet II | | [A](Leetcode/1776.py) | -! | 4 | Trapping rain water 과 비슷한 문제. 어려움. |
 | 251 | BFS | Optimal Account Balancing | | [A](Leetcode/465.py) | -! | 4 | BFS만 쓰는 문제인데 , 어려움. |
+| 252 | DP | Student Attendance Record II | | [A](Leetcode/552.py) | -! | 4 | DP인데 로직짜기가 어렵고 매우 중요하다! |
 
 +: Solved within 30 min
 
