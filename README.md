@@ -256,6 +256,7 @@
 | 251 | BFS | Optimal Account Balancing | | [A](Leetcode/465.py) | -! | 4 | BFS만 쓰는 문제인데 , 어려움. |
 | 252 | DP | Student Attendance Record II | | [A](Leetcode/552.py) | -! | 4 | DP인데 로직짜기가 어렵고 매우 중요하다! |
 | 253 | DP | | | [A](Leetcode/1526.py) | - | 3 | |
+| 254 | Merge Sort | Count of Smaller Numbers After Self | | [A](Leetcode/315.py) | -! | 4 | merge sort를 쓰는 천재적인 아이디어. |
 
 +: Solved within 30 min
 
