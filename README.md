@@ -244,7 +244,7 @@
 | 239 | Stack | | | [A](Leetcode/1499.py) | -! | 4 |
 | 240 | DP | | | [A](Leetcode/471.py) | -! | 4 |
 | 241 | Heap | | | [A](Leetcode/407.py) | -! | 4 |
-| 242 | BFS | | | [A](Leetcode/1293.py) | -! | 4 |
+| 242 | BFS | Shortest Path in a Grid with Obstacles Elimination | | [A](Leetcode/1293.py) | -! | 4 | BFS + visited |
 | 243 | DFS | | | [A](Leetcode/329.py) | -! | 4 | 1293번과 같이 풀어보기 |
 | 244 | BFS | | | [A](Leetcode/1345.py) | + | 4 | 1293번과 유사함 |
 | 245 | BFS | | | [A](Leetcode/1368.py) | + | 4 | 1293번과 유사함 |
@@ -257,6 +257,8 @@
 | 252 | DP | Student Attendance Record II | | [A](Leetcode/552.py) | -! | 4 | DP인데 로직짜기가 어렵고 매우 중요하다! |
 | 253 | DP | | | [A](Leetcode/1526.py) | - | 3 | |
 | 254 | Merge Sort | Count of Smaller Numbers After Self | | [A](Leetcode/315.py) | -! | 4 | merge sort를 쓰는 천재적인 아이디어. |
+| 254 | BFS, DP | Race Car | | [A](Leetcode/818.py) | -! | 5 | 로직짜는것도 어렵고, DP 케이스를 고려하는 것도 어렵고. 신기한 문제. |
+
 
 +: Solved within 30 min
 
