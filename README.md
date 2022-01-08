@@ -259,6 +259,7 @@
 | 254 | Merge Sort | Count of Smaller Numbers After Self | | [A](Leetcode/315.py) | -! | 4 | merge sort를 쓰는 천재적인 아이디어. |
 | 254 | BFS, DP | Race Car | | [A](Leetcode/818.py) | -! | 5 | 로직짜는것도 어렵고, DP 케이스를 고려하는 것도 어렵고. 신기한 문제. |\
 | 255 | BFS | Bus Route | | [A](Leetcode/815.py) | + | 3 | 1293번과  유사함. |
+| 256 | Array, DP | Video Stitching | | [A](Leetcode/1024.py) | -! | 3 | 범위를 MERGE하는 가장 기본적인 문제. 중요함 |
 
 +: Solved within 30 min
 
