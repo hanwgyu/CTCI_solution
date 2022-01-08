@@ -261,6 +261,7 @@
 | 255 | BFS | Bus Route | | [A](Leetcode/815.py) | + | 3 | 1293번과  유사함. |
 | 256 | Array, DP | Video Stitching | | [A](Leetcode/1024.py) | -! | 3 | 범위를 MERGE하는 가장 기본적인 문제. 중요함 |
 | 257 | Array, DP | Minimum Number of Taps to Open to Water a Garden | | | [A](Leetcode/1326.py) | + | 3 | `1024. Video Stitching` 과 동일한 문제. |
+| 258 | DP | Minimum Number of Refueling Stops | | | [A](Leetcode/871.py) | + | 3 | `1024. Video Stitching` 과 비슷한데 더 쉽다. |
 
 +: Solved within 30 min
 
