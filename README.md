@@ -260,10 +260,10 @@
 | 254 | BFS, DP | Race Car | | [A](Leetcode/818.py) | -! | 5 | 로직짜는것도 어렵고, DP 케이스를 고려하는 것도 어렵고. 신기한 문제. |\
 | 255 | BFS | Bus Route | | [A](Leetcode/815.py) | + | 3 | 1293번과  유사함. |
 | 256 | Array, DP | Video Stitching | | [A](Leetcode/1024.py) | -! | 3 | 범위를 MERGE하는 가장 기본적인 문제. 중요함 |
-| 257 | Array, DP | Minimum Number of Taps to Open to Water a Garden | | | [A](Leetcode/1326.py) | + | 3 | `1024. Video Stitching` 과 동일한 문제. |
-| 258 | DP | Minimum Number of Refueling Stops | | | [A](Leetcode/871.py) | + | 3 | `1024. Video Stitching` 과 비슷한데 더 쉽다. |
-| 259 | Sliding Window | Minimum Swaps to Group All 1's Together II | | | [A](Leetcode/2134.py) | -! | 3 | Sliding Window를 구하는 테크닉이 중요하다. |
-| 260 | DP | Count Unique Characters of All Substrings of a Given String | | | [A](Leetcode/828.py) | - | 3 | 재미있는 DP 문제. 면접에 나올만함. |
+| 257 | Array, DP | Minimum Number of Taps to Open to Water a Garden | | [A](Leetcode/1326.py) | + | 3 | `1024. Video Stitching` 과 동일한 문제. |
+| 258 | DP | Minimum Number of Refueling Stops | | [A](Leetcode/871.py) | + | 3 | `1024. Video Stitching` 과 비슷한데 더 쉽다. |
+| 259 | Sliding Window | Minimum Swaps to Group All 1's Together II | | [A](Leetcode/2134.py) | -! | 3 | Sliding Window를 구하는 테크닉이 중요하다. |
+| 260 | DP | Count Unique Characters of All Substrings of a Given String | | [A](Leetcode/828.py) | - | 3 | 재미있는 DP 문제. 면접에 나올만함. |
 | 261 | Trie | Implement Trie | [Leetcode](https://leetcode.com/problems/implement-trie-prefix-tree/) | [A](Leetcode/208.py) | - | 3 | Trie 구현 |
 
 +: Solved within 30 min
