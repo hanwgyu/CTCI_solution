@@ -264,6 +264,7 @@
 | 258 | DP | Minimum Number of Refueling Stops | | | [A](Leetcode/871.py) | + | 3 | `1024. Video Stitching` 과 비슷한데 더 쉽다. |
 | 259 | Sliding Window | Minimum Swaps to Group All 1's Together II | | | [A](Leetcode/2134.py) | -! | 3 | Sliding Window를 구하는 테크닉이 중요하다. |
 | 260 | DP | Count Unique Characters of All Substrings of a Given String | | | [A](Leetcode/828.py) | - | 3 | 재미있는 DP 문제. 면접에 나올만함. |
+| 261 | Trie | Implement Trie | [Leetcode](https://leetcode.com/problems/implement-trie-prefix-tree/) | [A](Leetcode/208.py) | - | 3 | Trie 구현 |
 
 +: Solved within 30 min
 
