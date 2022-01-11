@@ -265,7 +265,9 @@
 | 259 | Sliding Window | Minimum Swaps to Group All 1's Together II | | [A](Leetcode/2134.py) | -! | 3 | Sliding Window를 구하는 테크닉이 중요하다. |
 | 260 | DP | Count Unique Characters of All Substrings of a Given String | | [A](Leetcode/828.py) | - | 3 | 재미있는 DP 문제. 면접에 나올만함. |
 | 261 | Trie | Implement Trie | [Leetcode](https://leetcode.com/problems/implement-trie-prefix-tree/) | [A](Leetcode/208.py) | - | 3 | Trie 구현 |
-| 262 | BFS, Trie | Word Search II | [Leetcode](https://leetcode.com/problems/word-search-ii/) | [A](Leetcode/212.py) | - | 3 | Trie를 쓰는 어려운 문제 | 
+| 262 | BFS, Trie | Word Search II | [Leetcode](https://leetcode.com/problems/word-search-ii/) | [A](Leetcode/212.py) | - | 3 | Trie를 쓰는 어려운 문제 |
+| 263 | Backtracking | Sudoku Solver | [Leetcode](https://leetcode.com/problems/sudoku-solver/) | [A](Leetcode/37.py) | -! | 3 | backtracking 기본 문제. |
+
 
 +: Solved within 30 min
 
