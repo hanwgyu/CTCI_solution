@@ -269,6 +269,7 @@
 | 263 | Backtracking | Sudoku Solver | [Leetcode](https://leetcode.com/problems/sudoku-solver/) | [A](Leetcode/37.py) | -! | 3 | backtracking 기본 문제. |
 | 264 | Heap | Meeting Rooms II | [Leetcode](https://leetcode.com/problems/meeting-rooms-ii/) | [A](Leetcode/253.py) | - | 3 | Heap, Array 의 기본 문제. |
 | 265 | DFS | Wildcard Matching | [Leetcode](https://leetcode.com/problems/wildcard-matching/) | [A](Leetcode/44.py) | - | 3 | DFS 기본 문제. |
+| 265 | Graph | Alien Dictionary | [Leetcode](https://leetcode.com/problems/alien-dictionary/) | [A](Leetcode/269.py) | - | 4 | Topological sort |
 
 
 +: Solved within 30 min
