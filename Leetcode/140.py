@@ -48,7 +48,7 @@ class Solution:
         Trie + DP
         뒤부터 시작해서 현재 범위에서 마지막까지의 substring들을 구함.
         DP에는 결과값들을 저장해나아감
-        단어 길이가 최대 10이므로 dp를 10까지만 저장함.
+        REMIND: 단어 길이가 최대 10이므로 dp를 10까지만 저장함.
 
         S : len(s), M: len(wordDict), N: max(wordDict, len)
         """
