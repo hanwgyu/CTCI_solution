@@ -5,7 +5,7 @@
 
 for T in range(1,1+int(input())):
   N = int(input())
-   A = list(map(int,input().split()))
+  A = list(map(int,input().split()))
   cur = A[0]
   ans = 0
   for x in A[1:]:
