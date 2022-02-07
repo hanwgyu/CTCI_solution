@@ -272,6 +272,7 @@
 | 265 | Graph | Alien Dictionary | [Leetcode](https://leetcode.com/problems/alien-dictionary/) | [A](Leetcode/269.py) | - | 4 | Topological sort |
 | 266 | Trie, DP | Word Break II | [Leetcode](https://leetcode.com/problems/word-break-ii) | [A](Leetcode/140.py) | - | 4 | Trie 쓰는 기본 문제! |
 | 267 | BFS, Backtracking | Shortest Distance from All Buildings | [Leetcode](https://leetcode.com/problems/shortest-distance-from-all-buildings/) | [A](Leetcode/317.py) | -! | 4 | BFS+Visited. `Shortest Path in a Grid with Obstacles Elimination` 문제의 업그레이드 버전 느낌. |
+| 268 | BFS, Greedy | Jump Game II | [Leetcode](https://leetcode.com/problems/jump-game-ii/) | [A](Leetcode/45.py) | - | 2 | Greedy인데 마냥 쉽지만은 않음. |
 
 
 +: Solved within 30 min

@@ -10,7 +10,7 @@ for T in range(1,1+int(input())):
   ans = 0
   for x in A[1:]:
     for n in range(0,1000):
-      l = x * 10**nㄹㄹ
+      l = x * 10**n
       r = x * 10**n + (10**n - 1)
       if r <= cur:
         continue
