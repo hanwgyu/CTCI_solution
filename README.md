@@ -276,6 +276,8 @@
 | 269 | List | Container With Most Water | [Leetcode](https://leetcode.com/problems/container-with-most-water/) | [A](Leetcode/11.py) | + | 3 | Two pointer 중요한 문제. |
 | 270 | List | Design Hit Counter | [Leetcode](https://leetcode.com/problems/design-hit-counter/) | [A](Leetcode/362.py) | + | 1 | 최적화 테크닉 |
 | 271 | List | Top K Frequent Words | [Leetcode](https://leetcode.com/problems/top-k-frequent-words/) | [A](Leetcode/692.py) | + | 2 | Sort 시 LT 사용 |
+| 272 | Stack | Remove All Adjacent Duplicates in String II | [Leetcode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [A](Leetcode/1209.py) | + | 1 | Stack 크기를 줄이는 좋은 문제 |
+
 
 
 +: Solved within 30 min
