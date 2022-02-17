@@ -275,6 +275,7 @@
 | 268 | BFS, Greedy | Jump Game II | [Leetcode](https://leetcode.com/problems/jump-game-ii/) | [A](Leetcode/45.py) | - | 2 | Greedy인데 마냥 쉽지만은 않음. |
 | 269 | List | Container With Most Water | [Leetcode](https://leetcode.com/problems/container-with-most-water/) | [A](Leetcode/11.py) | + | 3 | Two pointer 중요한 문제. |
 | 270 | List | Design Hit Counter | [Leetcode](https://leetcode.com/problems/design-hit-counter/) | [A](Leetcode/362.py) | + | 1 | 최적화 테크닉 |
+| 271 | List | Top K Frequent Words | [Leetcode](https://leetcode.com/problems/top-k-frequent-words/) | [A](Leetcode/692.py) | + | 2 | Sort 시 LT 사용 |
 
 
 +: Solved within 30 min
