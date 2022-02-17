@@ -32,7 +32,7 @@
 | 28 | Linked List | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | [A](Leetcode/Merge_Two_Sorted_Lists.py) | + | 1 | Inplace |
 | 29 | Heap | K Closest Points to Origin | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) | [A](Leetcode/K_Cloest_Points_to_Origin.py ) | + |
 | 30 | Heap | Merge K Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) | [A](Leetcode/Merge_K_Sorted_Lists.py) | + |
-| 31 | Heap | Find Medain from Data Stream | [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) | [A](Leetcode/Find_Median_from_Data_Stream.py) | - | 2 |
+| 31 | Heap | Find Median from Data Stream | [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) | [A](Leetcode/Find_Median_from_Data_Stream.py) | - | 3 |
 | 32 | Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | -! | 3 |
 | 33 | Array, Hash | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | 3 |
 | 34 | Array, Hash | Group Anagrams | [LeetCode](https://leetcode.com/problems/group-anagrams/) | [A](Leetcode/Group_Anagrams.py) | + | 1 |
