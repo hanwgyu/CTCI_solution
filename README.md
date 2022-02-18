@@ -36,7 +36,6 @@
 | 32 | Array | Kth Largest Element in an Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [A](Leetcode/Kth_Largest_Element_in_an_Array.py) | -! | 3 |
 | 33 | Array, Hash | Two Sum | [LeetCode](https://leetcode.com/problems/two-sum/) | [A](Leetcode/Two_Sum.py) | + | 3 |
 | 34 | Array, Hash | Group Anagrams | [LeetCode](https://leetcode.com/problems/group-anagrams/) | [A](Leetcode/Group_Anagrams.py) | + | 1 |
-| 35 | Array, Hash | Subarray Sum Equals K | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) | [A](Leetcode/Subarray_Sum_Equals_K.py) | - | 2 |
 | 36 | Array, Hash | Panlindrome Pairs | [LeetCode](https://leetcode.com/problems/palindrome-pairs/) | [A](Leetcode/Palindrome_Pairs.py) | -! | 2 |
 | 37 | Hash | Insert Delete GetRandom O(1) | [LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [A](Leetcode/Insert_Delete_GetRandom_O(1).py) | + | 1 |
 | 38 | Linked List | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/) | [A](Leetcode/Copy_List_with_Random_Pointer.py) | + |
@@ -277,7 +276,7 @@
 | 270 | List | Design Hit Counter | [Leetcode](https://leetcode.com/problems/design-hit-counter/) | [A](Leetcode/362.py) | + | 1 | 최적화 테크닉 |
 | 271 | List | Top K Frequent Words | [Leetcode](https://leetcode.com/problems/top-k-frequent-words/) | [A](Leetcode/692.py) | + | 2 | Sort 시 LT 사용 |
 | 272 | Stack | Remove All Adjacent Duplicates in String II | [Leetcode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [A](Leetcode/1209.py) | + | 1 | Stack 크기를 줄이는 좋은 문제 |
-
+| 273 | Array, Hash | Subarray Sum Equals K | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) | [A](Leetcode/560ㄴ.py) | - | 3 | Prefix Sum 기본 문제 |
 
 
 +: Solved within 30 min
