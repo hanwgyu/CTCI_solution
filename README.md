@@ -281,6 +281,8 @@
 | 275 | Array | Car Pooling | [LeetCode](https://leetcode.com/problems/car-pooling/) | [A](Leetcode/1094.py) | + | 3 | Prefix Sum  |
 | 276 | Array | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/) | [A](Leetcode/1004.py) | -! | 2 | Sliding Window  |
 | 277 | String | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [A](Leetcode/3.py) | - | 3 | Sliding Window 기본 + 최적화 |
+| 278 | String | Longest Substring with At Most Two Distinct Characters | [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [A](Leetcode/159.py) | - | 3 | Sliding Window + 최적화 |
+
 
 
 +: Solved within 30 min
