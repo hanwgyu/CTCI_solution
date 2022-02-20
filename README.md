@@ -282,6 +282,7 @@
 | 276 | Array | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/) | [A](Leetcode/1004.py) | -! | 2 | Sliding Window  |
 | 277 | String | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [A](Leetcode/3.py) | - | 3 | Sliding Window 기본 + 최적화 |
 | 278 | String | Longest Substring with At Most Two Distinct Characters | [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [A](Leetcode/159.py) | - | 3 | Sliding Window + 최적화 |
+| 279 | Array | Subarrays with K Different Integers | [LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [A](Leetcode/992.py) | -! | 3 | Sliding Window 를 기본 방식으로 푸는데 매우 똑똑함. |
 
 
 
