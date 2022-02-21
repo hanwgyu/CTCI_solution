@@ -284,6 +284,7 @@
 | 278 | String | Longest Substring with At Most Two Distinct Characters | [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [A](Leetcode/159.py) | - | 3 | Sliding Window + 최적화 |
 | 279 | Array | Subarrays with K Different Integers | [LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [A](Leetcode/992.py) | -! | 3 | Sliding Window 를 기본 방식으로 푸는데 매우 똑똑함. |
 | 280 | Array | Maximum Length of Repeated Subarray | [LeetCode](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [A](Leetcode/718.py) | -! | 3 | Rolling Hash 오지게 어려운 문제. |
+| 281 | Array | Cutting Ribbons | [LeetCode](https://leetcode.com/problems/cutting-ribbons/) | [A](Leetcode/1891.py) | + | 2 | 특정 값에 대해 brute-force하게 시도하고 Binary search로 반복횟수를 줄이는 패턴 |
 
 
 +: Solved within 30 min
