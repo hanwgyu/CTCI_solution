@@ -286,6 +286,7 @@
 | 280 | Array | Maximum Length of Repeated Subarray | [LeetCode](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [A](Leetcode/718.py) | -! | 3 | Rolling Hash 오지게 어려운 문제. |
 | 281 | Array, Binary search | Cutting Ribbons | [LeetCode](https://leetcode.com/problems/cutting-ribbons/) | [A](Leetcode/1891.py) | + | 2 | 특정 값에 대해 brute-force하게 시도하고 Binary search로 반복횟수를 줄이는 패턴 |
 | 281 | Array, Binary search | Divide Chocolate | [LeetCode](https://leetcode.com/problems/divide-chocolate/) | [A](Leetcode/1231.py) | + | 3 | Cutting Ribbons 과 동일한데 더 어려운 문제.  |
+| 281 | Binary search | Single Element in a Sorted Array | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [A](Leetcode/540.py) | + | 3 | Binary Search 스마트하게 쓰는 문제.  |
 
 
 +: Solved within 30 min
