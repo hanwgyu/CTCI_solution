@@ -288,6 +288,7 @@
 | 281 | Array, Binary search | Divide Chocolate | [LeetCode](https://leetcode.com/problems/divide-chocolate/) | [A](Leetcode/1231.py) | + | 3 | Cutting Ribbons 과 동일한데 더 어려운 문제.  |
 | 281 | Binary search | Single Element in a Sorted Array | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [A](Leetcode/540.py) | + | 3 | Binary Search 스마트하게 쓰는 문제.  |
 | 282 | Heap | Reorganize String | [LeetCode](https://leetcode.com/problems/reorganize-string/) | [A](Leetcode/540.py) | + | 3 | Heap 기본 문제.  |
+| 283 | Array | Contiguous Array | [LeetCode](https://leetcode.com/problems/contiguous-array/) | [A](Leetcode/540.py) | + | 2 | Prefix Sum 기본 문제.  |
 
 +: Solved within 30 min
 
