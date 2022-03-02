@@ -289,6 +289,8 @@
 | 281 | Binary search | Single Element in a Sorted Array | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [A](Leetcode/540.py) | + | 3 | Binary Search 스마트하게 쓰는 문제.  |
 | 282 | Heap | Reorganize String | [LeetCode](https://leetcode.com/problems/reorganize-string/) | [A](Leetcode/540.py) | + | 3 | Heap 기본 문제.  |
 | 283 | Array | Contiguous Array | [LeetCode](https://leetcode.com/problems/contiguous-array/) | [A](Leetcode/540.py) | + | 2 | Prefix Sum 기본 문제.  |
+| 284 | Array | Ways to Split Array Into Three Subarrays | [LeetCode](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/) | [A](Leetcode/1712.py) | -! | 3 | Prefix Sum 변형 문제. 나름 까다롭다. |
+| 285 | Array | Frequency of the Most Frequent Element | [LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [A](Leetcode/1838.py) | -! | 2 | Sliding Window 문제 까다롭다. |
 
 +: Solved within 30 min
 
