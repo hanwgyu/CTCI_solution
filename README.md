@@ -292,6 +292,7 @@
 | 285 | Array | Frequency of the Most Frequent Element | [LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [A](Leetcode/1838.py) | -! | 2 | Sliding Window 문제 까다롭다. |
 | 286 | Array | Number of Submatrices That Sum to Target | [LeetCode](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [A](Leetcode/1074.py) | -! | 4 | Prefix Sum 이차원으로. 어렵고 중요함. |
 | 287  | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/862.py) | -! | 3 | Prefix Sum와 Monotonic queue 를 같이 쓰는 문제. 어렵다. |
+| 288  | String | Palindrome Partitioning II | [LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/) | [A](Leetcode/132.py) | -! | 3 | Palindrome 문제. 홀수, 짝수로 나눠서 DP를 적용하는 기본 문제. |
 
 
 +: Solved within 30 min
