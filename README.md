@@ -154,7 +154,6 @@
 | 151  | DFS | Word Search | [LeetCode](https://leetcode.com/problems/word-search/) | [A](Leetcode/Word_Search.py) | + | 2 |
 | 152  | Stack | Remove All Adjacent Duplicates In String | [LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [A](Leetcode/Remove_All_Adjacent_Duplicates_In_String.py) | + |
 | 153  | Stack | Minimum Remove to Make Valid Parentheses | [LeetCode](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [A](Leetcode/Minimum_Remove_to_Make_Valid_Parentheses.py) | + | 2 |
-| 154  | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/Shortest_Subarray_with_Sum_at_Least_K.py) | -! | 3 |
 | 155  | Linked List | Remove Duplicates from Sorted List | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [A](Leetcode/Remove_Duplicates_from_Sorted_List.py) | + |
 | 156  | Linked List | Reorder List | [LeetCode](https://leetcode.com/problems/reorder-list/) | [A](Leetcode/Reorder_List.py) | - | 3 |
 | 157  | Linked List | Flatten a Multilevel Doubly Linked List | [LeetCode](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [A](Leetcode/Flatten_a_Multilevel_Doubly_Linked_List.py) | + | 2 |
@@ -292,6 +291,7 @@
 | 284 | Array | Ways to Split Array Into Three Subarrays | [LeetCode](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/) | [A](Leetcode/1712.py) | -! | 3 | Prefix Sum 변형 문제. 나름 까다롭다. |
 | 285 | Array | Frequency of the Most Frequent Element | [LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [A](Leetcode/1838.py) | -! | 2 | Sliding Window 문제 까다롭다. |
 | 286 | Array | Number of Submatrices That Sum to Target | [LeetCode](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [A](Leetcode/1074.py) | -! | 4 | Prefix Sum 이차원으로. 어렵고 중요함. |
+| 287  | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/862.py) | -! | 3 | Prefix Sum와 Monotonic queue 를 같이 쓰는 문제. 어렵다. |
 
 
 +: Solved within 30 min
