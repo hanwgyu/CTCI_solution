@@ -291,6 +291,8 @@
 | 283 | Array | Contiguous Array | [LeetCode](https://leetcode.com/problems/contiguous-array/) | [A](Leetcode/540.py) | + | 2 | Prefix Sum 기본 문제.  |
 | 284 | Array | Ways to Split Array Into Three Subarrays | [LeetCode](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/) | [A](Leetcode/1712.py) | -! | 3 | Prefix Sum 변형 문제. 나름 까다롭다. |
 | 285 | Array | Frequency of the Most Frequent Element | [LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [A](Leetcode/1838.py) | -! | 2 | Sliding Window 문제 까다롭다. |
+| 286 | Array | Number of Submatrices That Sum to Target | [LeetCode](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [A](Leetcode/1074.py) | -! | 4 | Prefix Sum 이차원으로. 어렵고 중요함. |
+
 
 +: Solved within 30 min
 
