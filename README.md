@@ -295,7 +295,10 @@
 | 288  | String | Palindrome Partitioning II | [LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/) | [A](Leetcode/132.py) | -! | 3 | Palindrome 문제. 홀수, 짝수로 나눠서 DP를 적용하는 기본 문제. |
 | 289  | Binary Search | Find Minimum in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [A](Leetcode/153.py) | - | 2 | Binary Search 변형 문제. |
 | 290  | Binary Search | Find First and Last Position of Element in Sorted Array | [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [A](Leetcode/34.py) | + | 3 | bisect_left, bisect_right 구현 |
-
+| 291  | Two pointer | Two Sum II - Input Array Is Sorted | [LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [A](Leetcode/167.py) | + | 3 | Two pointer 기본 문제 |
+| 292  | Two pointer | 3Sum | [LeetCode](https://leetcode.com/problems/3sum/) | [A](Leetcode/15.py) | + | 3 | Two pointer 변형 문제 |
+| 293  | Two pointer | 4Sum | [LeetCode](https://leetcode.com/problems/4sum/) | [A](Leetcode/18.py) | + | 3 | 3Sum을 NSum으로 확장. 구현만 약간 복잡. |
+| 294  | Two pointer | 3Sum Closest | [LeetCode](https://leetcode.com/problems/3sum-closest/) | [A](Leetcode/16.py) | + | 3 | 3Sum을 약간 변형. |
 
 +: Solved within 30 min
 
