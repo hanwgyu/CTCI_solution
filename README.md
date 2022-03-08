@@ -299,6 +299,8 @@
 | 292  | Two pointer | 3Sum | [LeetCode](https://leetcode.com/problems/3sum/) | [A](Leetcode/15.py) | + | 3 | Two pointer 변형 문제 |
 | 293  | Two pointer | 4Sum | [LeetCode](https://leetcode.com/problems/4sum/) | [A](Leetcode/18.py) | + | 3 | 3Sum을 NSum으로 확장. 구현만 약간 복잡. |
 | 294  | Two pointer | 3Sum Closest | [LeetCode](https://leetcode.com/problems/3sum-closest/) | [A](Leetcode/16.py) | + | 3 | 3Sum을 약간 변형. |
+| 295  | Two pointer, Tree | Closest Binary Search Tree Value II | [LeetCode](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) | [A](Leetcode/272.py) | -! | 3 | 까다로운 Tree + Two pointer 문제 |
+
 
 +: Solved within 30 min
 
