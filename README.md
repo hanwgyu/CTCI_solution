@@ -144,7 +144,7 @@
 | 141  | Graph | Regions Cut By Slashes | [LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/) | | | | TODO: Solve |
 | 142  | Array | Rotting Oranges | [LeetCode](https://leetcode.com/problems/rotting-oranges/) | [A](Leetcode/Rotting_Oranges.py) | + |
 | 143  | Array | Merge Sorted Array | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) | [A](Leetcode/Merge_Sorted_Array.py) | + |
-| 144  | Array | Next Permutation | [LeetCode](https://leetcode.com/problems/next-permutation/) | [A](Leetcode/Next_Permutation.py) | - | 3 |
+| 144  | Array | Next Permutation | [LeetCode](https://leetcode.com/problems/next-permutation/) | [A](Leetcode/31.py) | - | 3 |
 | 145  | String | Permutation in String | [LeetCode](https://leetcode.com/problems/permutation-in-string/) | [A](Leetcode/Permutation_in_String.py) | + |
 | 146  | DP, Backtracking | Longest Palindromic Subsequence | [LeetCode](https://leetcode.com/problems/longest-palindromic-subsequence/) | [A](Leetcode/Longest_Palindromic_Subsequence.py) | - | 3 | REMIND: Basic DP, Backtracking problem |
 | 147  | Backtracking | Partition to K Equal Sum Subsets | [LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [A](Leetcode/Partition_to_K_Equal_Sum_Subsets.py) | -! | 3 |

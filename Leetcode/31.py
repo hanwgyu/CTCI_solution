@@ -23,3 +23,24 @@ class Solution:
         while i < j:
             nums[i], nums[j] = nums[j], nums[i]
             i, j = i + 1, j - 1
+
+    def nextPermutation(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        
+        뒤에서부터 시작해서 값이 감소할때까지 움직이고, 그 위치에서 이전 보다 큰 값을 찾고, 뒤집는다.
+
+        1234 1243 1324 1342 1423 1432 2134 2143 2314 2341
+        
+        2431 
+        """
+        i = j = len(nums)-1
+        while i > 0 and nums[i-1] >= nums[i]:
+            i -= 1
+        if i == 0:
+            nums[:] = nums[::-1]
+            return
+        while nums[j] <= nums[i-1]:
+            j -= 1
+        nums[i-1], nums[j] = nums[j], nums[i-1]
+        nums[i:len(nums)] = nums[i:len(nums)][::-1]
