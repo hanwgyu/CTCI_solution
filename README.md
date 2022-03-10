@@ -194,7 +194,7 @@
 | 192  | Array, Math | Sell Diminishing-Valued Colored Balls | [LeetCode](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/) | [A](Leetcode/Sell_Diminishing-Valued_Colored_Balls.py) | + | 2 |
 | 193  | Binary Index Tree | Create Sorted Array through Instructions | [LeetCode](https://leetcode.com/problems/create-sorted-array-through-instructions/) | [A](Leetcode/Create_Sorted_Array_through_Instructions.py) | -! | 3 | Binary Index Tree |
 | 194  | Array | Design an Ordered Stream | [LeetCode](https://leetcode.com/problems/design-an-ordered-stream/) | [A](Leetcode/Design_an_Ordered_Stream.py) | + |
-| 195  | Hash | Minimum Operations to Reduce X to Zero | [LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [A](Leetcode/Minimum_Operations_to_Reduce_X_to_Zero.py) | + | 2 |
+| 195  | Hash | Minimum Operations to Reduce X to Zero | [LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [A](Leetcode/1658.py) | + | 3 | Sliding Window, Prefix Sum 기본 문제. |
 | 196  | String | Determine if Two Strings Are Close | [LeetCode](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [A](Leetcode/Determine_if_Two_Strings_Are_Close.py) | + | 1 |
 | 197  | DP | Maximize Grid Happiness | [LeetCode](https://leetcode.com/problems/maximize-grid-happiness/) | [A](Leetcode/Maximize_Grid_Happiness.py) | -- | 4 | REMIND :  Decorator pattern when save memory (DFS + Memory) |
 | 198  | Array | Check If Two String Arrays are Equivalent | [LeetCode](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [A](Leetcode/Check_If_Two_String_Arrays_are_Equivalent.py) | + | | REMIND: library `itertools` (zip_longest, chain.from_iterable) |
@@ -218,7 +218,7 @@
 | 216 | Math, Binary Search | Minimum Garden Perimeter to Collect Enough Apples | [LeetCode](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | [A](Leetcode/1954.py) | + |
 | 217 | DP | Count Number of Special Subsequences | [LeetCode](https://leetcode.com/problems/count-number-of-special-subsequences/) | [A](Leetcode/1955.py) | + | 3 |
 | 218 | DP | Best Time to Buy and Sell Stock III | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [A](Leetcode/123.py) | -! | 3 |
-| 219 | String | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) | [A](Leetcode/76.py) | -! | 3 | Sliding window, two pointer |
+| 219 | String | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) | [A](Leetcode/76.py) | -! | 3 | Sliding window, two pointer 문제! |
 | 220 | Array | Height Checker | [LeetCode](https://leetcode.com/problems/height-checker/) | [A](Leetcode/1051.py) | + |
 | 221 | String | Long Pressed Name | [LeetCode](https://leetcode.com/problems/long-pressed-name/) | [A](Leetcode/925.py) | + |
 | 222 | Stack | Count Submatrices With All Ones | [LeetCode](https://leetcode.com/problems/count-submatrices-with-all-ones/) | [A](Leetcode/1504.py) | -! | 3 | increasing stack. Hard. |
