@@ -68,7 +68,7 @@
 | 65 | Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/Majority_Element.py) | -! | 2 |
 | 66 | Graph | Satisfiability of Equality Equations | [LeetCode](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [A](Leetcode/Satisfiability_of_Equality_Equations.py) | + | 2 | Union-Find |
 | 67 | Bit Manipulation | Single Number II | [LeetCode](https://leetcode.com/problems/single-number-ii/) | [A](Leetcode/Single_Number_II.py) | - | 2 |
-| 68 | Graph | Minimum Height Trees | [LeetCode](https://leetcode.com/problems/minimum-height-trees/) | [A](Leetcode/Minimum_Height_Trees.py) | --! | 3 | [Similar Problem](Leetcode/Binary_Tree_Maximum_Path_Sum.py) |
+| 68 | Graph | Minimum Height Trees | [LeetCode](https://leetcode.com/problems/minimum-height-trees/) | [A](Leetcode/310.py) | --! | 3 | [Similar Problem](Leetcode/Binary_Tree_Maximum_Path_Sum.py) |
 | 69 | Math | Reverse Integer | [LeetCode](https://leetcode.com/problems/reverse-integer/) | [A](Leetcode/Reverse_Integer.py) | + |
 | 70 | Math | Palindrome Number | [LeetCode](https://leetcode.com/problems/palindrome-number/) | [A](Leetcode/Palindrome_Number.py) | + |
 | 71 | Math | Divide Two Integers | [LeetCode](https://leetcode.com/problems/divide-two-integers/) | [A](Leetcode/Divide_Two_Integers.py) | + |

@@ -59,33 +59,38 @@ class Solution:
         l = len(longest)
         return longest[(l - 1) // 2 : l // 2 + 1] if longest else [0]
 
-    def findMinHeightTrees_1(
-        self, n: int, edges: List[List[int]]
-    ) -> List[int]:
-        def dfs(n: int, visited: Set[int]) -> List[int]:
-            if n in visited:
-                return []
-            visited.add(n)
-            p_1, p_2 = [], []
-            for adj in graph[n]:
-                p = dfs(adj, visited)
-                if len(p) > len(p_1):
-                    p_2 = p_1
-                    p_1 = p
-                elif len(p) > len(p_2):
-                    p_2 = p
-            h = len(p_1) + len(p_2) + 1
-            if h > self.max_h:
-                self.max_h = h
-                self.max_p = p_1 + [n] + p_2[::-1]
-            p_1.append(n)
-            return p_1
-
-        if not edges:
+    def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
+        """
+        아무 노드에서나 시작.
+        1. 해당 노드와 연결된 노드들 중에 가장 길이가 긴 2개를 찾아 합치면 총 길이가 됨.
+        2. 길이가 가장 긴 노드의 중간 지점을 리턴
+        """
+        if n == 1:
             return [0]
-        self.max_h, self.max_p, graph = 0, None, defaultdict(list)
-        for src, dst in edges:
-            graph[src].append(dst)
-            graph[dst].append(src)
-        dfs(edges[0][0], set())
-        return self.max_p[(self.max_h - 1) // 2 : self.max_h // 2 + 1]
+        d = defaultdict(list)
+        for a, b in edges:
+            d[a].append(b)
+            d[b].append(a)
+        
+        self.max_l, self.max_node = 0, None 
+        def dfs(node: int, visited: Set[int] = set()) -> List[int]:
+            """
+            leaf까지의 가장 긴 길이의 리스트를 리턴.
+            """
+            if node in visited:
+                return []
+            visited.add(node)
+            t1, t2 = [], []
+            for adj in d[node]:
+                t = dfs(adj, visited)
+                if len(t) > len(t1):
+                    t2, t1 = t1, t
+                elif len(t) > len(t2):
+                    t2 = t
+            if len(t2) + len(t1) + 1 > self.max_l:
+                self.max_l = len(t2) + len(t1) + 1
+                t = t1+[node]+t2
+                self.max_node = t[(self.max_l-1)//2:self.max_l//2+1]
+            return t1 + [node]
+        dfs(edges[0][0])
+        return self.max_node
