@@ -4,25 +4,32 @@
 # Solution 2 : Sorting.
 # Time O(NlogN), Space : O(N)
 
-# Solution 3 : Bit Manipulation. 과반수 이상인 원소가 존재하므로, 과반수 이상으로 카운트 된 bit만 모으면 해당 원소를 표현가능.
-# Time : O(N), Space : O(1)
-
-# Solution 4 : Boyd-Moore voting algorithm. 값이 다른 두 원소를 지워가다보면, 과반수 이상인 원소가 남게됨.
-# Time : O(N), Space : O(1)
-
 from collections import defaultdict
 
 
 class Solution:
-    def majorityElement_4(self, nums: List[int]) -> int:
-        ans, cnt = 0, 0
-        for num in nums:
+    def majorityElement(self, nums: List[int]) -> int:
+        """
+        절반보다 많다면 값이 다르면 count를 뺴주는 식으로 O(1)으로 구해낼 수 있다. 
+
+        O(N) / O(1)
+        """
+        ans, cnt = None, 0
+        for n in nums:
             if cnt == 0:
-                ans = num
-            cnt = cnt + 1 if ans == num else cnt - 1
+                ans = n
+            cnt = cnt+1 if ans == n else cnt-1
         return ans
 
     def majorityElement_3(self, nums: List[int]) -> int:
+        """
+        Bit Manipulation.
+        32 비트를 쪼개서 count 갯수를 저장.
+        특정 원소가 과반수 초과이므로, count가 과반수 초과인 것만 골라내면 됨.
+        다른 원소들이 아무리 합쳐져도 과반수 이하여서 문제 없다.
+
+        O(N) / O(1)
+        """
         # 32bit integer
         bits = [0 for _ in range(32)]
         for num in nums:
