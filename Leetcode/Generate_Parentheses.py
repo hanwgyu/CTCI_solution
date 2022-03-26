@@ -8,6 +8,22 @@
 
 
 class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        def dfs(s, l, r) -> List[str]:
+            if l == 0 and r == 0:
+                return ["".join(s)]
+            ans = []
+            if l < r:
+                s.append(")")
+                ans += dfs(s, l, r-1)    
+                s.pop()
+            if l > 0:
+                s.append("(")
+                ans += dfs(s, l-1, r)    
+                s.pop()
+            return ans
+        return dfs([], n, n)   
+ 
     def generateParenthesis_2(self, n: int) -> List[str]:
         def preOrder(ans: List[str], s: str, l: int, r: int) -> None:
             if not l and not r:
