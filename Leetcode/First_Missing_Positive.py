@@ -7,13 +7,13 @@ class Solution:
         nums.append(0)
         N = len(nums)
         for i, n in enumerate(nums):
-            if n < 0 or n >= N:
+            if n <= 0 or n >= N:
                 nums[i] = 0
-
         for i, n in enumerate(nums):
-            nums[n % N] += N
-
+            nums[n%N] += N
+            nums[i] -= n%N
         for i, n in enumerate(nums):
-            if n // N == 0:
+            if n == 0:
                 return i
         return N
+                
