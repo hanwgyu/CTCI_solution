@@ -7,6 +7,26 @@
 #         self.val = x
 #         self.next = None
 
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        """
+        그냥 계산해서 새로운 리스트를 생성
+        """
+        s1, s2 = 0, 0
+        p1, p2 = l1, l2
+        while p1:
+            s1 = s1* 10 + p1.val
+            p1 = p1.next
+        while p2:
+            s2 = s2* 10 + p2.val
+            p2 = p2.next
+        p = head = ListNode()
+        for c in str(s1+s2):
+            p.next = ListNode(int(c))
+            p = p.next
+        return head.next
+        
+            
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
