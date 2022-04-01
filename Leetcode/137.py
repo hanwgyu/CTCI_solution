@@ -17,6 +17,12 @@ class Solution:
         return one_mod3
 
     def singleNumber_2(self, nums: List[int]) -> int:
+        """
+            동일한 문자를 볼때 아래와 같이 진행하면 3번이 지나면 XOR이 두번진행되어 사라지게 된다.
+            1. XOR, seen 에 추가
+            2. seen에서 제거
+            3. XOR, seen 에 추가
+        """
         seen, ans = set(), 0
         for num in nums:
             if num not in seen:

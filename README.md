@@ -65,9 +65,9 @@
 | 62 | Array | Missing Number | [LeetCode](https://leetcode.com/problems/missing-number/) | [A](Leetcode/Missing_Number.py) | + | 1 |
 | 63 | Bit Manipulation | Sum of Two Integers | [LeetCode](https://leetcode.com/problems/sum-of-two-integers) | [A](Leetcode/Sum_of_Two_Integers.py) | - | 2 | Check negative int  transformation (only python) |
 | 64 | Bit Manipulation | UTF-8 Validation | [LeetCode](https://leetcode.com/problems/utf-8-validation/) | [A](Leetcode/UTF-8_Validation.py) | + |
-| 65 | Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/Majority_Element.py) | -! | 2 |
-| 66 | Graph | Satisfiability of Equality Equations | [LeetCode](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [A](Leetcode/Satisfiability_of_Equality_Equations.py) | + | 2 | Union-Find |
-| 67 | Bit Manipulation | Single Number II | [LeetCode](https://leetcode.com/problems/single-number-ii/) | [A](Leetcode/Single_Number_II.py) | - | 2 |
+| 65 | Bit Manipulation | Majority Element | [LeetCode](https://leetcode.com/problems/majority-element/) | [A](Leetcode/169.py) | -! | 2 |
+| 66 | Graph | Satisfiability of Equality Equations | [LeetCode](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [A](Leetcode/990.py) | + | 2 | Union-Find |
+| 67 | Bit Manipulation | Single Number II | [LeetCode](https://leetcode.com/problems/single-number-ii/) | [A](Leetcode/137.py) | -! | 2 |
 | 68 | Graph | Minimum Height Trees | [LeetCode](https://leetcode.com/problems/minimum-height-trees/) | [A](Leetcode/310.py) | --! | 3 | [Similar Problem](Leetcode/Binary_Tree_Maximum_Path_Sum.py) |
 | 69 | Math | Reverse Integer | [LeetCode](https://leetcode.com/problems/reverse-integer/) | [A](Leetcode/Reverse_Integer.py) | + |
 | 70 | Math | Palindrome Number | [LeetCode](https://leetcode.com/problems/palindrome-number/) | [A](Leetcode/Palindrome_Number.py) | + |
@@ -300,6 +300,8 @@
 | 293  | Two pointer | 4Sum | [LeetCode](https://leetcode.com/problems/4sum/) | [A](Leetcode/18.py) | + | 3 | 3Sum을 NSum으로 확장. 구현만 약간 복잡. |
 | 294  | Two pointer | 3Sum Closest | [LeetCode](https://leetcode.com/problems/3sum-closest/) | [A](Leetcode/16.py) | + | 3 | 3Sum을 약간 변형. |
 | 295  | Two pointer, Tree | Closest Binary Search Tree Value II | [LeetCode](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) | [A](Leetcode/272.py) | -! | 3 | 까다로운 Tree + Two pointer 문제 |
+| 296 | Greedy | Maximum Number of Events That Can Be Attended | | [A](Leetcode/1353.py) | -! | 3 | Start, end time 문제 |
+| 297 | Greedy | Maximum Earnings From Taxi | | [A](Leetcode/2008.py) | -! | 3 | Start, end time 문제 |
 
 
 +: Solved within 30 min

@@ -47,3 +47,38 @@ class Solution:
                 if canMeet(e[0], e[3], defaultdict(lambda: False)):
                     return False
         return True
+
+
+    def equationsPossible(self, equations: List[str]) -> bool:
+        """
+        graph. Union-Find
+        
+        depth를 줄이기 위해 짧은 depth를 가진 쪽을 긴쪽에 연결
+        """
+        d = defaultdict(str)
+        for src, _, _, dst  in equations:
+            d[src] = [src, 1]
+            d[dst] = [dst, 1]
+        
+        def find(src: str) -> str:
+            return src if d[src][0] == src else find(d[src][0])
+            
+        def union(src: str, dst: str):
+            a, b = d[find(src)], d[find(dst)]
+            if a[0] == b[0]:
+                return
+            if a[1] > b[1]:
+                d[b[0]] = a[0]
+                d[a[0]][1] += 1
+            else:
+                d[a[0]] = b[0]
+                d[b[0]][1] += 1
+        
+        st = []
+        for src, eq, _, dst  in equations:
+            eq = True if eq == "=" else False
+            if eq:
+                union(src, dst)
+            else:
+                st.append((src, dst))
+        return all(find(src) != find(dst) for src, dst in st)
