@@ -1,4 +1,17 @@
 class Solution:
+
+    def maxTaxiEarnings(self, n: int, rides: List[List[int]]) -> int:
+        """
+        DP + binary search.
+        """
+        rides.sort(key=lambda e: (e[1],e[0],e[2]))
+        dp = [0]
+        endtimes = [e for _, e, _ in rides]
+        for s, e, t in rides:
+            i = bisect.bisect_right(endtimes, s)
+            dp.append(max(dp[-1], dp[i]+e-s+t))
+        return dp[-1]
+
     def maxTaxiEarnings(self, n: int, rides: List[List[int]]) -> int:
         """
         DP + sort
