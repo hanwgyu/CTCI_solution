@@ -4,6 +4,11 @@
 from collections import defaultdict
 
 
+"""
+bfs로 풀면 O(min(M,N))까지 줄일 수 있다.
+
+"""
+
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         def dfs(grid: List[List[str]], visited, i: int, j: int):
