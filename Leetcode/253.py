@@ -3,6 +3,17 @@
 # REMIND : 아래와 같이 두가지 방법으로 풀수 있는데, 두번째 방법이 훨씬 낫다. 그 로직 흐름을 잘 이해해서 적용하는게 중요하다.
 
 class Solution:
+    def minMeetingRooms(self, intervals):
+        """
+        골때리는 풀이. [start, 1], [end,-1] 로 만들어서 전체를 sorting한후 진행.
+        """
+        res = cur = 0
+        for i, v in sorted(x for i,j in intervals for x in [[i, 1], [j, -1]]):
+            cur += v
+            res = max(res, cur)
+        return res
+    
+    
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         """
             start range를 기준으로 sorting.
