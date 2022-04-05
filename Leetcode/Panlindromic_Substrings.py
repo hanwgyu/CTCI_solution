@@ -6,6 +6,26 @@
 
 
 class Solution:
+    def countSubstrings(self, s: str) -> int:
+        """
+        brute-force : O(N^3) / O(1)
+        
+        중심지를 기준으로 확장. O(N^2) / O(1)
+        """
+        ans = 0
+        N = len(s)
+        for i in range(N):
+            j = 0
+            # odd
+            while 0<=i-j<N and 0<=i+j<N and s[i+j] == s[i-j]:
+                ans, j = ans+1, j+1
+            j = 0
+            # odd
+            while 0<=i-j<N and 0<=i+j+1<N and s[i+j+1] == s[i-j]:
+                ans, j = ans+1, j+1
+        return ans
+
+class Solution:
     def countSubstrings_2(self, s: str) -> int:
         L, ans = len(s), 0
         dp1 = [True for _ in range(L + 1)]
