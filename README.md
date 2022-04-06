@@ -303,7 +303,7 @@
 | 296 | Greedy | Maximum Number of Events That Can Be Attended | | [A](Leetcode/1353.py) | -! | 3 | Start, end time 문제 |
 | 297 | Greedy | Maximum Earnings From Taxi | | [A](Leetcode/2008.py) | -! | 3 | Start, end time 문제 |
 | | Linked List | Linked List Cycle II | | [A](Leetcode/142.py) | -! | 4 | Linked list의 cycle 시작점 구하는 문제. 신기하다. | 
-| | Linked List, Binary Search | Find the Duplicate Number | | [A](Leetcode/287.py) | -! | 4 | 정답의 범위 자체를 binary search로 이동하면서 푸는 문제.. 알아 놓아야할 방법, cycle로도 풀고, 풀이가 다양하다. |
+| | Linked List, Binary Search | Find the Duplicate Number | | [A](Leetcode/287.py) | -! | 4 | 정답의 범위 자체를 binary search로 이동하면서 푸는 문제.. 알아 놓아야할 방법, cycle로도 풀고, 풀이가 다양하다. 천재적인 풀이. 문제도 쉽고 면접에 나올만함. |
 
 
 +: Solved within 30 min
