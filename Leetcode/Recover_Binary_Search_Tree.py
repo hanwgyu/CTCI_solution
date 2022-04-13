@@ -21,15 +21,18 @@ class Solution:
                 while temp.right and temp.right != node:
                     temp = temp.right
                 if not temp.right:
+                    # 노드를 연결
                     temp.right = node
                     node = node.left
                 else:
+                    # parent로 올라온 후.
+                    # 로직
                     if pre_n and pre_n.val > node.val:
                         n2 = node
                         if not n1:
-                            n1 = pre_n
-                        # 여기는 break문이 있으면 안됨. right가 연결된 상태이기 때문에 right 연결이 끊길때까지 모든 노드를 iterate해야함.
+                            n1 = pre_
                     pre_n = node
+                    # 노드가 연결되어 있으므로 끊고 오른쪽으로 내려간다.
                     temp.right, node = None, node.right
             else:
                 if pre_n and pre_n.val > node.val:
