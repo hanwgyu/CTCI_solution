@@ -7,6 +7,41 @@
 
 class Solution:
     def countSubstrings(self, s: str) -> int:
+        ans = 0
+        N = len(s)
+        L = [0] * N # palindrome의 반지름. ex) aba = 1
+        center, l = 0, 0 # 오른쪽으로 가장 길게 포함하는 center의 index 위치 . center의 마지막 인덱스 위치
+        # 포함되는 범위 내에 이전에 구해놓은 palindrome 길이에 해당하는 범위가 속하면, palindrome을 더 크게 키울 수 없으므로 해당 값을 그냥 쓴다.
+        # 벗어나면 더 커질 수 있으므로 이용한다.
+        
+        # 홀수와 짝수를 한번에 처리하기 위해 각 문자 사이에 #를 넣어준다.
+        s = "#".join(s)
+        
+        for i, c in enumerate(s):
+            r = center + l
+            if r >= N:
+                r = N-1
+            if r >= i:
+                # 현재 위치는 center의 palidrome에 포함된다
+                L[i] = min(L[2*center-i]-1,  r-i) # center를 기준으로 반대편, 마지막 index
+            else:
+                # 현재 위치는 center의 palidrome 밖이다.
+                L[i] = 0
+            while i+L[i]+1 < N:
+                if s[i-L[i]-1] == s[i+L[i]+1]:
+                    L[i] += 1
+                else:
+                    break
+            # update answer
+            ans += L[i]
+            # update center
+            if r < i+L[i]:
+                center = i
+                l = L[i]
+        return 
+
+
+    def countSubstrings(self, s: str) -> int:
         """
         brute-force : O(N^3) / O(1)
         
