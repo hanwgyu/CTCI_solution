@@ -19,6 +19,9 @@ class Solution:
         """
         뒤에서부터 시작하되, 결과를 저장해놓은것으로 점프를 해서 계산.
         
+        점프를 하면 동일한 곳을 두번 방문 안한다.
+        The reason the iterations in the while loop does not exceed NN is because the "jumps" prevent an index from being visited twice.
+
         O(N) / O(1)
         """
         N = len(A)
@@ -32,5 +35,4 @@ class Solution:
                 ans[i] = j-i
             max_temp = max(A[i], max_temp)
         return ans
-    
     
