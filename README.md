@@ -293,7 +293,7 @@
 | 286 | Array | Number of Submatrices That Sum to Target | [LeetCode](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [A](Leetcode/1074.py) | -! | 4 | Prefix Sum 이차원으로. 어렵고 중요함. |
 | 287  | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/862.py) | -! | 3 | Prefix Sum와 Monotonic queue 를 같이 쓰는 문제. 어렵다. |
 | 288  | String | Palindrome Partitioning II | [LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/) | [A](Leetcode/132.py) | -! | 3 | Palindrome 문제. 홀수, 짝수로 나눠서 DP를 적용하는 기본 문제. |
-| 289  | Binary Search | Find Minimum in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [A](Leetcode/153.py) | - | 4 | Binary Search 필수로 제. 두가지 템플릿으로 풀때 예외 처리 방식이 달라지는 문제. |
+| 289  | Binary Search | Find Minimum in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [A](Leetcode/153.py) | - | 4 | Binary Search 필수로 봐야 하는 문제. 두가지 템플릿으로 풀때 예외 처리 방식이 달라진다. |
 | 290  | Binary Search | Find First and Last Position of Element in Sorted Array | [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [A](Leetcode/34.py) | + | 3 | bisect_left, bisect_right 구현 |
 | 291  | Two pointer | Two Sum II - Input Array Is Sorted | [LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [A](Leetcode/167.py) | + | 3 | Two pointer 기본 문제 |
 | 292  | Two pointer | 3Sum | [LeetCode](https://leetcode.com/problems/3sum/) | [A](Leetcode/15.py) | + | 3 | Two pointer 변형 문제 |
