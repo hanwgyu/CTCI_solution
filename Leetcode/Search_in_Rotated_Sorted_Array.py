@@ -41,6 +41,33 @@ nums  t
 """
 
 class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        l, r = 0, len(nums)-1
+        while l <= r:
+            m = (l+r)//2
+            n = nums[m]
+            before_pivot = (target >= nums[0])
+            if n >= nums[0]: # m is in before pivot
+                if n < target:
+                    l = m+1
+                elif n > target and before_pivot:
+                    r = m-1
+                elif n > target and not before_pivot:
+                    l = m+1
+                else:
+                    return m
+            else: # m is in after pivot
+                if n < target and before_pivot:
+                    r = m-1
+                elif n < target and not before_pivot:
+                    l = m+1
+                elif n > target:
+                    r = m-1
+                else:
+                    return m         
+        return -1
+
+class Solution:
     def search_3(self, nums: List[int], target: int) -> int:
         l, r = 0, len(nums) - 1
         while l <= r:
