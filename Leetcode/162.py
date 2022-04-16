@@ -4,14 +4,13 @@
 
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
-        N = len(nums)
-        l, r, m = 0, N-1, 0
-        while l < r:
+        l, r = 0, len(nums)-1
+        while l <= r:
             m = (l+r)//2
-            if nums[m] > nums[m+1]:
-                r = m
+            if m < len(nums)-1 and nums[m] < nums[m+1]:
+                l = m+1
             else:
-                l = m + 1
+                r = m-1
         return l
 
 class Solution:
