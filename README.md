@@ -226,7 +226,7 @@
 | 224 | Tree, String | Longest Absolute File Path | [LeetCode](https://leetcode.com/problems/longest-absolute-file-path/) | [A](Leetcode/388.py) | - | 3 | Smart depth check algorithm |
 | 225 | Heap, Sliding Window, Sort | Minimum Cost to Hire K Workers | [LeetCode](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [A](Leetcode/857.py) | - | 3 | Sliding 되는minimum sum 구할때 heap 사용. |
 | 226 | Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/399.py) | + | 3 | 기본적인 그래프 문제. floyd-warshall vs Dijkstra |
-| 227 | Binary Search | Find Peak Element | [LeetCode](https://leetcode.com/problems/find-peak-element/) | [A](Leetcode/192.py) | -! | 3 | REMIND: Binary search! 똑똑한 방법이다.. |
+| 227 | Binary Search | Find Peak Element | [LeetCode](https://leetcode.com/problems/find-peak-element/) | [A](Leetcode/162.py) | -! | 3 | REMIND: Binary search! 똑똑한 방법이다.. |
 | 228 | Array | Find Array Given Subset Sums | [LeetCode](https://leetcode.com/problems/find-array-given-subset-sums/) | [A](Leetcode/1982.py) | -! | 3 | 신기하고 어려운 문제. 리마인드 필요 |
 | 229 | Trie | Design Search Autocomplete System | [LeetCode](https://leetcode.com/problems/design-search-autocomplete-system/) | [A](Leetcode/642.py) | - | 2 | Trie로 자동완성 구현. 그냥 재밌다. |
 | 230 | Tree | Count Complete Tree Nodes | [LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/) | [A](Leetcode/222.py) | +! | 3 |
