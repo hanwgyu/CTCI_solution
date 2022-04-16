@@ -68,20 +68,19 @@ class Solution:
         return -1
 
 class Solution:
-    def search_3(self, nums: List[int], target: int) -> int:
-        l, r = 0, len(nums) - 1
+    def search(self, nums: List[int], target: int) -> int:
+        l, r = 0, len(nums)-1
+        after_pivot = (target < nums[0])
         while l <= r:
-            m = (l + r) // 2
-            num = (
-                nums[m]
-                # 사이즈 2일때 예외 케이스 고려 잘해서 부등호 결정해야함
-                if (target >= nums[0]) == (nums[m] >= nums[0])
-                else (float("-inf") if target < nums[0] else float("inf"))
-            )
-            if num < target:
-                l = m + 1
-            elif num > target:
-                r = m - 1
+            m = (l+r)//2
+            if after_pivot:
+                n = nums[m] if nums[m] < nums[0] else float('-inf')
+            else:
+                n = nums[m] if nums[m] >= nums[0] else float('inf')
+            if n < target:
+                l = m+1
+            elif n > target:
+                r = m-1
             else:
                 return m
         return -1
