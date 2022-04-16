@@ -226,7 +226,7 @@
 | 224 | Tree, String | Longest Absolute File Path | [LeetCode](https://leetcode.com/problems/longest-absolute-file-path/) | [A](Leetcode/388.py) | - | 3 | Smart depth check algorithm |
 | 225 | Heap, Sliding Window, Sort | Minimum Cost to Hire K Workers | [LeetCode](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [A](Leetcode/857.py) | - | 3 | Sliding 되는minimum sum 구할때 heap 사용. |
 | 226 | Graph | Evaluate Division | [LeetCode](https://leetcode.com/problems/evaluate-division/) | [A](Leetcode/399.py) | + | 3 | 기본적인 그래프 문제. floyd-warshall vs Dijkstra |
-| 227 | Binary Search | Find Peak Element | [LeetCode](https://leetcode.com/problems/find-peak-element/) | [A](Leetcode/192.py) | -! | 3 | REMIND: Binary search! 똑똑한 방법이다.. |
+| 227 | Binary Search | Find Peak Element | [LeetCode](https://leetcode.com/problems/find-peak-element/) | [A](Leetcode/162.py) | -! | 3 | REMIND: Binary search! 똑똑한 방법이다.. |
 | 228 | Array | Find Array Given Subset Sums | [LeetCode](https://leetcode.com/problems/find-array-given-subset-sums/) | [A](Leetcode/1982.py) | -! | 3 | 신기하고 어려운 문제. 리마인드 필요 |
 | 229 | Trie | Design Search Autocomplete System | [LeetCode](https://leetcode.com/problems/design-search-autocomplete-system/) | [A](Leetcode/642.py) | - | 2 | Trie로 자동완성 구현. 그냥 재밌다. |
 | 230 | Tree | Count Complete Tree Nodes | [LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/) | [A](Leetcode/222.py) | +! | 3 |
@@ -293,7 +293,7 @@
 | 286 | Array | Number of Submatrices That Sum to Target | [LeetCode](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [A](Leetcode/1074.py) | -! | 4 | Prefix Sum 이차원으로. 어렵고 중요함. |
 | 287  | Queue | Shortest Subarray with Sum at Least K | [LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [A](Leetcode/862.py) | -! | 3 | Prefix Sum와 Monotonic queue 를 같이 쓰는 문제. 어렵다. |
 | 288  | String | Palindrome Partitioning II | [LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/) | [A](Leetcode/132.py) | -! | 3 | Palindrome 문제. 홀수, 짝수로 나눠서 DP를 적용하는 기본 문제. |
-| 289  | Binary Search | Find Minimum in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [A](Leetcode/153.py) | - | 2 | Binary Search 변형 문제. |
+| 289  | Binary Search | Find Minimum in Rotated Sorted Array | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [A](Leetcode/153.py) | - | 4 | Binary Search 필수로 봐야 하는 문제. 두가지 템플릿으로 풀때 예외 처리 방식이 달라진다. |
 | 290  | Binary Search | Find First and Last Position of Element in Sorted Array | [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [A](Leetcode/34.py) | + | 3 | bisect_left, bisect_right 구현 |
 | 291  | Two pointer | Two Sum II - Input Array Is Sorted | [LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [A](Leetcode/167.py) | + | 3 | Two pointer 기본 문제 |
 | 292  | Two pointer | 3Sum | [LeetCode](https://leetcode.com/problems/3sum/) | [A](Leetcode/15.py) | + | 3 | Two pointer 변형 문제 |

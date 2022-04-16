@@ -1,5 +1,24 @@
+"""
+엄청 까다로운 Bianry Search 문제. 두가지 템플릿으로 구현할때 방법이 다르고, 예외 처리를 유의깊게 해줘야 한다.
+"""
+
 class Solution:
-    def findMin2(self, A: List[int]) -> int:
+    def findMin(self, A: List[int]) -> int:
+        l, r = 0, len(A)-1
+        while l <= r:
+            m = (l+r)//2
+            if m > 0 and A[m] < A[m-1]:
+                return A[m]
+            if A[m] > A[r]:
+                l = m+1
+            else:
+                r = m-1
+        return A[l]
+        
+        
+        
+    
+    def findMin1(self, A: List[int]) -> int:
         lo, hi = 0, len(A)-1
         while lo < hi:
             mid = (lo+hi)//2
@@ -8,18 +27,3 @@ class Solution:
             else:
                 hi = mid
         return A[lo]
-    
-    def findMin1(self, A: List[int]) -> int:
-        N = len(A)
-        l, r = 0, N-1
-        while l <= r:
-            m = (l+r)//2
-            if A[l] <= A[m] <= A[r]:
-                return A[l]
-            if A[m-1] > A[m]:
-                return A[m]
-            if A[l] <= A[m]:
-                l = m+1
-            else:
-                r = m-1
-        return -1
