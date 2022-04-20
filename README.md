@@ -309,6 +309,7 @@
 | | Monotonic stack, Jump | Daily Temperatures | | [A](Leetcode/739.py) | +! | 4 | 필수로 볼것!!! Monotonic stack 기본문제, 두번째 풀이에서 결과를 이용해 Jump해서 시간 복잡도를 줄이는 방법은 천재적임. | 
 | | Binary Search | Find K Closest Elements | | [A](Leetcode/658.py) | +! | 4 | Binary Search 조건 처리하기 굉장히 어려운 문제.. |  
 | | Binary Search | Find Minimum in Rotated Sorted Array II | | [A](Leetcode/154.py) | + | 4 | Binary Search 조건 처리하기 굉장히 어려운 문제.. |  
+| | Tree, BFS | Populating Next Right Pointers in Each Node II | | [A](Leetcode/117.py) | +! | 4 | Tree 연결하는 재밌는 문제! 필수로 볼것. |  
 
 
 +: Solved within 30 min
