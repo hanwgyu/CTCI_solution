@@ -9,6 +9,9 @@ import heapq
 
 class Solution:
     def furthestBuilding_2(self, heights: List[int], bricks: int, ladders: int) -> int:
+        """
+        heap을 ladder만큼만 만들고, 가장 큰값들을 저장해놓음
+        """
         q = []
         i = 0
         for i in range(1, len(heights)):
@@ -23,6 +26,9 @@ class Solution:
         return len(heights)-1
     
     def furthestBuilding_1(self, heights: List[int], bricks: int, ladders: int) -> int:
+        """
+        heap에 작은 값들만 저장해놓고 큰 값부터 빼고 교체함.
+        """
         diffs = []
         h_b = float("inf")
         for i, h in enumerate(heights):
