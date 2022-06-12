@@ -52,7 +52,7 @@ class Solution:
             """
             O(N) -> O(logN) (Union by rank) -> O(1) (Path compression)
             """
-            if c1 == d[c]:
+            if c == d[c]:
                 return c
             """
             Path Compression. 단 한줄이면 된다. https://leetcode.com/explore/learn/card/graph/618/disjoint-set/3880/
