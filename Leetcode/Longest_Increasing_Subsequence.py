@@ -31,3 +31,30 @@ class Solution:
                 if nums[i] > nums[j]:
                     dp[i] = max(dp[i], dp[j] + 1)
         return max(dp)
+
+    
+
+    def getLIS(self, nums: List[int]) -> List[int]:
+        """
+        LIS 자체를 구하는 방법.
+        path에 이전 값의 index를 저장한 후, 마지막에 연결함.
+        """
+        path = [-1 for _ in range(len(nums))]
+        sub_idx = []
+        sub = []
+        for i, n in enumerate(nums):
+            if not sub or sub[-1] < n:
+                path[i] = -1 if not sub else sub_idx[-1]
+                sub.append(n)
+                sub_idx.append(i)
+            else:
+                idx = bisect.bisect_left(sub, n)
+                path[i] = -1 if idx == 0 else sub_idx[idx-1]
+                sub[idx] = n
+                sub_idx[idx] = i
+        lis = []
+        t = sub_idx[-1]
+        while t >= 0:
+            lis.append(nums[t])
+            t = path[t]
+        return lis[::-1]
