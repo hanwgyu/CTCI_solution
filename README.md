@@ -310,6 +310,7 @@
 | | Binary Search | Find K Closest Elements | | [A](Leetcode/658.py) | +! | 4 | Binary Search 조건 처리하기 굉장히 어려운 문제.. |  
 | | Binary Search | Find Minimum in Rotated Sorted Array II | | [A](Leetcode/154.py) | + | 4 | Binary Search 조건 처리하기 굉장히 어려운 문제.. |  
 | | Tree, BFS | Populating Next Right Pointers in Each Node II | | [A](Leetcode/117.py) | +! | 4 | Tree 연결하는 재밌는 문제! 필수로 볼것. |  
+| | Graph | Min Cost to Connect All Points | [LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [A](Leetcode/1584.py) | -! | 4 | Minimum Spanning Tree (MST), Prim's algorithm, Kruskal's algorithm |  
 
 
 +: Solved within 30 min
