@@ -5,6 +5,34 @@ from collections import defaultdict
 
 
 class Solution:
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        """
+        Dijikstra : 특정 노드로부터 모든 노드까지의 최소 거리를 저장하고, 거리가 가까운 곳부터 방문하면서 주변 노드까지의 거리를 업데이트.
+        
+        O((V+E)logE) = O((V+E)logV) , Space: O(V+E)
+        """
+        cost = defaultdict(lambda: float('inf'))
+        adj_list = defaultdict(list)
+        h = [(0,k)]# time, src
+        visited = set()
+        # make adjacent list
+        for src, dst, time in times:
+            adj_list[src].append((dst, time))
+        # start from node k
+        cost[k] = 0
+        while h and len(visited) < n:
+            src_time, src = heapq.heappop(h)
+            if src in visited:
+                continue
+            visited.add(src)
+            for dst, time in adj_list[src]:
+                if cost[dst] > src_time+time:
+                    cost[dst] = src_time+time
+                    heapq.heappush(h, (src_time+time, dst))
+        return max(cost.values()) if len(visited) == n else -1
+                 
+    
+    
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
         visited, min_dis, min_heap = (
             defaultdict(bool),
