@@ -210,7 +210,7 @@
 | 208  | DP, Array | Maximum Number of Points with Cost | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-number-of-points-with-cost/) | [A](Leetcode/1937.py) | -! | 3 |
 | 209  | DFS, Trie | Maximum Genetic Difference Query | [LeetCode](https://leetcode.com/contest/weekly-contest-250/problems/maximum-genetic-difference-query/) | [A](Leetcode/1938.py) | -! | 3 | Hard |
 | 210  | Trie, Hash | Delete Duplicate Folders in System | [LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/) | [A](Leetcode/1948.py) | -! | 3 | Hard |
-| 211  | DP, Binary Search, Heap | Maximum Profit in Job Scheduling | [LeetCode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [A](Leetcode/1235.py) | -! | 3 | Hard |
+| 211  | Greedy, DP, Binary Search, Heap | Maximum Profit in Job Scheduling | [LeetCode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [A](Leetcode/1235.py) | -! | 3 | Hard, start, end time |
 | 212  | Binary Search, Heap | Employee Free Time | [LeetCode](https://leetcode.com/problems/employee-free-time/) | [A](Leetcode/759.py) | -! | 3 |
 | 213  | Double Linked List | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/) | [A](Leetcode/460.py) | -! | 3 | Hard and brilliant using of Double Linked List + Hash (Finding node in O(1)) |
 | 214 | Math | Three Divisors | [LeetCode](https://leetcode.com/problems/three-divisors/) | [A](Leetcode/1952.py) | + |
