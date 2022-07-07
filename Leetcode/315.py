@@ -11,7 +11,7 @@ class Solution:
         res = [0 for _ in range(len(nums))]
         def mergesort(A):
             """
-                오름 차순으로 정렬.
+                내림 차순으로 정렬.
             """
             half = len(A) // 2
             if half:
