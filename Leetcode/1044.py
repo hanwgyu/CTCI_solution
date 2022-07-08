@@ -32,6 +32,7 @@ class Solution:
         
         l, r = 1, len(s)
         # find longest length using binary search
+        # 모든 길이를 다 확인하지 않고, 특정 길이가 가능하면 그것보다 짧은 길이는 항상 조건을 만족하므로, binary search를 적용할 수 있다.
         # binary search index 계산하는 과정이 어려움. 외워야 하는듯?
         start = 0
         while l <= r:
