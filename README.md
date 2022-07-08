@@ -312,6 +312,8 @@
 | | Tree, BFS | Populating Next Right Pointers in Each Node II | | [A](Leetcode/117.py) | +! | 4 | Tree 연결하는 재밌는 문제! 필수로 볼것. |  
 | | Graph | Min Cost to Connect All Points | [LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [A](Leetcode/1584.py) | -! | 4 | Minimum Spanning Tree (MST), Prim's algorithm, Kruskal's algorithm |  
 | | Segment Tree | Range Sum Query - Mutable | [LeetCode](https://leetcode.com/problems/range-sum-query-mutable/) | [A](Leetcode/307.py) | -! | 5 | Segment Tree 기본 구현체.! 이것보다 쉽게 짤수 있는 방법도 있다. 기본이니 한번 봐보자. |
+| | Graph | Sum of Distances in Tree | [LeetCode](https://leetcode.com/problems/sum-of-distances-in-tree/) | [A](Leetcode/834.py) | -! | 3 | preorder, postorder로 돌면서 거리 계산하는 문제 중요. |  
+
 
 +: Solved within 30 min
 
