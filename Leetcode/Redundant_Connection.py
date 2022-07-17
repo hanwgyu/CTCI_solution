@@ -47,3 +47,28 @@ class Solution:
             else:
                 return e
         return None
+
+    
+    
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+        """
+        DFS. 위의 union-find가 더 효율적.
+        """
+        adj_list = defaultdict(list)
+        
+        def is_connected(src, dst):
+            if src == dst:
+                return True
+            for mid in adj_list[src]:
+                if mid not in visited:
+                    visited.add(mid)
+                    if is_connected(mid, dst):
+                        return True
+            return False
+        
+        for src, dst in edges:
+            visited = set()
+            if is_connected(src,dst):
+                return [src, dst]
+            adj_list[src].append(dst)
+            adj_list[dst].append(src)
