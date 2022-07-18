@@ -316,6 +316,9 @@
 | | Graph | Cheapest Flights Within K Stops | [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [A](Leetcode/787.py) | -! | 3 | BFS or Bellman Ford/. 어려움. |  
 | | Graph | Find Eventual Safe States | [LeetCode](https://leetcode.com/problems/find-eventual-safe-states/) | [A](Leetcode/802.py) | -! | 3 | 노드의 색을 칠해서 state 관리. |  
 | | Graph | Possible Bipartition | [LeetCode](https://leetcode.com/problems/possible-bipartition/) | [A](Leetcode/886.py) | -! | 3 | 노드의 색을 칠해서 두 그룹으로 나눔. |  
+| | Graph | Number of Operations to Make Network Connected | [LeetCode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [A](Leetcode/1319.py) | + | 3 | 섬의 갯수 구하기 |  
+| | Graph | Find the City With the Smallest Number of Neighbors at a Threshold Distance | [LeetCode](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [A](Leetcode/1334.py) | + | 3 | Floyd-Warshall |  
+
 
 +: Solved within 30 min
 
