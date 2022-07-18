@@ -315,7 +315,7 @@
 | | Graph | Sum of Distances in Tree | [LeetCode](https://leetcode.com/problems/sum-of-distances-in-tree/) | [A](Leetcode/834.py) | -! | 3 | preorder, postorder로 돌면서 거리 계산하는 문제 중요. |  
 | | Graph | Cheapest Flights Within K Stops | [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [A](Leetcode/787.py) | -! | 3 | BFS or Bellman Ford/. 어려움. |  
 | | Graph | Find Eventual Safe States | [LeetCode](https://leetcode.com/problems/find-eventual-safe-states/) | [A](Leetcode/802.py) | -! | 3 | 노드의 색을 칠해서 state 관리. |  
-
+| | Graph | Possible Bipartition | [LeetCode](https://leetcode.com/problems/possible-bipartition/) | [A](Leetcode/886.py) | -! | 3 | 노드의 색을 칠해서 두 그룹으로 나눔. |  
 
 +: Solved within 30 min
 
