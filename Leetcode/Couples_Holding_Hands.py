@@ -30,3 +30,25 @@ class Solution:
                 d[find(lo1)] = find(lo2)
                 num_set -= 1
         return N - num_set
+        
+class Solution:
+    def minSwapsCouples(self, row: List[int]) -> int:
+        """
+        일종의 graph인데, 각 위치에서 다른 위치를 가리키고 있는 형태. 
+        4개의 노드가 얽혀있으면 최적으로 풀어도 3회의 swap이 발생한다.
+        각 그룹에 존재해야하는 노드를 그냥 가져오는게 최선이다.
+        """
+        pos = {}
+        for i, n in enumerate(row):
+            pos[n] = i
+        
+        res = 0
+        for i in range(len(row)):
+            n = row[i]
+            m = n+1 if n % 2 == 0 else n-1
+            j = pos[m]
+            if abs(i-j) > 1:
+                res += 1
+                row[i+1], row[j] = row[j], row[i+1]
+                pos[row[i+1]], pos[row[j]] = i+1, j
+        return res
